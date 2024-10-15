@@ -1,0 +1,77 @@
+﻿.yui .ajax__calendar_container {
+    background-color: #f2f2f2;
+    border: solid 1px #808080;
+    font-family: arial,helvetica,clean,sans-serif;
+    cursor: default;
+    width: 205px;
+    font-size: 12px;
+    text-align: center;
+    padding: 0px;
+}
+
+.yui .ajax__calendar_body {
+    height: 139px;
+    width: 205px;
+    position: relative;
+    overflow: hidden;
+}
+
+.yui .ajax__calendar_days, .yui .ajax__calendar_months, .yui .ajax__calendar_years {
+    top: 0px;
+    left: 0px;
+    height: 139px;
+    width: 195px;
+    padding: 5px;
+    position: absolute;
+    text-align: center;
+}
+
+    .yui .ajax__calendar_days table {
+        border-spacing: 0;
+        border-collapse: collapse;
+        font: 100% sans-serif;
+        text-align: center;
+    }
+
+.yui .ajax__calendar_prev {
+    margin-top: 2px;
+    margin-left: 4px;
+    height: 15px;
+    width: 25px;
+    cursor: pointer;
+    float: left;
+    background: url(img/yui/sprite.png) 0px -450px no-repeat;
+}
+
+.yui .ajax__calendar_next {
+    margin-top: 2px;
+    margin-right: 4px;
+    height: 15px;
+    width: 25px;
+    cursor: pointer;
+    float: right;
+    background: url(img/yui/sprite.png) 0px -500px no-repeat;
+}
+
+.yui .ajax__calendar_title {
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+.yui .ajax__calendar_footer, .yui .ajax__calendar_today {
+    display: none;
+}
+
+.yui .ajax__calendar_dayname {
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 10pt;
+    color: #000;
+    border-bottom: solid 1px #a6a6a6;
+}

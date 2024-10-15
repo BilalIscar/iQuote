@@ -1,0 +1,3068 @@
+﻿*, body {
+    margin: 0;
+    padding: 0
+}
+
+.group:after, .section {
+    clear: both
+}
+
+body {
+    direction: ltr;
+    font-family: Roboto,Arial,Script;
+    font-size: 14px
+}
+
+.FontSize, .FontSizeOswald16, h1, h2 {
+    font-size: 16px
+}
+
+.floatrightCss {
+    float: right
+}
+
+.QuotationDetailsButtonDelete {
+    width: 18.5%;
+    background-color: white;
+    color: #12498a;
+    border: solid;
+    border-color: #12498a;
+    border-width: 1px;
+    height: 30px;
+    margin-top: 4px;
+    /*          background-color: #757677;
+    color: white;
+    text-align: center;
+    border-style: none;
+    height: 30px;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-top: 4px;*/
+}
+
+.QuotationDetailsButtonDeleteDis {
+    width: 18.5%;
+    background-color: lightgray;
+    color: white;
+    border: solid;
+    border-color: #12498a;
+    border-width: 1px;
+    height: 30px;
+    margin-top: 4px;
+}
+
+.frame {
+    position: relative;
+    background-color: #90ee90;
+    width: 100%;
+    overflow: hidden;
+    flex-flow: row wrap;
+    -webkit-justify-content: flex;
+    -moz-justify-content: -moz-flex;
+    justify-content: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row
+}
+
+.left {
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+    -webkit-box-flex: 2;
+    -moz-box-flex: 2;
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+    width: 647px
+}
+
+.DifLine, .DifLineN {
+    width: 100%;
+    border-top-style: none;
+    border-bottom-style: none;
+    color: #d3d3d3 !important
+}
+
+.right {
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2
+}
+
+@media screen and (max-width:1500px) {
+    .frame {
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -moz-box-direction: normal;
+        box-orient: vertical;
+        -ms-flex-direction: column;
+        -webkit-flex-direction: column;
+        flex-direction: column
+    }
+}
+
+.DifLine {
+    border-color: #d3d3d3 !important;
+    background-color: #ddd !important;
+    height: 1px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important
+}
+
+.DifLineN {
+    border-color: #e9eaec !important;
+    background-color: #d3d3d3 !important;
+    height: 1px;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important
+}
+
+#dialogLWS div:hover, .mainfooter {
+    background-color: #ebebeb
+}
+
+.margindisplay, .quotationDataLabelL {
+    margin: 0;
+    display: inline-block
+}
+
+/**************MAIL - TITLE**************/
+.MailfirstRowStyle {
+    font-family: Oswald,Calibri,Arial,Script;
+    font-size: 18px;
+}
+
+.AlertTitleStyle {
+    padding: 10px 2px 0 10px;
+    border: none;
+    left: 5.41%;
+    right: 9.24%;
+    top: 19.51%;
+    bottom: 72.47%;
+    line-height: 23px;
+    color: #000000;
+    background-color: white;
+    width: 100%;
+    font-family: Oswald,Calibri,Arial,Script;
+    font-size: 18px;
+    color: #12498a !important
+}
+
+.AlertTitleStyleB {
+    font-size: 24px !important;
+}
+
+.AlertTitleStyleCenter {
+    padding: 10px 2px 0 0px;
+    border: none;
+    left: 5.41%;
+    right: 9.24%;
+    top: 19.51%;
+    bottom: 72.47%;
+    line-height: 23px;
+    color: #000000;
+    background-color: white;
+    width: 100%;
+    font-family: Oswald,Calibri,Arial,Script;
+    font-size: 18px;
+    color: #12498a !important
+}
+
+.AlertBodyStyle {
+    font-family: Roboto-Regular !important,Calibri,Arial,Script;
+    font-size: 16px;
+    font-weight: normal !important;
+    color: #212529;
+    /*font-weight:400;*/
+}
+
+.AlertCancelButtonStyle {
+    background-color: #7e7e7e;
+    color: white;
+    text-shadow: none;
+    -webkit-transition: background .2s;
+    transition: background .2s;
+    text-align: center !important;
+    font-family: Roboto-Regular !important,Calibri,Arial,Script;
+    font-size: 15px !important;
+    font-weight: normal !important;
+    border-style: solid !important;
+    border-width: thin !important;
+    border-color: #7e7e7e !important;
+    vertical-align: middle;
+}
+
+.AlertOkButtonStyle {
+    /*margin-right: 10px !important;*/
+    background-color: #12498a;
+    color: white;
+    text-shadow: none;
+    -webkit-transition: background .2s;
+    transition: background .2s;
+    text-align: center !important;
+    font-family: Roboto-Regular !important,Calibri,Arial,Script;
+    font-size: 15px !important;
+    border-style: solid !important;
+    border-width: thin !important;
+    border-color: #12498a !important;
+    vertical-align: middle;
+    font-weight: normal !important;
+    z-index: 1000;
+}
+
+.AlertOtherButtonStyle {
+    background-color: white;
+    color: #12498a;
+    text-shadow: none;
+    -webkit-transition: background .2s;
+    transition: background .2s;
+    text-align: center !important;
+    font-family: Roboto-Regular !important,Calibri,Arial,Script;
+    font-size: 15px !important;
+    font-weight: normal !important;
+    border-style: solid !important;
+    border-width: thin !important;
+    border-color: #12498a !important;
+    vertical-align: middle
+}
+
+.MailGeneralBodyRowStyle {
+    font-family: Roboto-Regular !important,Calibri,Arial,Script;
+    font-size: 15px
+}
+/********************************/
+
+
+.FontFamily, .FontFamilyOswald {
+    font-family: Oswald,Calibri,Arial,Script
+}
+
+.FontSizeOswald18 {
+    font-size: 18px
+}
+
+.FontFamilyRoboto {
+    font-family: Roboto-Regular !important,Calibri,Arial,Script
+}
+
+.FontFamlyTitle {
+    color: #1d5095 !important;
+    font-weight: 400 !important;
+    font-family: Oswald,Calibri,Arial !important
+}
+
+.FontSizeRoboto {
+    font-size: 14px
+}
+
+.FontSizeRoboto10 {
+    font-size: 10px !important
+}
+
+.FontSizeRoboto11 {
+    font-size: 10px !important
+}
+
+.FontSizeRoboto12 {
+    font-size: 12px !important
+}
+
+.FontSizeRoboto13 {
+    font-size: 13px !important
+}
+
+.FontSizeRoboto14 {
+    font-size: 14px !important
+}
+
+.FontSizeRoboto15 {
+    font-size: 15px !important
+}
+
+.FontSizeRoboto16 {
+    font-size: 16px !important;
+}
+
+.FontSizeRoboto17 {
+    font-size: 17px !important
+}
+
+.FontSizeRoboto18 {
+    font-size: 18px !important
+}
+
+.FontSizeRoboto25 {
+    font-size: 25px !important
+}
+
+.FontSizeRoboto20 {
+    font-size: 20px !important
+}
+
+.FontSizeRoboto22 {
+    font-size: 22px !important
+}
+
+.quotationDataLabelL {
+    width: 120px
+}
+
+.dCls {
+    height: 350px;
+    width: 600px
+}
+
+.mainfooter {
+    font-size: 11px;
+    color: #000;
+    padding-top: 10px;
+    width: 100%
+}
+
+@media only screen and (max-width:540px) {
+    .mainfooter {
+        padding-top: 0px;
+    }
+}
+
+.MainSubTitle, .MainSubTitleB, .MainSubTitleK {
+    font-size: 18px;
+    color: #1d5095
+}
+
+.mainfooter a {
+    color: #000
+}
+
+.clearerfooter {
+    width: 100%;
+    height: 30px;
+    overflow: hidden
+}
+
+
+
+.divAlertConfirm {
+    padding: 10px 2px 0 10px
+}
+
+.QuotationDetailsSquare {
+    width: 600px
+}
+
+.divBorderSolid {
+    border-style: solid
+}
+
+.divBorderSolidColored {
+    border: 1px solid #e3e3e3
+}
+
+.divBorderSolidColoredSpc {
+    /*    border-color: #e3e3e3;
+    border-width:thin;
+    width: 50%;
+    border-top: solid;
+    border-right: solid;
+    border-left: solid;*/
+    border-bottom: none;
+    width: 50%;
+    /*height: 480px;*/
+    height: 100%;
+}
+
+
+.AlignCenter {
+    text-align: center
+}
+
+.AlignLeft, .formwrapper {
+    text-align: left
+}
+
+.Align_v_bottom {
+    line-height: 1em;
+    margin: 2px 5px 3px;
+    padding: 6px 2px 2px
+}
+
+.VerticalAlignMiddle {
+    vertical-align: middle
+}
+
+.VerticalAlignSub {
+    vertical-align: sub
+}
+
+.Export_s {
+    display: flex;
+    width: 160px;
+    position: absolute;
+    box-shadow: 2px 2px 2px 2px #d3d3d3;
+    border-radius: 5px;
+    background-color: #fff;
+    display: grid;
+    margin-right: 2px;
+    z-index: 1000
+}
+
+.Export_Price {
+    display: flex;
+    width: 210px;
+    position: absolute;
+    box-shadow: 2px 2px 2px 2px #d3d3d3;
+    border-radius: 5px;
+    background-color: #fff;
+    display: grid;
+    margin-right: 2px;
+    z-index: 1000;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+}
+
+.FindSerial, .MessageErrordiv {
+    background-image: url('../../media/Images/bgIw.png');
+    margin-top: -70px;
+    margin-left: -70px;
+    z-index: 10000;
+    box-shadow: 0 0 0 1000px rgba(0,0,0,.3);
+    position: absolute;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #fff
+}
+
+.FindSerial {
+    width: 310px;
+    left: 50%;
+    top: 40%;
+    height: 240px
+}
+
+.MessageErrordiv {
+    width: 448px;
+    left: 38%;
+    top: 20%;
+    height: 480px;
+    visibility: hidden
+}
+
+.LogOutDiv {
+    /*display: flex;*/
+    position: absolute;
+    box-shadow: 2px 2px 2px 2px #d3d3d3;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 1px 20px 20px;
+    /*display: grid;*/
+    visibility: hidden;
+    height: 40px
+}
+
+@media only screen and (max-width:540px) {
+    .LogOutDiv {
+        right: 40px;
+    }
+}
+
+.MainSubTitle {
+    padding-bottom: 12px;
+    background-color: #fff;
+    border-style: none
+}
+
+.MainSubTitleK {
+    background-color: #fff;
+    border-style: none
+}
+
+.MyQuotationFind, .MyQuotationLogIn {
+    background: #204f96;
+    border-style: none;
+    border-radius: 2px
+}
+
+.MainSubTitleB {
+    padding-bottom: 0 !important;
+    padding-left: 10px;
+    padding-top: 10px
+}
+
+.MyQuotationPlease {
+    left: 5.41%;
+    right: 9.24%;
+    top: 19.51%;
+    bottom: 72.47%;
+    font-size: 15px;
+    line-height: 23px;
+    color: #000
+}
+
+.MyQuotationLogIn {
+    left: 5.41%;
+    right: 6.05%;
+    top: 36.93%;
+    bottom: 52.26%;
+    height: 25px
+}
+
+.MyQuotationFind {
+    height: 27px;
+    width: 60px;
+    padding-top: 4px
+}
+
+.MessageTxtN, .MessageTxtNMS {
+    left: 5.41%;
+    right: 22.61%;
+    top: 62.72%;
+    bottom: 29.27%;
+    line-height: 23px;
+    border-width: thin;
+    border-color: #d3d3d3;
+    border-style: solid
+}
+
+.LabelTitle2_Colored {
+    color: #212529
+}
+
+.ChaeckBoxSearch {
+    width: 150Px;
+    text-align: left;
+    font-size: 14px;
+    vertical-align: top
+}
+
+    .ChaeckBoxSearch label {
+        width: 50px;
+        display: inline-block;
+        vertical-align: middle;
+        padding-left: 5px
+    }
+
+    .ChaeckBoxSearch input {
+        display: inline-block;
+        vertical-align: middle;
+        height: 17px;
+        width: 17px
+    }
+
+.MyQuotationInserNocss {
+    left: 5.41%;
+    right: 22.61%;
+    top: 62.72%;
+    bottom: 29.27%;
+    line-height: 23px;
+    color: #000;
+    width: 162px
+}
+
+.MessageTxtN {
+    color: #000;
+    width: 300px;
+    background-color: #f1f1f1
+}
+
+.MessageTxtNMS {
+    color: #000;
+    overflow: auto;
+    width: 350px
+}
+
+.clearer, .mainheader, .objLeft {
+    overflow: hidden
+}
+
+.SetButton, .SetParamValue {
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    border-style: none
+}
+
+.SetParamValue {
+    background-color: #f3f3f3;
+    font-size: 14px;
+    text-align: center
+}
+
+.SetButton {
+    background-color: #1d4f95;
+    box-shadow: 2px 2px 2px #d3d3d3;
+    color: #fff;
+    vertical-align: middle
+}
+
+.BorderNone {
+    border-style: none;
+    border-width: 0;
+    outline: 0
+}
+
+.css_GridHeader {
+    font-size: 14px;
+    background-color: transparent;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+    border-bottom-style: none;
+    height: 26px;
+    vertical-align: top
+}
+
+.css_GridItemImage, .css_GridItemImageW {
+    vertical-align: central;
+    color: #000;
+    background-color: transparent
+}
+
+.css_GridItemImage {
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 1px solid #d3d3d3;
+    text-align: center;
+    border-top-style: none;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    width: 100px
+}
+
+.css_GridItemiMportant {
+    width: 10%;
+}
+
+.css_GridHeaderiMportant {
+    width: 10%;
+    color: #354993;
+    background-color: #e9eaec !important;
+}
+
+.css_GridHeaderiMportantSmall {
+    /*width: 200px;*/
+    font-weight: bold;
+    color: #354993;
+    background-color: #e9eaec;
+}
+
+/*.css_GridItemiMportantSmall {
+   min-width:200px;
+}*/
+
+.css_GridItemImageW {
+    border-style: none;
+    vertical-align: middle;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-right: 2px;
+    /*padding-left: 4px;*/
+    width: 18px
+}
+
+.ButtonBackGroundTransperant, input:checked + .slider {
+    background-color: transparent
+}
+
+.RullButton, .RullButtonDefault {
+    background-color: #f3f3f3 !important;
+    border-style: none !important;
+    box-shadow: 2px 2px 2px #d3d3d3 !important;
+    height: 26px !important;
+    border-radius: 5px !important
+}
+
+
+.ButtonUnderline {
+    text-decoration: underline
+}
+
+.RullButton {
+    width: 400px
+}
+
+@media only screen and (max-width:1024px) {
+    .RullButton {
+        width: 350px;
+        color: black
+    }
+}
+
+@media only screen and (max-width:540px) {
+    .RullButton {
+        width: 200px;
+        color: black
+    }
+}
+
+
+
+
+.RullButton:hover, .RullButtonDefault:hover {
+    background-color: #B5C4DA !important;
+    cursor: pointer;
+}
+
+.RullButtonDefault {
+    width: 390px;
+    vertical-align: 1px;
+    padding-top: 0
+}
+
+.RullButtonOpen {
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    vertical-align: bottom
+}
+
+.RullRemark {
+    width: 250px;
+    border-style: none;
+    height: 36px;
+    border-radius: 5px;
+    vertical-align: middle;
+    text-align: left;
+    display: inherit;
+    padding-top: 12px
+}
+
+.QuotationDetailsButton {
+    background-color: #12498a; /*#757677;*/
+    height: 30px;
+    cursor: pointer;
+    color: #fff;
+}
+
+    .QuotationDetailsButton:hover {
+        color: yellow;
+        cursor: pointer;
+    }
+
+.QuotationDetailsButtonDis {
+    background-color: #757677; /*e9eaec*/
+    height: 30px;
+    cursor: default;
+    color: #8f8f8f;
+}
+
+.QuotationDetailsButton, .QuotationDetailsButtonDis {
+    color: #fff;
+    text-align: center;
+    border-style: none;
+    margin-top: 4px;
+    vertical-align: middle;
+}
+
+
+.placeOrdercss {
+    /*background-color:#48b649 !important;*/
+}
+
+
+/*--------------------*/
+.QuotationDetailsButton_R {
+    /*background-color: #12498a;*/ /*#757677;*/
+    /*height: 20px;*/
+    cursor: pointer;
+    /*color: #fff;*/
+}
+
+    .QuotationDetailsButton_R:hover {
+        /*color: yellow;*/
+        cursor: pointer;
+    }
+
+.QuotationDetailsButtonDis_R {
+    /*background-color: #757677;*/ /*e9eaec*/
+    /*height: 20px;*/
+    cursor: default;
+    /*color: #8f8f8f;*/
+}
+
+.QuotationDetailsButton_R, .QuotationDetailsButtonDis_R {
+    /*color: black;*/
+    /*text-align: left;*/
+    /*border-style: none;*/
+    /*margin-top: 4px;*/
+    /*vertical-align: middle*/
+}
+/*.Initial3D_R {
+    display: block;
+    width: 110px;
+    text-align: left;
+    border-style: none;
+    margin-top: 4px;
+    vertical-align: middle;
+    cursor: pointer
+}*/
+.Initial3D_R {
+    border-style: none;
+    margin-top: 8px;
+    vertical-align: middle;
+    cursor: pointer;
+    color: black;
+    width: 120px;
+    background-color: white;
+}
+
+.Initial3D_R_Dis {
+    border-style: none;
+    margin-top: 8px;
+    vertical-align: middle;
+    cursor: pointer;
+    color: lightgray;
+    width: 120px;
+}
+
+.Initial3D_RR, .Initial3D_RR_Dis {
+    height: 20px;
+    border-radius: 50%;
+    outline: none;
+    border: 2px solid lightgray;
+    width: 14px;
+    margin-top: 8px;
+    float: left;
+    /*    height: 20px;
+    border-radius: 50%;
+    outline: none;
+    border: 2px solid lightgray;
+    width: 14px;
+    margin-top: 8px;
+    float: left;*/
+}
+
+.Initial3D_RR_Dis {
+    border: 2px solid #12498a !important;
+}
+
+/*--------------------*/
+.MyAc {
+    width: 100px;
+    background-color: #12498a;
+    height: 27px;
+    border-style: solid;
+    border-radius: 12px;
+    color: #fff;
+    border-color: #12498a;
+    border-width: 1px;
+    float: right;
+    margin-right: 3px;
+    margin-left: 2px;
+    margin-top: 2px;
+    /*background-color: #12498a;*/
+    /*margin-left:6px*/
+}
+
+.MyAcMenue {
+    width: 100px;
+    background-color: white;
+    height: 27px;
+    border-style: none;
+    color: #1d4f95;
+    text-align: left;
+    /*float: right;*/
+    /*    margin-right: 3px;*/
+    margin-left: 3px;
+    margin-top: 2px;
+    /*background-color: #12498a;*/
+    /*margin-left:6px*/
+}
+
+.MyAcB {
+    height: 27px;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: #12498a;
+    border-width: 1px;
+    float: right;
+    margin-right: 3px;
+    margin-left: 2px;
+    margin-top: 2px;
+    padding-left: 10px;
+    /*background-color: #12498a;*/
+}
+
+.ButtonMin {
+    width: 50px;
+    background-color: #f3f3f3;
+    border-style: none;
+    box-shadow: 2px 2px 2px #d3d3d3;
+    height: 26px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: black
+}
+
+    .ButtonMin:hover {
+        background-color: #B5C4DA !important;
+        cursor: pointer;
+    }
+
+
+.Connectbtn {
+    border-bottom-left-radius: 10px;
+    border-Top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px
+}
+
+.BCbachColor {
+    background-color: #1d5095
+}
+
+.FForCbachColor {
+    color: #1d5095
+}
+
+.FCbachColor {
+    color: #fff
+}
+
+.FCbachColorG {
+    color: #fff;
+    background-color: #7e7e7e;
+    width: 80px;
+    margin-right: 10px !important
+}
+
+.FCbachColorS {
+    color: #fff;
+    background-color: #1d5095;
+    width: 80px
+}
+
+
+.QuotationDetailsButtonS {
+    background-color: #d3d3d3;
+    height: 30px;
+    cursor: pointer;
+    border-style: none
+}
+
+
+.QuotationDetailsButtonAccount {
+    background-color: #fff;
+    color: #00f;
+    text-align: right;
+    border-style: none;
+    vertical-align: middle;
+    cursor: pointer;
+    float: right
+}
+
+.QuotationDetailsButtonNoMargin, .btnButtonLogOut, .btnButtonsD {
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border-style: none
+}
+
+.QuotationDetailsButtonNoMargin {
+    background-color: #757677;
+    height: 30px;
+    vertical-align: middle
+}
+
+.FloatRLeft, .ui-tabs .ui-tabs-nav li {
+    float: left
+}
+
+.cursorpointer {
+    cursor: pointer
+}
+
+.btnButtonsS {
+    background-color: #354993;
+    width: 120px;
+    border-radius: 20px;
+    height: 30px;
+    border-style: none;
+    color: #fff
+}
+
+.btnButtonsD {
+    background-color: #757677;
+    width: 30px;
+    height: 22px;
+    outline: 0
+}
+
+.btnButtonLogOut {
+    background-color: #6c757d;
+    width: 80px;
+    border-radius: 5px;
+    height: 30px;
+    outline: 0;
+    z-index: 1000
+}
+
+.MNUiMGCSS {
+    padding-top: 2px;
+}
+
+.btn-White {
+    background-color: #fff;
+    border-style: none
+}
+
+.btn-Transperant {
+    border-style: none;
+    cursor: pointer !important;
+    outline: 0;
+    color: #7e7e7e;
+    text-decoration: none
+}
+
+.ButtonClose {
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    border-style: none;
+    outline: 0;
+    padding: 4px;
+    margin: 4px;
+    background-color: transparent;
+    color: #141414
+}
+
+.GridMaterialRow :hover, .datalistbuttnsDivH :hover {
+    background-color: #ebedf2;
+    cursor: pointer
+}
+
+.datalistbuttnsDiv {
+    vertical-align: middle;
+    text-align: left;
+    padding: 5px 0 5px 5px;
+    border: 1px #d3d3d3;
+    width: 100%
+}
+
+.MaterialNamec {
+    margin: 0 auto;
+    padding: 5px
+}
+
+.DataListcss {
+    Width: 100%;
+    border-style: none;
+    height: 10px;
+    margin-left: 10px;
+    margin-right: 67px
+}
+
+.datalistbuttns {
+    border: 0 #b2b2b2;
+    color: #fff;
+    width: 35px;
+    height: 30px;
+    text-align: center;
+    vertical-align: bottom
+}
+
+.datalistbuttnsM, .datalistbuttnsS {
+    border: 0 solid #b2b2b2;
+    color: #fff;
+    text-align: center
+}
+
+.xxxx:hover {
+    background-color: #f0f8ff
+}
+
+.xxxx {
+    background-color: #5f9ea0
+}
+
+.datalistbuttnsM {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle
+}
+
+.datalistbuttnsS {
+    width: 100%;
+    height: 100%;
+    vertical-align: bottom;
+    padding-top: 20%
+}
+
+.DataListSelectStyle {
+    background: #b9c3d9
+}
+
+.GVFixedHeader {
+    font-weight: 700;
+    background-color: Green;
+    position: relative;
+    top: expression(this.parentNode.parentNode.parentNode.scrollTop-1)
+}
+
+.cssGridMaterials {
+    float: right;
+    border: 1px solid #f9f9fa;
+    background-color: #f6f6f7;
+    /*margin-left: 200px*/
+}
+
+.GridMaterialHeader {
+    background-color: #f6f6f7;
+    text-align: left;
+    border-bottom-style: solid;
+    border-color: #d3d3d3;
+    border-width: 1px;
+    padding-bottom: 10px;
+    height: 40px;
+    padding-top: 20px
+}
+
+.GridMaterialRow {
+    height: 50px;
+    border-bottom: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color: #d3d3d3;
+    border-width: 1px
+}
+
+.cssUnitSwitch {
+    width: 75px;
+    float: right;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    cursor: pointer;
+    border-right: 1px solid darkgray !important;
+    height: 35px;
+    margin-right: 3px;
+    padding-right: 3px;
+}
+
+@media only screen and (max-width:1024px) {
+
+    .cssUnitSwitch {
+        border-left: none;
+        height: 35px;
+        border-right: none !important;
+    }
+}
+
+
+.cssUnitSwitchflags {
+    /*width: 40px;*/
+    float: right;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    cursor: pointer;
+    border-left: 1px solid darkgray;
+    height: 35px;
+    padding-left: 3px;
+    margin-left: 3px;
+    /*padding-right: 3px;*/
+}
+
+
+.cssUnitSwitchflagsSo {
+    /*width: 40px;*/
+    float: right;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    cursor: pointer;
+    border-left: 1px solid darkgray;
+    height: 35px;
+    padding-left: 3px;
+    margin-left: 3px;
+    /*padding-right: 3px;*/
+}
+
+@media only screen and (max-width:1024px) {
+    .cssUnitSwitchflagsSo {
+        float: right;
+        font-size: 14px;
+        font-weight: 700;
+        color: #000;
+        text-align: center;
+        cursor: pointer;
+        border-style: none;
+        height: 35px;
+        padding-left: 0px;
+        margin-left: 3px;
+    }
+}
+
+.switch, .switchSpan {
+    width: 70px;
+    margin-top: 2px
+}
+
+.switchSpan {
+    height: 32px
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    height: 28px;
+    text-align: left
+}
+
+    #dialogLWS, .display_non, .newfaq, .switch input {
+        display: none
+    }
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border: 1px solid #354993;
+    color: #354993
+}
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 20px;
+        width: 20px;
+        left: 4px;
+        bottom: 3px;
+        background-color: #354993;
+        -webkit-transition: .4s;
+        transition: .4s
+    }
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(36px);
+    -ms-transform: translateX(36px);
+    transform: translateX(36px)
+}
+
+.slider.round {
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-left: 10px
+}
+
+    .slider.round:before {
+        border-radius: 50%
+    }
+
+.ListViewLinkButtonN {
+    text-align: left;
+    text-decoration: none;
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+    cursor: pointer !important;
+    color: #1d5095;
+    font-weight: 700;
+    background-color: transparent
+}
+
+.ListViewLinkButtonNDis, .ListViewLinkButtonNDisPrice {
+    cursor: default !important;
+    background-color: transparent;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+    font-weight: 700
+}
+
+.ListViewLinkButtonNDis {
+    color: #1d5095
+}
+
+.ListViewLinkButtonNDisPrice {
+    color: #8f8f8f
+}
+
+.ListViewMeasureN {
+    text-align: left;
+    text-decoration: none;
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+    cursor: pointer !important;
+    color: #212529
+}
+
+.ListViewMeasureNDis, .ListViewMeasureNDisPrice {
+    text-align: left;
+    text-decoration: none;
+    border-style: none;
+    width: 100%;
+    cursor: default !important;
+    vertical-align: middle
+}
+
+.ListViewMeasureNDis {
+    color: #212529
+}
+
+.ListViewMeasureNDisPrice {
+    color: #8f8f8f
+}
+
+.pnlParamS {
+    Height: 33px;
+    border: 1px solid #e1e1e1;
+    padding: 0 6px 7px 4px
+}
+
+.pnlParamSAc {
+    Height: 33px;
+    border: 1px solid #e1e1e1;
+    padding: 0 6px 7px 4px
+}
+
+.full-width {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    border-style: solid
+}
+
+.cssGridCell_1 {
+    text-align: center;
+    vertical-align: middle;
+    border-style: none;
+    background-color: Transparent;
+    width: 78px;
+    height: 30px
+}
+
+.margL {
+    margin-left: 10px;
+}
+
+.padL {
+    padding-left: 10px;
+}
+
+.cssGridRowStylePrice {
+    height: 42px
+}
+
+.cssGridHeaderStyleLeft {
+    height: 30px;
+    font-weight: 700;
+    text-align: left
+}
+
+.cssGridHeaderStyle {
+    height: 25px;
+    text-align: center;
+    font-weight: 700
+}
+
+.cssGridCell_Color, .cssGridCell_Color1_1 {
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+    width: 78px;
+    height: 30px
+}
+
+.gray, .subtitleS {
+    font-weight: bolder;
+    text-decoration: none
+}
+
+.cssGridCell_Color {
+    color: red
+}
+
+#ListNPAVideo, #ListPressrelease, #dialogLWS, .wrapper, h1, h2 {
+    text-align: left
+}
+
+.GridHeaderStyle {
+    font-size: 14px;
+    vertical-align: central;
+    color: #fff;
+    border-radius: 6px
+}
+
+.cssGridParams, .cssGridRulles {
+    font-family: Arial;
+    font-size: 12px;
+    vertical-align: top;
+    border: 0 #e2e2e2
+}
+
+.cssRullImageStyle {
+    text-align: left;
+    vertical-align: middle;
+    width: 40px;
+    border-style: none
+}
+
+.cssBoundFieldDisplayNone {
+    display: none;
+    visibility: hidden;
+    position: absolute
+}
+
+.pnlRullescss {
+    width: 100%;
+    height: 100px
+}
+
+.BuilderMain {
+    margin: 0 auto;
+    width: 1200px
+}
+
+.clearer, .contlogonav, .imgcat, .span_2_of_2, .span_3_of_3, .span_4_of_4, .span_5_of_5, .span_6_of_6, .topbanner div img, .topglobal, .wrapper {
+    width: 100%
+}
+
+.wrapper {
+    min-width: 370px
+}
+
+.clearer {
+    height: 70px
+}
+
+img {
+    border: 0
+}
+
+h1, h2 {
+    font-family: Oswald,Calibri,Arial;
+    text-decoration: none;
+    font-weight: 400;
+    height: inherit
+}
+
+#sizer, .NPATitle p, .divwithlist span, h3 {
+    font-weight: 700
+}
+
+h3 {
+    font-family: Oswald,Arial;
+    font-size: 18px;
+    color: #066ea6;
+    margin-bottom: 5px
+}
+
+.mainheader {
+    width: 100%
+}
+
+.flexwrapper {
+    margin: 0 auto;
+    background-color: #ddd;
+}
+
+.topglobal {
+    background-color: #ddd;
+    padding-top: 5px;
+    height: 35px
+}
+
+.linkHome img {
+    height: 38px;
+    margin-left: 5px
+}
+
+#mainnav {
+    width: 850px;
+    float: right;
+    z-index: 100
+}
+
+#dialogLWS div a, #sizer a, .dialogLWS a:link {
+    text-decoration: none
+}
+
+.search {
+    width: 35px;
+    float: right;
+    position: relative
+}
+
+    .search input {
+        width: 30px;
+        height: 30px;
+        background: 8px 7px no-repeat #fcfcfc;
+        border: 1px solid #aaa;
+        border-radius: 5px;
+        text-indent: 32px;
+        background-image: url(/media/icons/search-icon.png) !important;
+        -webkit-transition: width .4s ease-in-out;
+        transition: width .4s ease-in-out
+    }
+
+        .search input:focus {
+            background-color: #fffa8d;
+            width: 98%
+        }
+
+.flexwrapper-c {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative
+}
+
+.wrapfooter {
+    text-align: center;
+    padding-bottom: 0;
+    vertical-align: bottom;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+
+.megapanel a:before {
+    margin: 0 3px -3px 0
+}
+
+.cycle-slideshow {
+    z-index: 50
+}
+
+#breadcrumbs {
+    font-size: 11px;
+    margin: 5px 20px 5px 0;
+    min-width: 42%;
+    float: left
+}
+
+    #breadcrumbs, #breadcrumbs a:active, #breadcrumbs a:link, #breadcrumbs a:visited {
+        color: Gray
+    }
+
+        #breadcrumbs a:hover, .gray, .subtitleS {
+            color: #555
+        }
+
+.Video, .divisor {
+    margin: 10px 0
+}
+
+#imgToSearch {
+    float: right;
+    padding-right: 10px
+}
+
+.ActualMenu {
+    border-bottom: 2px solid #ff0 !important
+}
+
+    .ActualMenu > a {
+        color: #ff0 !important
+    }
+
+.footcolumn {
+    width: 270px;
+    float: left;
+    margin: 20px;
+    padding-left: 5px
+}
+
+#copyright {
+    width: 970px;
+    text-align: center;
+    background-color: #1b4494;
+    padding: 5px 0
+}
+
+#dialogLWS {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch
+}
+
+    #dialogLWS div {
+        margin: 10px 0;
+        text-decoration: none;
+        padding: 2px 0 2px 2px
+    }
+
+.imgLeft {
+    float: left;
+    margin: 0 5px 2px 0
+}
+
+.imgRight {
+    float: right;
+    margin: 0 0 2px 5px
+}
+
+.imgLeft2 {
+    float: left;
+    margin: 0 15px 15px 0
+}
+
+.imgFloatSide, .imgRight2 {
+    float: right;
+    margin: 0 0 15px 15px
+}
+
+.objLeft {
+    float: left;
+    margin: 0 5px 2px 0
+}
+
+.objLeft2 {
+    float: left;
+    margin: 0 15px 15px 0;
+    overflow: hidden
+}
+
+.objRight, .objRight2 {
+    float: right;
+    overflow: hidden
+}
+
+.objRight {
+    margin: 0 0 2px 5px
+}
+
+.objRight2 {
+    margin: 0 0 15px 15px
+}
+
+.objLeft, .objLeft2, .objRight, .objRight2 {
+    height: auto
+}
+
+@media only screen and (max-width:540px) {
+    .imgLeft, .imgLeft2, .imgRight, .imgRight2, .objLeft, .objLeft2, .objRight, .objRight2 {
+        display: block;
+        float: inherit;
+        clear: both
+    }
+
+    .col {
+        margin: 1% 0 0
+    }
+
+    .centralcontent .col {
+        margin: 1% 0 2% !important
+    }
+
+
+
+    .cssUnitSwitchflags {
+        border-left: 0 solid gray;
+        height: 35px;
+    }
+}
+
+.gray {
+    font-size: 12px
+}
+
+.subtitleS {
+    font-size: 14px;
+    overflow: hidden;
+    width: 100%;
+    resize: none
+}
+
+#ListNPAVideo, .LinkGray {
+    color: #626262
+}
+
+#ListNPAVideo, .Links {
+    font-size: 11px
+}
+
+#ListNPAVideo {
+    width: 450px;
+    margin: 10px auto 0;
+    padding: 5px
+}
+
+.Links div, .catImage {
+    margin-bottom: 5px
+}
+
+.LinkRed, .Links a:hover {
+    color: red
+}
+
+#tabsCatalogs, #tabsPressrelease {
+    height: 650px;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch
+}
+
+#tabsNPA {
+    height: 720px;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch
+}
+
+#ListPressrelease {
+    min-width: 650px;
+    margin: 10px auto 0;
+    padding: 5px;
+    font-size: 11px
+}
+
+.detImage {
+    width: 295px;
+    float: right;
+    overflow: hidden;
+    margin: 0 0 15px 15px
+}
+
+    .detImage div {
+        width: 40px;
+        margin: 0 auto
+    }
+
+    .detImage img, .imgFloatSide img {
+        background-color: #b0b0b0;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        -moz-background-clip: padding;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box
+    }
+
+.listnomargin li {
+    margin-left: -20px
+}
+
+.divwithlist span, .divwithlist ul {
+    margin-left: 17px
+}
+
+.divwithlist ol {
+    margin-left: 25px
+}
+
+.darkLink {
+    padding: 2px 5px;
+    margin-bottom: 20px;
+    background-color: #000
+}
+
+    .darkLink a, .darkLink a:active, .darkLink a:link, .darkLink a:visited {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 700
+    }
+
+.lblForm {
+    width: 10em;
+    float: left
+}
+
+label.error {
+    float: none;
+    color: red;
+    padding: 0 .5em;
+    vertical-align: top;
+    font-size: 10px;
+    width: 100%
+}
+
+.cmxform > div, .formwrapper div {
+    margin-bottom: 3px
+}
+
+.checkbox {
+    margin: 0 3px
+}
+
+.warning {
+    color: Red
+}
+
+#sizer {
+    width: 55px;
+    float: right;
+    padding-top: 5px;
+    font-size: 14px
+}
+
+    #sizer a:active, #sizer a:hover, #sizer a:link, #sizer a:visited {
+        color: #504f51
+    }
+
+.plexhibitions h4, .plnpa h4 {
+    font-size: 12px
+}
+
+.icon-mini-right {
+    width: 30px;
+    float: right;
+    text-align: right
+}
+
+    .icon-mini-left img, .icon-mini-right img {
+        padding: 5px
+    }
+
+.icon-mini-left {
+    width: 30px;
+    float: left;
+    text-align: left
+}
+
+.plexhibitions, .plnpa {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 15px;
+    text-align: left;
+    direction: ltr
+}
+
+.iconMainApp a, .textMainApp {
+    font-family: Oswald,Calibri,Arial;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none
+}
+
+.plnpa div {
+    width: 200px;
+    margin: 0 0 10px 40px;
+    float: left
+}
+
+.plnpa h4 {
+    padding: 0 0 10px 40px;
+    font-weight: 700
+}
+
+.plexhibitions div {
+    width: 160px;
+    margin: 0 0 10px 80px;
+    float: left
+}
+
+.plexhibitions h4 {
+    padding: 0 0 10px 80px;
+    font-weight: 700
+}
+
+.catalogSection {
+    width: 375px;
+    height: 270px;
+    float: left;
+    margin: 0 10px 10px;
+    overflow: hidden
+}
+
+    .catalogSection h3 {
+        margin-top: 5px
+    }
+
+.catImage img {
+    border-radius: 10px
+}
+
+img[src$="--1.svg"] {
+    height: 19px
+}
+
+img[src$="--2.svg"] {
+    height: 27px
+}
+
+img[src$="--3.svg"] {
+    height: 38px
+}
+
+img[src$="--4.svg"] {
+    height: 25px
+}
+
+img[src$="--5.svg"] {
+    height: 33px
+}
+
+img[src$="--6.svg"] {
+    height: 23px
+}
+
+img[src$="--7.svg"] {
+    height: 28px
+}
+
+img[src$="--8.svg"] {
+    height: 30px
+}
+
+img[src$="--9.svg"] {
+    height: 28px
+}
+
+img[src$="--10.svg"] {
+    height: 58px
+}
+
+img[src$="--11.svg"] {
+    height: 52px
+}
+
+img[src$="--12.svg"] {
+    height: 36px
+}
+
+img[src$="--13.svg"] {
+    height: 34px
+}
+
+img[src$="--14.svg"] {
+    height: 40px
+}
+
+.img {
+    padding: 10px
+}
+
+@media only screen and (max-width:1025px) {
+    #mainnav, .contlogonav > div, .conttoolsopnav > div, .mdldivSearchP, .megamenu, .topmenu {
+        width: 100%
+    }
+
+    #breadcrumbs {
+        padding: 0 10px
+    }
+
+    .sidebar {
+        width: 50%
+    }
+
+    .cssPopUpLoginForm-content, .mdldivSearchP-content {
+        width: 90%
+    }
+
+    .familyImages, .familyImagesLabels {
+        display: block;
+        width: 100%
+    }
+
+    .familyImages1, .familyImagesLabels1 {
+        display: block;
+        width: 50%;
+        float: right
+    }
+
+    .familyImagesLabelsX {
+        display: none
+    }
+
+    .clsItemGridData {
+        width: 100%;
+        float: left;
+        overflow-x: auto
+    }
+}
+
+.section {
+    padding: 0;
+    margin: 0
+}
+
+.group:after, .group:before {
+    content: "";
+    display: table
+}
+
+.group {
+    zoom: 1
+}
+
+.col {
+    display: block;
+    float: left;
+    margin: 0 0 0 2.8%
+}
+
+    .col:first-child {
+        margin-left: 1%
+    }
+
+.span_1_of_2, .span_2_of_4, .span_3_of_6 {
+    width: 48.5%
+}
+
+.span_2_of_3 {
+    width: 65.7%
+}
+
+.span_1_of_3 {
+    width: 31.3%
+}
+
+.span_3_of_4 {
+    width: 74.25%
+}
+
+.span_1_of_4 {
+    width: 22.75%
+}
+
+.span_4_of_5 {
+    width: 79.4%
+}
+
+.span_3_of_5 {
+    width: 58.8%
+}
+
+.span_2_of_5 {
+    width: 38.2%
+}
+
+.span_1_of_5 {
+    width: 17.6%
+}
+
+.span_5_of_6 {
+    width: 82.84%
+}
+
+.span_4_of_6 {
+    width: 65.68%
+}
+
+.span_2_of_6 {
+    width: 31.36%
+}
+
+.span_1_of_6 {
+    width: 14.16%
+}
+
+.span_1_of_12 {
+    width: 8.44%;
+    height: 8.44%
+}
+
+@media only screen and (max-width:540px) {
+    .span_10_of_12, .span_11_of_12, .span_12_of_12, .span_1_of_2, .span_1_of_3, .span_1_of_4, .span_1_of_5, .span_1_of_6, .span_2_of_12, .span_2_of_2, .span_2_of_3, .span_2_of_4, .span_2_of_5, .span_2_of_6, .span_3_of_12, .span_3_of_3, .span_3_of_4, .span_3_of_5, .span_3_of_6, .span_4_of_12, .span_4_of_4, .span_4_of_5, .span_4_of_6, .span_5_of_12, .span_5_of_5, .span_5_of_6, .span_6_of_12, .span_6_of_6, .span_7_of_12, .span_8_of_12, .span_9_of_12 {
+        width: 100%
+    }
+
+    .iconMainApp a, .textMainApp {
+        font-size: 14px
+    }
+}
+
+.iconwrapper {
+    margin: 0
+}
+
+.iconMainApp a {
+    font-size: 16px;
+    color: #066ea6
+}
+
+    .iconMainApp a img, .iconMainSubApp a img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+.textMainApp {
+    font-size: 16px;
+    white-space: nowrap
+}
+
+.iconMainSubApp a {
+    text-decoration: none;
+    font-family: 'PT Sans Narrow',Arial;
+    font-size: 16px;
+    color: #066ea6;
+    text-align: left
+}
+
+.textMainSubApp, .textMainSubApp a {
+    font-family: Oswald,Calibri,Arial;
+    height: inherit;
+    text-align: left;
+    text-decoration: none
+}
+
+.textMainSubApp {
+    font-size: 14px;
+    font-weight: 400
+}
+
+.GridHeaderStyle, .GridItemStyle {
+    Font-Size: 14px;
+    text-align: center
+}
+
+.GridHeaderStyle, .RegTextBold, .lblParamSearch, .subtitle {
+    font-weight: 700
+}
+
+.textMainSubApp a {
+    font-size: 16px;
+    font-weight: 700
+}
+
+.lblParamSearch {
+    font-family: Oswald,Arial;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 5px
+}
+
+@media only screen and (max-width:768px) {
+    .span_1_of_12 {
+        width: 30%
+    }
+
+    .col {
+        display: block;
+        float: left;
+        margin: 1%
+    }
+
+        .col:first-child {
+            margin-left: auto
+        }
+
+    .flexwrapper-c {
+        max-width: 99%;
+        margin: 0 auto;
+        position: relative
+    }
+
+    .iconMainApp a, .textMainApp {
+        font-size: 14px
+    }
+}
+
+.popupopener {
+    background-color: #086fb1;
+    cursor: pointer;
+    padding: 1px
+}
+
+    .popupopener:hover {
+        background-color: #fff
+    }
+
+.closerow {
+    background-color: #0f7dc2;
+    color: #fff;
+    width: 100%;
+    height: 25px
+}
+
+.closefaq {
+    float: right;
+    padding: 5px;
+    cursor: pointer
+}
+
+.faqpopup {
+    display: none;
+    position: fixed;
+    width: 800px;
+    height: 600px;
+    top: 9%;
+    right: 5px;
+    border: 2px solid #0f7dc2;
+    border-radius: 5px;
+    z-index: 2000000;
+    background-color: #fff
+}
+
+.faqcontent {
+    width: 99%;
+    height: 95%;
+    overflow-x: hidden;
+    overflow-y: scroll
+}
+
+.DataListcssR, .TopGlobal_n {
+    overflow-y: auto;
+    overflow-x: hidden
+}
+
+.picfaq {
+    width: 60%;
+    display: block;
+    margin: 5px auto
+}
+
+@media only screen and (max-width:500px) {
+    .faqpopup {
+        width: 95%;
+        min-width: 350px
+    }
+}
+
+.mypopup {
+    background-color: transparent;
+    display: none;
+    align-content: center;
+    position: fixed;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    z-index: 200
+}
+
+.closepopup {
+    float: right;
+    padding: 3px;
+    font-family: SANS-SERIF;
+    font-size: 10px;
+    margin: 5px
+}
+
+.GridHeaderStyle, .GridItemStyle, .subtitle {
+    font-family: Oswald,Arial
+}
+
+.subtitle {
+    text-decoration: none;
+    font-size: 30px;
+    color: #066ea6;
+    margin-bottom: 6px
+}
+
+.logoImg {
+    height: 32px;
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+.logoImgIquote {
+    height: 45px;
+    padding-top: 10px;
+    padding-bottom: 0
+}
+
+.GridHeaderStyle {
+    background-color: #f8f7b4
+}
+
+.GridItemStyle {
+    background-color: #fbe7cc
+}
+
+.divMainImage {
+    border: 1px solid gray;
+    height: 50px
+}
+
+.border-bottom-gray {
+    height: 1px;
+    background-color: #d3d3d3
+}
+
+.insidemenuedivR {
+    text-align: right
+}
+
+.DisplayNone {
+    display: none !important
+}
+
+.DisplayShow {
+    display: block !important
+}
+
+.InlineBlock, .InlineBlockTop {
+    display: inline-block
+}
+
+.InlineBlockTop {
+    vertical-align: top;
+    margin-right: 10px
+}
+
+.Inlineflex {
+    display: inline-flex
+}
+
+.InlineTop {
+    display: inline;
+    vertical-align: top
+}
+
+.GlobDef_L, .GlobDef_M, .GlobDef_ML, .GlobDef_MLAll, .GlobDef_R, .linkMenuesApp, .linkMenuesApp_L {
+    vertical-align: bottom
+}
+
+.MainDivGlobStyle {
+    text-align: left;
+    width: 1100px;
+    position: relative;
+    margin: 0 auto
+}
+
+.MainDivGlob, .MainDivGlobStyleWidthR, .TopDivGlobT {
+    text-align: left;
+    width: 100%
+}
+
+.MainDivGlob {
+    border: solid #adff2f
+}
+
+.MainDivGlobStyleWidthR {
+    margin: 0 auto
+}
+
+.MainDivImageFamily {
+    border: 1px solid gray;
+    height: 210px;
+    width: 347px;
+    float: left
+}
+
+.MainDivImageType {
+    border: 1px solid gray;
+    height: 210px;
+    width: 339px;
+    float: right
+}
+
+.midDivImageFamily {
+    height: 210px;
+    width: 130px
+}
+
+.GlobDef {
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.GlobDef_R {
+    /*height: 60px;*/
+    padding-right: 1px;
+    float: right
+}
+
+.divLGN {
+    width: 115px;
+    height: 32px;
+    background-image: url('../../media/Icons/LiginIcoEE.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    float: right;
+    text-align: right;
+    margin-top: 4px;
+}
+
+@media screen and (max-width:1024px) {
+    .divLGN {
+        width: 33%;
+        height: 32px;
+        background-image: url('../../media/Icons/LiginIcoEmenu.png');
+        background-position: right;
+        background-repeat: no-repeat;
+        float: right;
+        text-align: right;
+        /*margin-top: 2px;*/
+    }
+}
+
+
+.divLGNLog {
+    background-image: url('../../media/Icons/LiginIcoEL.png');
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:1024px) {
+    .divLGNLog {
+        background-image: url('../../media/Icons/LiginIcoEmenu.png');
+        background-repeat: no-repeat;
+    }
+}
+
+
+
+
+
+
+
+
+.GlobDef_L, .GlobDef_M, .GlobDef_ML, .GlobDef_MLAll, .TopGlobal_n {
+    text-align: left
+}
+
+.GlobDef_L {
+    padding-left: 20px;
+    float: left
+}
+
+.GlobDef_M {
+    height: 60px;
+    padding-left: 80px
+}
+
+.GlobDef_ML {
+    width: 100%
+}
+
+.BorderRightLeft {
+    border-left: 1px solid #e9eaec;
+    border-right: 1px solid #e9eaec
+}
+
+.TopGlobal_n {
+    width: 100%;
+    min-width: 370px
+}
+
+.TopGlobal_Buttons {
+    text-align: right;
+    height: 36px;
+    background-color: #ddd;
+    width: 100%;
+    background-color: transparent;
+}
+
+.TopGlobal_ButtonsLeft {
+    text-align: left;
+    height: 40px;
+    background-color: #ddd
+}
+
+.containBorderDiv {
+    border: 1px #d9d9d9;
+    height: 92%;
+    text-align: left
+}
+
+.maincontent {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: center
+}
+
+.socialsection {
+    float: right;
+    /*margin-top: 4px;*/
+    padding-right: 1px
+}
+
+    /*    .socialsectionLeft {
+        float: left;
+        margin-top: 4px
+    }*/
+
+    .linkMenuesApp img, .socialsection img {
+        width: 32px;
+        float: right;
+        /*padding-left: 4px*/
+    }
+
+.linkMenuesApp {
+    width: 100%;
+    float: right;
+    margin-top: 15px;
+}
+
+
+
+@media screen and (max-width:1024px) {
+    .linkMenuesApp {
+        margin-top: 0px;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:1000px) {
+    .MessageErrordiv {
+        width: 250px;
+        border-radius: 5px;
+        background-color: #fff;
+        background-image: url('../../media/Images/bgIw.png');
+        position: absolute;
+        left: 38%;
+        top: 20%;
+        margin-top: -70px;
+        margin-left: -70px;
+        border-style: none;
+        z-index: 10000;
+        height: 480px;
+        box-shadow: 0 0 0 1000px rgba(0,0,0,.3);
+        visibility: hidden
+    }
+
+    .MessageTxtN {
+        left: 5.41%;
+        right: 22.61%;
+        top: 62.72%;
+        bottom: 29.27%;
+        line-height: 23px;
+        color: #000;
+        width: 200px;
+        background-color: #f1f1f1;
+        border-width: thin;
+        border-color: #d3d3d3;
+        border-style: solid
+    }
+
+    /*    .RullButton {
+        width: 200px;
+        background-color: #f3f3f3 !important;
+        border-style: none !important;
+        box-shadow: 2px 2px 2px #d3d3d3 !important;
+        height: 26px !important;
+        border-radius: 5px !important
+    }
+        .RullButton:hover {
+            background-color: yellow;
+            cursor: pointer;
+        }*/
+
+    .TopGlobal_n {
+        width: 100%;
+        min-width: 300px;
+        text-align: left;
+        overflow-x: hidden;
+        overflow-y: auto
+    }
+
+    .linkMenuesApp {
+        /*width: 700px;*/
+        float: right;
+        vertical-align: bottom;
+        padding-top: 9px
+    }
+}
+
+.linkMenuesApp_L {
+    width: 400px;
+    float: right
+}
+
+.ModelCaptionButton, .ModelCaptionButtonfilter {
+    border-style: none;
+    font-family: Oswald;
+    color: #1d5095;
+    width: min-content;
+    white-space: nowrap;
+    text-align: center
+}
+
+.imgTitlecs {
+    padding-left: 2px;
+    cursor: pointer;
+    width: 32px
+}
+
+.ModelCaptionButton {
+    font-size: 18px;
+    cursor: pointer !important
+}
+
+.ModelCaptionButtonfilter {
+    font-size: 18px;
+    filter: opacity(.5);
+    z-index: -1
+}
+
+@media screen and (max-width:1900px) {
+    .ModelCaptionButton {
+        border-style: none;
+        font-family: Oswald;
+        font-size: 14px;
+        color: #1d5095;
+        cursor: pointer !important;
+        text-align: center;
+        width: min-content;
+        white-space: nowrap
+    }
+
+
+
+
+    .ModelCaptionButtonfilter {
+        border-style: none;
+        font-family: Oswald;
+        font-size: 14px;
+        color: #1d5095;
+        filter: opacity(.5);
+        text-align: center;
+        width: min-content;
+        white-space: nowrap;
+        z-index: -1
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .ModelCaptionButton {
+        border-style: none;
+        font-family: Oswald;
+        font-size: 18px;
+        color: #1d5095;
+        cursor: pointer !important;
+        text-align: center;
+        width: min-content;
+        white-space: nowrap;
+        /*padding-top:40px*/
+    }
+
+    .ModelCaptionButtonfilter {
+        border-style: none;
+        font-family: Oswald;
+        font-size: 18px;
+        color: #1d5095;
+        filter: opacity(.5);
+        text-align: center;
+        width: min-content;
+        white-space: nowrap;
+        z-index: -1
+        /*padding-top: 40px*/
+    }
+}
+
+
+
+
+
+
+
+
+/*
+.divIconWi {
+    width: 100% !important;
+}
+
+@media screen and (max-width: 500px) {
+    .divIconWi {
+        width: 30% !important;
+    }
+}*/
+
+
+.ModelIconButton {
+}
+
+@media screen and (max-width: 1024px) {
+    .ModelIconButton {
+        width: 110px !important;
+        height: 110px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ModelIconButton {
+        width: 80px !important;
+        height: 80px !important;
+    }
+}
+
+.RegLabel, .RegTextBold {
+    font-size: 13px;
+    font-family: Roboto,Arial,Script
+}
+
+.Column {
+    display: table-cell;
+    background-color: red
+}
+
+.centered {
+    border-style: solid;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.Button_ApplicationMainm {
+    border-style: none;
+    height: 40px;
+    white-space: normal;
+    vertical-align: top;
+    text-align: center
+}
+
+.DisplayBlock {
+    display: block
+}
+
+.cssGridRulles {
+    border-style: none;
+    margin-left: 10px
+}
+
+.modal1 {
+    position: fixed;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: #ededed;
+    opacity: .6;
+    -moz-opacity: 0.8
+}
+
+.center1 {
+    z-index: 1000;
+    margin: 300px auto;
+    padding: 10px;
+    width: 180px;
+    border-radius: 10px;
+    opacity: 1;
+    -moz-opacity: 1
+}
+
+.center img {
+    height: 128px;
+    width: 180px
+}
+
+.ajax__slider_h_rail {
+    height: 20px !important;
+    width: 100% !important;
+    border-style: none;
+    box-sizing: unset !important
+}
+
+.ajax__slider_h_handle {
+    position: absolute !important;
+    height: 12px !important;
+    width: 12px !important;
+    border-radius: 40px;
+    border: 4px solid silver;
+    background-color: #757575;
+    box-sizing: unset !important
+}
+
+.TempLabels {
+    font-family: Roboto,Arial,Script;
+    font-size: 12px;
+    color: brown;
+    text-align: center;
+    background-color: #ddd
+}
+
+.validSumcss {
+    color: red;
+    text-align: left margin-top: 2px;
+    width: 300px;
+    font-size: 20px;
+    padding-left: 2px;
+}
+
+.RailCss {
+    position: relative;
+    background: url("../../media/Icons/OK.png") repeat-x
+}
+
+.ListViewLabel {
+    font-family: Roboto,Arial,Script;
+    font-size: 12px;
+    text-align: left
+}
+
+.MessageLabelscss {
+    font-family: Roboto,Arial,Script;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 10px
+}
+
+.ListViewLinkButton {
+    font-family: Roboto,Arial,Script;
+    font-size: 11px;
+    text-align: left;
+    text-decoration: none;
+    color: gray;
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+    background-color: #e7e9e9;
+    cursor: pointer
+}
+
+.ListViewImage {
+    margin-left: 10px;
+    vertical-align: middle;
+    text-align: right
+}
+
+.imbMnuBtn {
+    width: 83px !important;
+    height: 32px;
+    cursor: pointer
+}
+
+.imbMnuBtnL, .imbMnuBtnfR {
+    width: 101px !important;
+    height: 28px;
+    cursor: pointer
+}
+
+.imbMnuBtnfR {
+    float: right !important
+}
+
+.mainHedearLeftcss {
+    vertical-align: top;
+    text-align: left;
+    padding-top: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    max-width: 100%;
+    height: 700px !important
+}
+
+.mainhedellabelcss {
+    text-align: left;
+    vertical-align: middle;
+    width: 100px;
+    color: #555
+}
+
+@media screen and (max-width:1800px) {
+    .RullButtonDefault {
+        width: 300px;
+        background-color: #f3f3f3 !important;
+        border-style: none !important;
+        box-shadow: 2px 2px 2px #d3d3d3 !important;
+        height: 26px !important;
+        border-radius: 5px !important;
+        vertical-align: 1px;
+        padding-top: 0
+    }
+
+    .ImgL {
+        width: 100% !important;
+        border-style: solid
+    }
+}
+
+.DataListcssR, .ItemBorderSLeft {
+    border-left-style: none;
+    border-right-style: none
+}
+
+.DataListcssR {
+    border-top: 1px solid #d3d3d3;
+    height: 70vh;
+    padding-top: 0;
+    width: 100%;
+    border-bottom: 1px #d3d3d3
+}
+
+.dispalyNonWhnM {
+    display: block
+}
+
+@media only screen and (max-width:500px) {
+    .dispalyNonWhnM {
+        display: none
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+
+    .DataListcssR {
+        border-top: 1px solid #d3d3d3;
+        border-right-style: none;
+        border-left-style: none;
+        height: 50vh;
+        overflow-y: auto;
+        padding-top: 0;
+        overflow-x: hidden;
+        width: 100%;
+        border-bottom: 1px #d3d3d3
+    }
+}
+
+@media screen and (max-width:500px) {
+    .pnlParamS {
+        border: 1px solid #e1e1e1;
+        padding: 0 6px 7px 4px;
+        height: 30px
+    }
+
+    .DataListcssR {
+        border-top: 1px solid #d3d3d3;
+        border-right-style: none;
+        border-left-style: none;
+        height: 20vh;
+        overflow-y: auto;
+        padding-top: 0;
+        overflow-x: hidden;
+        width: 100%;
+        border-bottom: 1px #d3d3d3
+    }
+}
+
+.DataListcssL, .DataListcssLB, .DataListcssLL {
+    overflow: hidden !important
+}
+
+@media screen and (max-width:500px) {
+    .DataListcssL {
+        width: 97%
+    }
+}
+
+.DataListcssLL {
+    border-width: 1px;
+    border-color: #d3d3d3;
+    text-align: center !important;
+    height: 500px;
+    vertical-align: middle !important;
+    margin-top: 150px
+}
+
+.DataListcssLB {
+    height: 68vh
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url('../../fonts/Oswald-VariableFont_wght.ttf') format('truetype')
+}
+
+.ItemBorderSLeft {
+    border-bottom-style: solid !important;
+    border-top-style: none;
+    border-color: #e2e2e2;
+    text-align: left
+}
+
+
+.ItemBorderS {
+    border-style: none none solid;
+    border-color: #e2e2e2
+}
+
+.ItemBorderSM {
+    border-style: none none solid;
+    border-color: #e2e2e2;
+    margin-top: 2px;
+}
+
+.cssGrid_N, .cssGrid_NPrices {
+    vertical-align: top;
+    border: none;
+    width: 100%
+}
+
+@media screen and (max-width:1300px) {
+    .QuotationDetailsSquare {
+        width: 100%
+    }
+
+    .cssGridRowStylePrice {
+        height: 30px
+    }
+
+    .cssGrid_NPrices {
+        width: 100%;
+        height: 100px
+    }
+}
+
+
+.ItemBorderSDoc {
+    border-style: none none solid;
+    border-color: #e2e2e2;
+    /*width: 300px !important;*/
+    word-wrap: anywhere;
+    padding-top: 2px
+}
+
+.cssGrid_NDoc {
+    vertical-align: top;
+    border: none;
+    width: 100%
+}
+
+
+.cssPanelNormal {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    padding: 0;
+    overflow: hidden
+}
+
+.PriceEnableCssControl, .QtyEnableCssControl {
+    border-radius: 5px;
+    font: 12px Arial;
+    text-align: center;
+    vertical-align: middle;
+    width: 78px;
+    height: 25px
+}
+
+.PriceEnableCssControl {
+    border-style: none;
+    background-color: #dcdcdc;
+    border-width: 1px
+}
+
+.QtyEnableCssControl {
+    border-style: solid;
+    border-color: #dcdcdc;
+    border-width: thin
+}
+
+
+
+
+
+.displayNoneForMobile_A {
+    display: none;
+}
+
+@media screen and (max-width:500px) {
+    .displayNoneForMobile_A {
+        display: block;
+    }
+}

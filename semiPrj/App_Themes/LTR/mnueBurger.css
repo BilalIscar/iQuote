@@ -1,0 +1,330 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #dddddd;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.HeaderBacGI {
+    background-image: url("../../../media/Icons/IQUOTE.png");
+}
+
+.containerXX {
+    /*max-width: 1224px;*/
+    width: 100%;
+    margin: 0 auto;
+    direction: rtl;
+}
+
+@media(max-width:1024px) {
+    .containerXX {
+        direction: ltr;
+        width: 100%;
+        /*padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);*/
+        margin-right: auto;
+        margin-left: auto
+    }
+}
+
+/*@media (min-width:476px) {
+    .containerXX {
+        max-width: 460px
+    }
+}*/
+
+@media (min-width:476px) {
+    .containerXX {
+        max-width: 470px
+    }
+}
+
+@media (min-width:576px) {
+    .containerXX {
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) {
+    .containerXX {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+    .containerXX {
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) {
+    .containerXX {
+        max-width: 1140px
+    }
+}
+
+@media (min-width:1400px) {
+    .containerXX {
+        max-width: 1220px
+    }
+}
+
+@media (min-width:1600px) {
+    .containerXX {
+        max-width: 1520px
+    }
+}
+
+@media (min-width:1920px) {
+    .containerXX {
+        max-width: 1720px
+    }
+}
+
+.logoImgIquoteTop {
+    height: 40px;
+    padding-top: 5px;
+    display: none;
+}
+
+
+@media(max-width:1024px) {
+    .logoImgIquoteTop {
+        display: block;
+        padding-right: 60%
+    }
+}
+
+@media(min-width:1024px) {
+    .TextNotToDisplayInMenue {
+        display: none !important;
+    }
+}
+
+.DisplayOnlyInMnue {
+    display: block;
+}
+
+@media(min-width:1024px) {
+    .DisplayOnlyInMnue {
+        display: none !important;
+    }
+}
+
+
+
+.marginOnlyInMnue {
+}
+
+@media(max-width:1024px) {
+    .marginOnlyInMnue {
+        margin-left: -4px !important;
+        margin-top: 2px !important;
+    }
+}
+
+
+
+
+
+.cssNotToDisplayInMenue {
+    direction: rtl
+}
+
+@media(max-width:1024px) {
+    .cssNotToDisplayInMenue {
+        display: none
+    }
+}
+
+.cssColorFontInMenue {
+}
+
+@media(max-width:1024px) {
+    .cssColorFontInMenue {
+        font-size: 1px !important;
+        height: 30px
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbarXX {
+    min-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media(max-width:1024px) {
+    .navbarXX {
+        min-height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /*width:100%;*/
+        padding-left: 10px;
+        width: 33%;
+        z-index: 1000;
+    }
+}
+
+
+    /*.navbar {
+        background-color: white;*/ /* Solid white background for the navbar */
+        /*z-index: 1000;*/ /* Ensure the navbar stays on top */
+    /*}*/
+
+        /*.navbar ul {
+            list-style-type: none;*/
+            /*        margin: 0;
+        padding: 0;*/
+        /*}
+
+        .navbar li {
+            display: inline;*/
+            /*margin-right: 20px;*/
+        /*}
+
+        .navbar a {
+            text-decoration: none;*/
+            /*color: black;*/
+        /*}*/
+
+
+    .nav-brandingXX {
+        font-size: 2rem;
+    }
+
+    .nav-menuXX {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        /*gap: 60px;*/
+        padding-left: 20px !important;
+        margin-bottom: 0rem;
+        direction: rtl
+    }
+
+    .nav-linkXX {
+        transition: 0.3s ease-out;
+    }
+
+        .nav-linkXX:hover {
+            color: dodgerblue;
+        }
+
+    .hamburgerXX {
+        display: none;
+        cursor: pointer;
+    }
+
+    .barXX {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        background-color: #1d4f95
+    }
+
+    @media(max-width:1024px) {
+        .hamburgerXX {
+            display: block;
+            float: left;
+            /*width: 33%*/
+        }
+
+            .hamburgerXX.active .barXX:nth-child(2) {
+                opacity: 0;
+            }
+
+            .hamburgerXX.active .barXX:nth-child(1) {
+                transform: translateY(8px) rotate(45deg);
+            }
+
+            .hamburgerXX.active .barXX:nth-child(3) {
+                transform: translateY(-8px) rotate(-45deg);
+            }
+
+        .nav-menuXX {
+            position: fixed;
+            left: -100%;
+            top: 40px;
+            gap: 0;
+            flex-direction: column;
+            background-color: white;
+            width: 30%;
+            text-align: center;
+            transition: 0.3s;
+            min-width: 200px;
+            border-style: solid;
+            border-width: thin;
+            border-color: lightgray;
+            direction: ltr
+            /*background-image: url('../../media/images/pxl.png');*/
+        }
+
+        .nav-itemXX {
+            /*margin: 16px 0;*/
+        }
+
+        .nav-menuXX.active {
+            left: 0;
+        }
+    }
+
+
+    .iconIsAMax {
+    }
+
+    @media(max-width:1024px) {
+        .iconIsAMax {
+            display: none;
+        }
+    }
+
+
+    .iconIsAmin {
+    }
+
+    @media(min-width:1024px) {
+        .iconIsAmin {
+            display: none;
+        }
+    }
+
+
+    .eCatMenu {
+        color: #1d4f95
+    }

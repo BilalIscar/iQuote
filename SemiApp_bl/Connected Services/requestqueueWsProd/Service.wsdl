@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://tempuri.org/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="CreateRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="req" type="tns:EITQRRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="EITQRRequest">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Rt" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AppName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AppArguments" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ServerID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DedicatedappId" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="RequestTime" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="StartTime" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="EndTime" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorDescription" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AppId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="TotalSizeOfFiles" type="s:double" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CreateRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CreateRequestResult" type="tns:EITResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="EITResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ApplicationUrl" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RT" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AppArguments" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ServerName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Error" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="QR_ID" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="PositionQueue" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="UpdateRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="req" type="tns:EITQRRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateRequestResult" type="tns:EITResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateApplicationArguments">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RQ" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="args" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateApplicationArgumentsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateApplicationArgumentsResult" type="tns:EITResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RestartRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RQ_ID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RestartRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RestartRequestResult" type="tns:EITResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StopRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RQ_ID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StopRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StopRequestResult" type="tns:EITResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RetrieveRequests">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ApplicationName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="statuses" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="RetrieveRequestsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RetrieveRequestsResult" type="tns:ArrayOfEITQRRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfEITQRRequest">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="EITQRRequest" nillable="true" type="tns:EITQRRequest" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CancelRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RQ_ID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CancelRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CancelRequestResult" type="tns:EITResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getServers">
+        <s:complexType />
+      </s:element>
+      <s:element name="getServersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getServersResult" type="tns:ArrayOfEITServer" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfEITServer">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="EITServer" nillable="true" type="tns:EITServer" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="EITServer">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Id" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ServerName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="NumOfRunnableProcess" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ip" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ApplicationDedicated" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="RessourceBalanced" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="Memory" type="s:double" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getApplications">
+        <s:complexType />
+      </s:element>
+      <s:element name="getApplicationsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getApplicationsResult" type="tns:ArrayOfEITApplication" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfEITApplication">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="EITApplication" nillable="true" type="tns:EITApplication" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="EITApplication">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Id" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Url" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="rq_id" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getRequestResult" type="tns:EITQRRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getApplicationsDataTable">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ServerName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ApplicationId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StatusRequired" type="tns:ArrayOfString" />
+            <s:element minOccurs="1" maxOccurs="1" name="newer" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="older" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getApplicationsDataTableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getApplicationsDataTableResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="setApplicationPosition">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="REQ_ID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="position" type="tns:MovePosition" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="MovePosition">
+        <s:restriction base="s:string">
+          <s:enumeration value="Up" />
+          <s:enumeration value="Down" />
+          <s:enumeration value="Top" />
+          <s:enumeration value="Bottom" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="setApplicationPositionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="setApplicationPositionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getDBHost">
+        <s:complexType />
+      </s:element>
+      <s:element name="getDBHostResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getDBHostResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="CreateRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateRequest" />
+  </wsdl:message>
+  <wsdl:message name="CreateRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateRequest" />
+  </wsdl:message>
+  <wsdl:message name="UpdateRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateApplicationArgumentsSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateApplicationArguments" />
+  </wsdl:message>
+  <wsdl:message name="UpdateApplicationArgumentsSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateApplicationArgumentsResponse" />
+  </wsdl:message>
+  <wsdl:message name="RestartRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:RestartRequest" />
+  </wsdl:message>
+  <wsdl:message name="RestartRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:RestartRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="StopRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:StopRequest" />
+  </wsdl:message>
+  <wsdl:message name="StopRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:StopRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="RetrieveRequestsSoapIn">
+    <wsdl:part name="parameters" element="tns:RetrieveRequests" />
+  </wsdl:message>
+  <wsdl:message name="RetrieveRequestsSoapOut">
+    <wsdl:part name="parameters" element="tns:RetrieveRequestsResponse" />
+  </wsdl:message>
+  <wsdl:message name="CancelRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:CancelRequest" />
+  </wsdl:message>
+  <wsdl:message name="CancelRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:CancelRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="getServersSoapIn">
+    <wsdl:part name="parameters" element="tns:getServers" />
+  </wsdl:message>
+  <wsdl:message name="getServersSoapOut">
+    <wsdl:part name="parameters" element="tns:getServersResponse" />
+  </wsdl:message>
+  <wsdl:message name="getApplicationsSoapIn">
+    <wsdl:part name="parameters" element="tns:getApplications" />
+  </wsdl:message>
+  <wsdl:message name="getApplicationsSoapOut">
+    <wsdl:part name="parameters" element="tns:getApplicationsResponse" />
+  </wsdl:message>
+  <wsdl:message name="getRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:getRequest" />
+  </wsdl:message>
+  <wsdl:message name="getRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:getRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="getApplicationsDataTableSoapIn">
+    <wsdl:part name="parameters" element="tns:getApplicationsDataTable" />
+  </wsdl:message>
+  <wsdl:message name="getApplicationsDataTableSoapOut">
+    <wsdl:part name="parameters" element="tns:getApplicationsDataTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="setApplicationPositionSoapIn">
+    <wsdl:part name="parameters" element="tns:setApplicationPosition" />
+  </wsdl:message>
+  <wsdl:message name="setApplicationPositionSoapOut">
+    <wsdl:part name="parameters" element="tns:setApplicationPositionResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDBHostSoapIn">
+    <wsdl:part name="parameters" element="tns:getDBHost" />
+  </wsdl:message>
+  <wsdl:message name="getDBHostSoapOut">
+    <wsdl:part name="parameters" element="tns:getDBHostResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Service1Soap">
+    <wsdl:operation name="CreateRequest">
+      <wsdl:input message="tns:CreateRequestSoapIn" />
+      <wsdl:output message="tns:CreateRequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateRequest">
+      <wsdl:input message="tns:UpdateRequestSoapIn" />
+      <wsdl:output message="tns:UpdateRequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApplicationArguments">
+      <wsdl:input message="tns:UpdateApplicationArgumentsSoapIn" />
+      <wsdl:output message="tns:UpdateApplicationArgumentsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RestartRequest">
+      <wsdl:input message="tns:RestartRequestSoapIn" />
+      <wsdl:output message="tns:RestartRequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="StopRequest">
+      <wsdl:input message="tns:StopRequestSoapIn" />
+      <wsdl:output message="tns:StopRequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveRequests">
+      <wsdl:input message="tns:RetrieveRequestsSoapIn" />
+      <wsdl:output message="tns:RetrieveRequestsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelRequest">
+      <wsdl:input message="tns:CancelRequestSoapIn" />
+      <wsdl:output message="tns:CancelRequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getServers">
+      <wsdl:input message="tns:getServersSoapIn" />
+      <wsdl:output message="tns:getServersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getApplications">
+      <wsdl:input message="tns:getApplicationsSoapIn" />
+      <wsdl:output message="tns:getApplicationsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getRequest">
+      <wsdl:input message="tns:getRequestSoapIn" />
+      <wsdl:output message="tns:getRequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getApplicationsDataTable">
+      <wsdl:input message="tns:getApplicationsDataTableSoapIn" />
+      <wsdl:output message="tns:getApplicationsDataTableSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="setApplicationPosition">
+      <wsdl:input message="tns:setApplicationPositionSoapIn" />
+      <wsdl:output message="tns:setApplicationPositionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getDBHost">
+      <wsdl:input message="tns:getDBHostSoapIn" />
+      <wsdl:output message="tns:getDBHostSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Service1Soap" type="tns:Service1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CreateRequest">
+      <soap:operation soapAction="http://tempuri.org/CreateRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateRequest">
+      <soap:operation soapAction="http://tempuri.org/UpdateRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApplicationArguments">
+      <soap:operation soapAction="http://tempuri.org/UpdateApplicationArguments" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RestartRequest">
+      <soap:operation soapAction="http://tempuri.org/RestartRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StopRequest">
+      <soap:operation soapAction="http://tempuri.org/StopRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveRequests">
+      <soap:operation soapAction="http://tempuri.org/RetrieveRequests" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelRequest">
+      <soap:operation soapAction="http://tempuri.org/CancelRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getServers">
+      <soap:operation soapAction="http://tempuri.org/getServers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getApplications">
+      <soap:operation soapAction="http://tempuri.org/getApplications" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getRequest">
+      <soap:operation soapAction="http://tempuri.org/getRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getApplicationsDataTable">
+      <soap:operation soapAction="http://tempuri.org/getApplicationsDataTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setApplicationPosition">
+      <soap:operation soapAction="http://tempuri.org/setApplicationPosition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDBHost">
+      <soap:operation soapAction="http://tempuri.org/getDBHost" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service1Soap12" type="tns:Service1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CreateRequest">
+      <soap12:operation soapAction="http://tempuri.org/CreateRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateRequest">
+      <soap12:operation soapAction="http://tempuri.org/UpdateRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApplicationArguments">
+      <soap12:operation soapAction="http://tempuri.org/UpdateApplicationArguments" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RestartRequest">
+      <soap12:operation soapAction="http://tempuri.org/RestartRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StopRequest">
+      <soap12:operation soapAction="http://tempuri.org/StopRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveRequests">
+      <soap12:operation soapAction="http://tempuri.org/RetrieveRequests" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelRequest">
+      <soap12:operation soapAction="http://tempuri.org/CancelRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getServers">
+      <soap12:operation soapAction="http://tempuri.org/getServers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getApplications">
+      <soap12:operation soapAction="http://tempuri.org/getApplications" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getRequest">
+      <soap12:operation soapAction="http://tempuri.org/getRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getApplicationsDataTable">
+      <soap12:operation soapAction="http://tempuri.org/getApplicationsDataTable" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setApplicationPosition">
+      <soap12:operation soapAction="http://tempuri.org/setApplicationPosition" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDBHost">
+      <soap12:operation soapAction="http://tempuri.org/getDBHost" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="Service1Soap" binding="tns:Service1Soap">
+      <soap:address location="https://eiplb.iscar.com/requestqueueWs/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service1Soap12" binding="tns:Service1Soap12">
+      <soap12:address location="https://eiplb.iscar.com/requestqueueWs/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

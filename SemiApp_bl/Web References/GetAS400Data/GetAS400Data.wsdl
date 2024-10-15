@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ChangeLIB">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BranchCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ChangeLIBResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ChangeLIBResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_ODC3_Data">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="VendorCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="BranchCode" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="BranchNum" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="CustNum" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="sCatNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Quantity" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPrice" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_ODC3_DataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_ODC3_DataResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CurrencyConverter">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BranchCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Cur1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Cur2" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CurrencyConverterResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CurrencyConverterResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="wsVersion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BranchCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="wsVersionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="wsVersionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCustomerDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchCode" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="BranchNum" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="CustomerNum" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCustomerDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCustomerDetailsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFamilyNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ItemRefrence" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFamilyNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetFamilyNoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertAS400Quotation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchCode" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="AS400_No" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="cusNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cusNa" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cusCont" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CurrentDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="RateCur" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="quotDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cusAd1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cusAd2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AddrC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ZIP" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PAYMENT" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="REAGIN" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PHONE" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FAX" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CODE_SALEMAN" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DIV" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ToolDesc" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="delv" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertAS400QuotationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="InsertAS400QuotationResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ChangeLIBSoapIn">
+    <wsdl:part name="parameters" element="tns:ChangeLIB" />
+  </wsdl:message>
+  <wsdl:message name="ChangeLIBSoapOut">
+    <wsdl:part name="parameters" element="tns:ChangeLIBResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_ODC3_DataSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_ODC3_Data" />
+  </wsdl:message>
+  <wsdl:message name="Get_ODC3_DataSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_ODC3_DataResponse" />
+  </wsdl:message>
+  <wsdl:message name="CurrencyConverterSoapIn">
+    <wsdl:part name="parameters" element="tns:CurrencyConverter" />
+  </wsdl:message>
+  <wsdl:message name="CurrencyConverterSoapOut">
+    <wsdl:part name="parameters" element="tns:CurrencyConverterResponse" />
+  </wsdl:message>
+  <wsdl:message name="wsVersionSoapIn">
+    <wsdl:part name="parameters" element="tns:wsVersion" />
+  </wsdl:message>
+  <wsdl:message name="wsVersionSoapOut">
+    <wsdl:part name="parameters" element="tns:wsVersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCustomerDetails" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCustomerDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFamilyNoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFamilyNo" />
+  </wsdl:message>
+  <wsdl:message name="GetFamilyNoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFamilyNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertAS400QuotationSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertAS400Quotation" />
+  </wsdl:message>
+  <wsdl:message name="InsertAS400QuotationSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertAS400QuotationResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Service1Soap">
+    <wsdl:operation name="ChangeLIB">
+      <wsdl:input message="tns:ChangeLIBSoapIn" />
+      <wsdl:output message="tns:ChangeLIBSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_ODC3_Data">
+      <wsdl:input message="tns:Get_ODC3_DataSoapIn" />
+      <wsdl:output message="tns:Get_ODC3_DataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CurrencyConverter">
+      <wsdl:input message="tns:CurrencyConverterSoapIn" />
+      <wsdl:output message="tns:CurrencyConverterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="wsVersion">
+      <wsdl:input message="tns:wsVersionSoapIn" />
+      <wsdl:output message="tns:wsVersionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerDetails">
+      <wsdl:input message="tns:GetCustomerDetailsSoapIn" />
+      <wsdl:output message="tns:GetCustomerDetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFamilyNo">
+      <wsdl:input message="tns:GetFamilyNoSoapIn" />
+      <wsdl:output message="tns:GetFamilyNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertAS400Quotation">
+      <wsdl:input message="tns:InsertAS400QuotationSoapIn" />
+      <wsdl:output message="tns:InsertAS400QuotationSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Service1Soap" type="tns:Service1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ChangeLIB">
+      <soap:operation soapAction="http://tempuri.org/ChangeLIB" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_ODC3_Data">
+      <soap:operation soapAction="http://tempuri.org/Get_ODC3_Data" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CurrencyConverter">
+      <soap:operation soapAction="http://tempuri.org/CurrencyConverter" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="wsVersion">
+      <soap:operation soapAction="http://tempuri.org/wsVersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerDetails">
+      <soap:operation soapAction="http://tempuri.org/GetCustomerDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFamilyNo">
+      <soap:operation soapAction="http://tempuri.org/GetFamilyNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertAS400Quotation">
+      <soap:operation soapAction="http://tempuri.org/InsertAS400Quotation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service1Soap12" type="tns:Service1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ChangeLIB">
+      <soap12:operation soapAction="http://tempuri.org/ChangeLIB" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_ODC3_Data">
+      <soap12:operation soapAction="http://tempuri.org/Get_ODC3_Data" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CurrencyConverter">
+      <soap12:operation soapAction="http://tempuri.org/CurrencyConverter" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="wsVersion">
+      <soap12:operation soapAction="http://tempuri.org/wsVersion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerDetails">
+      <soap12:operation soapAction="http://tempuri.org/GetCustomerDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFamilyNo">
+      <soap12:operation soapAction="http://tempuri.org/GetFamilyNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertAS400Quotation">
+      <soap12:operation soapAction="http://tempuri.org/InsertAS400Quotation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="Service1Soap" binding="tns:Service1Soap">
+      <soap:address location="http://192.168.201.166/GetAS400Data/GetAS400Data.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service1Soap12" binding="tns:Service1Soap12">
+      <soap12:address location="http://192.168.201.166/GetAS400Data/GetAS400Data.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

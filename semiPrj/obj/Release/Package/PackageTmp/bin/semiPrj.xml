@@ -1,0 +1,5687 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+semiPrj
+</name>
+</assembly>
+<members>
+<member name="T:semiPrj.My.Resources.EN">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:semiPrj.My.Resources.EN.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:semiPrj.My.Resources.EN.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:semiPrj.My.Resources.EN.rsCustomerName">
+<summary>
+  Looks up a localized string similar to Customer Name.
+</summary>
+</member>
+<member name="T:semiPrj.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:semiPrj.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:semiPrj.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:semiPrj.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:semiPrj.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:semiPrj.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:semiPrj.AdminData._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminData._gvConstants">
+<summary>
+gvConstants control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminData._gvConstants_CONST">
+<summary>
+gvConstants_CONST control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminData._btnUpdateConstants">
+<summary>
+btnUpdateConstants control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminData._gvConstants_QTY">
+<summary>
+gvConstants_QTY control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminData._gvConstants_CONST_QTY">
+<summary>
+gvConstants_CONST_QTY control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminData._btnUpdateConstantsQty">
+<summary>
+btnUpdateConstantsQty control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminData._gvModelGP">
+<summary>
+gvModelGP control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminData._gvModelGP_Const">
+<summary>
+gvModelGP_Const control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminData._btnUpdateModelGP">
+<summary>
+btnUpdateModelGP control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminData._btnR">
+<summary>
+btnR control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._formTr">
+<summary>
+formTr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._ScriptManager1">
+<summary>
+ScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._PanelToHide4">
+<summary>
+PanelToHide4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._rb_Hmm">
+<summary>
+rb_Hmm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._rb_HInch">
+<summary>
+rb_HInch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._paneltoHide3C">
+<summary>
+paneltoHide3C control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._rbMMmain">
+<summary>
+rbMMmain control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._rbInchmain">
+<summary>
+rbInchmain control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._ddlFamily_MOD">
+<summary>
+ddlFamily_MOD control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._lang_MOD">
+<summary>
+lang_MOD control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._vers_MOD">
+<summary>
+vers_MOD control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._ddlModel_MOD">
+<summary>
+ddlModel_MOD control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._sTool_MOD">
+<summary>
+sTool_MOD control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._ddlModel_Items_MOD">
+<summary>
+ddlModel_Items_MOD control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._StartModification">
+<summary>
+StartModification control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._QuotationListMod">
+<summary>
+QuotationListMod control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._paneltoHide1">
+<summary>
+paneltoHide1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._lang">
+<summary>
+lang control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._vers">
+<summary>
+vers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._txtFamilyPic">
+<summary>
+txtFamilyPic control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._sTool">
+<summary>
+sTool control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._itemNumbe">
+<summary>
+itemNumbe control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._startConfig">
+<summary>
+startConfig control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._paneltoHide2">
+<summary>
+paneltoHide2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._ddlCalcMode">
+<summary>
+ddlCalcMode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._paneltoHide3">
+<summary>
+paneltoHide3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._pnlRd">
+<summary>
+pnlRd control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._btnConnectToGal">
+<summary>
+btnConnectToGal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._txtMailAddress">
+<summary>
+txtMailAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._txtMailAddressNote">
+<summary>
+txtMailAddressNote control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._pnlRado">
+<summary>
+pnlRado control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._rbEmailMickiv">
+<summary>
+rbEmailMickiv control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._rbEmailNataly">
+<summary>
+rbEmailNataly control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._rbEmailTamar">
+<summary>
+rbEmailTamar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._rbEmailBilal">
+<summary>
+rbEmailBilal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._dgvItems">
+<summary>
+dgvItems control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Transition._imgLine">
+<summary>
+imgLine control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ucBettredirect._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._ServerData">
+<summary>
+ServerData control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblItemCat_a">
+<summary>
+lblItemCat_a control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblItemNoCat">
+<summary>
+lblItemNoCat control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblf">
+<summary>
+lblf control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblFormulaTFR">
+<summary>
+lblFormulaTFR control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblFormulaTFR_B">
+<summary>
+lblFormulaTFR_B control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblFormulaTFRBRANCH">
+<summary>
+lblFormulaTFRBRANCH control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblFormulaTFRBRANCH_B">
+<summary>
+lblFormulaTFRBRANCH_B control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblFormulaMKT">
+<summary>
+lblFormulaMKT control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblFormulaMKT_B">
+<summary>
+lblFormulaMKT_B control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblFormulaMKTBRANCH">
+<summary>
+lblFormulaMKTBRANCH control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblFormulaMKTBRANCH_B">
+<summary>
+lblFormulaMKTBRANCH_B control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._Label24">
+<summary>
+Label24 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblCostFormula">
+<summary>
+lblCostFormula control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblConsFormula">
+<summary>
+lblConsFormula control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblConsFormula_B">
+<summary>
+lblConsFormula_B control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._Label7">
+<summary>
+Label7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblGP">
+<summary>
+lblGP control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._Label16">
+<summary>
+Label16 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblDesc">
+<summary>
+lblDesc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._gvFactorsV">
+<summary>
+gvFactorsV control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._gvModelParametersCode">
+<summary>
+gvModelParametersCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._gvCon">
+<summary>
+gvCon control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._gvQtyfactors">
+<summary>
+gvQtyfactors control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._gvFactors">
+<summary>
+gvFactors control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._gvGen">
+<summary>
+gvGen control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._pnl1">
+<summary>
+pnl1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._gvPrices">
+<summary>
+gvPrices control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblTFRMKT">
+<summary>
+lblTFRMKT control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._Panel1">
+<summary>
+Panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._gvGen1">
+<summary>
+gvGen1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblFormulaConval">
+<summary>
+lblFormulaConval control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblFormulaPriceNet">
+<summary>
+lblFormulaPriceNet control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblFormulaPriceNetVal">
+<summary>
+lblFormulaPriceNetVal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblFormulaCon">
+<summary>
+lblFormulaCon control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblfV">
+<summary>
+lblfV control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblFormulaTFRV">
+<summary>
+lblFormulaTFRV control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblFormulaTFR_BV">
+<summary>
+lblFormulaTFR_BV control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._Label1V">
+<summary>
+Label1V control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblFormulaTFRBRANCHV">
+<summary>
+lblFormulaTFRBRANCHV control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblFormulaTFRBRANCH_BV">
+<summary>
+lblFormulaTFRBRANCH_BV control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._Label2V">
+<summary>
+Label2V control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblFormulaMKTV">
+<summary>
+lblFormulaMKTV control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblFormulaMKT_BV">
+<summary>
+lblFormulaMKT_BV control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._Label3V">
+<summary>
+Label3V control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblFormulaMKTBRANCHV">
+<summary>
+lblFormulaMKTBRANCHV control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblFormulaMKTBRANCH_BV">
+<summary>
+lblFormulaMKTBRANCH_BV control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._Label24V">
+<summary>
+Label24V control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._lblCostFormulaV">
+<summary>
+lblCostFormulaV control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactorsm._gvParams">
+<summary>
+gvParams control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.CatalogTableDetails._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.CatalogTableDetails._lblItemNoCat">
+<summary>
+lblItemNoCat control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.CatalogTableDetails._gvRulles">
+<summary>
+gvRulles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Material._wucTabs">
+<summary>
+wucTabs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Material._upPnlAll_Material">
+<summary>
+upPnlAll_Material control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Material._dlMaterialMain">
+<summary>
+dlMaterialMain control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Material._dlMaterialMain1">
+<summary>
+dlMaterialMain1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Material._lblSetMat">
+<summary>
+lblSetMat control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Material._gvMaterials">
+<summary>
+gvMaterials control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Material._btmOenQbuilder">
+<summary>
+btmOenQbuilder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Material._SelectedColor">
+<summary>
+SelectedColor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Material._SelectedForColor">
+<summary>
+SelectedForColor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Material._hfColumnRepeat">
+<summary>
+hfColumnRepeat control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Material._hfRepoprtsNames">
+<summary>
+hfRepoprtsNames control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ShowPDFReportBSON._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ShowPDFReportBSON._ajaxLoader">
+<summary>
+ajaxLoader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ShowPDFReport._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ShowPDFReport._ajaxLoader1">
+<summary>
+ajaxLoader1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.StartFB._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.StartFB._txtTimeOutType">
+<summary>
+txtTimeOutType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.UserCustomerCnt._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.UserCustomerCnt._lblError">
+<summary>
+lblError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.UserCustomerCnt._lblTitle">
+<summary>
+lblTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.UserCustomerCnt._ddlBranch">
+<summary>
+ddlBranch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.UserCustomerCnt._txtSearchAll">
+<summary>
+txtSearchAll control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.UserCustomerCnt._btnSearchAll">
+<summary>
+btnSearchAll control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.UserCustomerCnt._lblEmailtoConnect">
+<summary>
+lblEmailtoConnect control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.UserCustomerCnt._txtCustomerNumber">
+<summary>
+txtCustomerNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.UserCustomerCnt._txtBranchCode">
+<summary>
+txtBranchCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.UserCustomerCnt._txtLoggedEmail">
+<summary>
+txtLoggedEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.UserCustomerCnt._RegularExpValidEmail">
+<summary>
+RegularExpValidEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.UserCustomerCnt._txtDisplayName">
+<summary>
+txtDisplayName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.UserCustomerCnt._txtSurname">
+<summary>
+txtSurname control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.UserCustomerCnt._txtGivenName">
+<summary>
+txtGivenName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.UserCustomerCnt._gvConnect">
+<summary>
+gvConnect control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.UserCustomerCnt._unf">
+<summary>
+unf control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.UserCustomerCnt._btnActiveConnect">
+<summary>
+btnActiveConnect control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.UserCustomerCnt._btnGoHome">
+<summary>
+btnGoHome control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.UserCustomerCnt._btnActiveSave">
+<summary>
+btnActiveSave control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.MainQuotationDataReport._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.MainQuotationDataReport._scm">
+<summary>
+scm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.MainQuotationDataReport._btnShow">
+<summary>
+btnShow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.MainQuotationDataReport._txtQuotationNumber">
+<summary>
+txtQuotationNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.MainQuotationDataReport._txtBranchCode">
+<summary>
+txtBranchCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.MainQuotationDataReport._txtAS400_Line">
+<summary>
+txtAS400_Line control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.MainQuotationDataReport._txtBranchNum">
+<summary>
+txtBranchNum control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.MainQuotationDataReport._txtAS400Year">
+<summary>
+txtAS400Year control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.MainQuotationDataReport._txtLanguageId">
+<summary>
+txtLanguageId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.MainQuotationDataReport._txtReportType">
+<summary>
+txtReportType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.MainQuotationDataReport._txtStorageFolder">
+<summary>
+txtStorageFolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.MainQuotationDataReport._txtExpirationDate">
+<summary>
+txtExpirationDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.MainQuotationDataReport._txtQuotationDate">
+<summary>
+txtQuotationDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.MainQuotationDataReport._txtDateCultureStartWith">
+<summary>
+txtDateCultureStartWith control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.MainQuotationDataReport._txtNumberSuparator">
+<summary>
+txtNumberSuparator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.MainQuotationDataReport._txtselectedLanguage">
+<summary>
+txtselectedLanguage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.MainQuotationDataReport._ReportViewer1">
+<summary>
+ReportViewer1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.MainQuotationDataReport._ObjectDataSource2">
+<summary>
+ObjectDataSource2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.MainQuotationDataReport._ObjectDataSource3">
+<summary>
+ObjectDataSource3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.MainQuotationDataReport._ObjectDataSource4">
+<summary>
+ObjectDataSource4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.MainQuotationDataReport._ObjectDataSource5">
+<summary>
+ObjectDataSource5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.MainQuotationDataReport._ObjectDataSource6">
+<summary>
+ObjectDataSource6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.wucTab._btnProductType">
+<summary>
+btnProductType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.wucTab._divModel">
+<summary>
+divModel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.wucTab._lblProductType">
+<summary>
+lblProductType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.wucTab._lblProductTypeTEXT">
+<summary>
+lblProductTypeTEXT control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.wucTab._btnMaterial">
+<summary>
+btnMaterial control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.wucTab._divMaterial">
+<summary>
+divMaterial control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.wucTab._lblMaterial">
+<summary>
+lblMaterial control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.wucTab._lblMaterialTEXT">
+<summary>
+lblMaterialTEXT control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.wucTab._btnParameters">
+<summary>
+btnParameters control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.wucTab._divParameters">
+<summary>
+divParameters control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.wucTab._lblParameters">
+<summary>
+lblParameters control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.wucTab._lblParametersTEXT">
+<summary>
+lblParametersTEXT control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.wucTab._btnGetQuotation">
+<summary>
+btnGetQuotation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.wucTab._divQuotations">
+<summary>
+divQuotations control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.wucTab._lblGetQuotation">
+<summary>
+lblGetQuotation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.wucTab._lblGetQuotationTEXT">
+<summary>
+lblGetQuotationTEXT control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.wucTab._btnRunMT">
+<summary>
+btnRunMT control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.wucTab._btnRunBL">
+<summary>
+btnRunBL control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.wucTab._btnRunPT">
+<summary>
+btnRunPT control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj._Default._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.AdminFactors._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ConfiguratorBuilder._hfModelIcon_Groove_Turn">
+<summary>
+hfModelIcon_Groove_Turn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ConfiguratorBuilder._hfModelIcon_ISO_Turning">
+<summary>
+hfModelIcon_ISO_Turning control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ConfiguratorBuilder._hfModelIcon_Threading">
+<summary>
+hfModelIcon_Threading control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ConfiguratorBuilder._hfModelIcon_Milling">
+<summary>
+hfModelIcon_Milling control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ConfiguratorBuilder._hfModelIcon_Hole_Making">
+<summary>
+hfModelIcon_Hole_Making control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ConfiguratorBuilder._hfModelIcon_Hole_Reaming">
+<summary>
+hfModelIcon_Hole_Reaming control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ConfiguratorBuilder._hfModelIcon_Indexable">
+<summary>
+hfModelIcon_Indexable control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ConfiguratorBuilder._hfModelIcon_Solid">
+<summary>
+hfModelIcon_Solid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ConfiguratorBuilder._hfModelIcon_SolidEndmilsBallNose">
+<summary>
+hfModelIcon_SolidEndmilsBallNose control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ConfiguratorBuilder._hfModelIcon_SolidEndmilsSquare">
+<summary>
+hfModelIcon_SolidEndmilsSquare control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ConfiguratorBuilder._txt1">
+<summary>
+txt1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ConfiguratorBuilder._txt2">
+<summary>
+txt2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ConfiguratorBuilder._txt3">
+<summary>
+txt3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ConfiguratorBuilder._hfRepoprtsNames">
+<summary>
+hfRepoprtsNames control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ConfiguratorBuilder._wucTabs">
+<summary>
+wucTabs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ConfiguratorBuilder._upPnlAll_Config">
+<summary>
+upPnlAll_Config control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ConfiguratorBuilder._hfListViewLastSelected">
+<summary>
+hfListViewLastSelected control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ConfiguratorBuilder._lvMainApp">
+<summary>
+lvMainApp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ConfiguratorBuilder._SelectedMainIdIndex">
+<summary>
+SelectedMainIdIndex control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ConfiguratorBuilder._SelectedMainIdFamily">
+<summary>
+SelectedMainIdFamily control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ConfiguratorBuilder._btnBackBi">
+<summary>
+btnBackBi control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ConfiguratorBuilder._lvMainApp_Sub">
+<summary>
+lvMainApp_Sub control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ConfiguratorBuilder._SelectedSubIdIndex">
+<summary>
+SelectedSubIdIndex control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ConfiguratorBuilder._btnBackCi">
+<summary>
+btnBackCi control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.ConfiguratorBuilder._lvMainApp_SubSub">
+<summary>
+lvMainApp_SubSub control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.LogIn._forms1">
+<summary>
+forms1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Notification._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblAlertDeleteQut">
+<summary>
+lblAlertDeleteQut control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblAlertDeleteQut1">
+<summary>
+lblAlertDeleteQut1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblAlertDeleteQutButton">
+<summary>
+lblAlertDeleteQutButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblBacktoEditing">
+<summary>
+lblBacktoEditing control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblAlertDeleteFirsLine">
+<summary>
+lblAlertDeleteFirsLine control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblAlertDeleteQutButton1">
+<summary>
+lblAlertDeleteQutButton1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblBacktoEditing1">
+<summary>
+lblBacktoEditing1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblTitleEmailQut">
+<summary>
+lblTitleEmailQut control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblAlertEmailQut">
+<summary>
+lblAlertEmailQut control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblSerToc">
+<summary>
+lblSerToc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._txtFindSNOffer">
+<summary>
+txtFindSNOffer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._wucTabs">
+<summary>
+wucTabs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._upPnlAll_Prices">
+<summary>
+upPnlAll_Prices control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._btnSubmitMessagePrices">
+<summary>
+btnSubmitMessagePrices control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._fuFile">
+<summary>
+fuFile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._fuOrder">
+<summary>
+fuOrder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblSendTemporaryIdx">
+<summary>
+lblSendTemporaryIdx control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfMinQuantity">
+<summary>
+hfMinQuantity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._btnSendTemporaryId">
+<summary>
+btnSendTemporaryId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._btnSendTemporaryIdTech">
+<summary>
+btnSendTemporaryIdTech control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._btnFillGPHided">
+<summary>
+btnFillGPHided control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._btnDoDeleteQuotation">
+<summary>
+btnDoDeleteQuotation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._CuptureiFrame">
+<summary>
+CuptureiFrame control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._btnRefreshN">
+<summary>
+btnRefreshN control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._BsonTextQutNo">
+<summary>
+BsonTextQutNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._BsonTextQutNoX">
+<summary>
+BsonTextQutNoX control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._BsonTextID">
+<summary>
+BsonTextID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblDOCSFileId">
+<summary>
+lblDOCSFileId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblDOCSFileName">
+<summary>
+lblDOCSFileName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblDOCSFolderPath">
+<summary>
+lblDOCSFolderPath control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._AllRedy3DAlertShows">
+<summary>
+AllRedy3DAlertShows control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._txtDoTryToFindDrawing">
+<summary>
+txtDoTryToFindDrawing control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._txtDoDraw">
+<summary>
+txtDoDraw control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfSecondsAllCount">
+<summary>
+hfSecondsAllCount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfSecondsStartCount">
+<summary>
+hfSecondsStartCount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._btnDoDeleteDocumentCancel">
+<summary>
+btnDoDeleteDocumentCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._btnDoDeleteDocument">
+<summary>
+btnDoDeleteDocument control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfSubmetted">
+<summary>
+hfSubmetted control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfPricesVers">
+<summary>
+hfPricesVers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfPriceOrdered">
+<summary>
+hfPriceOrdered control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfPricesSelectedVers">
+<summary>
+hfPricesSelectedVers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfTemporaryQuotation">
+<summary>
+hfTemporaryQuotation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfRepoprtsNames">
+<summary>
+hfRepoprtsNames control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfSelectFile">
+<summary>
+hfSelectFile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfSelectedQuantity">
+<summary>
+hfSelectedQuantity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfSelectedEmail">
+<summary>
+hfSelectedEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfCustomerOrderN">
+<summary>
+hfCustomerOrderN control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfCustomerItemN">
+<summary>
+hfCustomerItemN control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfCustomerReqN">
+<summary>
+hfCustomerReqN control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfSelectedPhoneNo">
+<summary>
+hfSelectedPhoneNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfFilesCoun">
+<summary>
+hfFilesCoun control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfcapiQuoteMessage">
+<summary>
+hfcapiQuoteMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfQuotationSaved">
+<summary>
+hfQuotationSaved control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfMyQuotations">
+<summary>
+hfMyQuotations control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hf3DlineSecond">
+<summary>
+hf3DlineSecond control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hf3DlineFirst">
+<summary>
+hf3DlineFirst control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfSubmitAlertLine1">
+<summary>
+hfSubmitAlertLine1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfTheSerialNo">
+<summary>
+hfTheSerialNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfSubmitAlertLine2">
+<summary>
+hfSubmitAlertLine2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfSubmitAlertLine3">
+<summary>
+hfSubmitAlertLine3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfSubmitAlertLine4">
+<summary>
+hfSubmitAlertLine4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfSubmitAlertLine5">
+<summary>
+hfSubmitAlertLine5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfplaceanOrderTitle">
+<summary>
+hfplaceanOrderTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfplaceanOrder">
+<summary>
+hfplaceanOrder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfadddocument">
+<summary>
+hfadddocument control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfViwe">
+<summary>
+hfViwe control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hf3DlabelView">
+<summary>
+hf3DlabelView control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hf2DlabelView">
+<summary>
+hf2DlabelView control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfClose">
+<summary>
+hfClose control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfBSONfolder">
+<summary>
+hfBSONfolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfExistQ">
+<summary>
+hfExistQ control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfDeleteQ">
+<summary>
+hfDeleteQ control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfBackToEdit">
+<summary>
+hfBackToEdit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfInsertEmailAdd">
+<summary>
+hfInsertEmailAdd control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._hfDeleteQContent">
+<summary>
+hfDeleteQContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblParamsDes">
+<summary>
+lblParamsDes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lvParams">
+<summary>
+lvParams control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblQDtitle">
+<summary>
+lblQDtitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblQDtitleSM">
+<summary>
+lblQDtitleSM control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblQut">
+<summary>
+lblQut control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblQutNumber">
+<summary>
+lblQutNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblID">
+<summary>
+lblID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblItemDescription">
+<summary>
+lblItemDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblDelv">
+<summary>
+lblDelv control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblDelivery">
+<summary>
+lblDelivery control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblcurrency">
+<summary>
+lblcurrency control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblCustomerCurrency">
+<summary>
+lblCustomerCurrency control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblCreatedDate">
+<summary>
+lblCreatedDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._LblCreateDate">
+<summary>
+LblCreateDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblLastUpdate">
+<summary>
+lblLastUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblLastUpdateDate">
+<summary>
+lblLastUpdateDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblExpiryDate">
+<summary>
+lblExpiryDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblExpDate">
+<summary>
+lblExpDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblCustomerNo">
+<summary>
+lblCustomerNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblCustoName">
+<summary>
+lblCustoName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblCustomerAddress">
+<summary>
+lblCustomerAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblSubsidiary">
+<summary>
+lblSubsidiary control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblSubsAddre">
+<summary>
+lblSubsAddre control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblContactDetails">
+<summary>
+lblContactDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblISCARSubsidiary">
+<summary>
+lblISCARSubsidiary control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblSubsidiaryAddress">
+<summary>
+lblSubsidiaryAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblPaymenttTerms">
+<summary>
+lblPaymenttTerms control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblShippingMethod">
+<summary>
+lblShippingMethod control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._upPrices">
+<summary>
+upPrices control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblPriceTempAlert">
+<summary>
+lblPriceTempAlert control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._pnlViewHistory">
+<summary>
+pnlViewHistory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblViHis">
+<summary>
+lblViHis control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._pnlViewOrdered">
+<summary>
+pnlViewOrdered control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._ValidationSummary3">
+<summary>
+ValidationSummary3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._ValidationSummaryLabel">
+<summary>
+ValidationSummaryLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._gvPrices">
+<summary>
+gvPrices control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._gvPrices_Temp">
+<summary>
+gvPrices_Temp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._btnSaveQuotation">
+<summary>
+btnSaveQuotation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._pnlClient">
+<summary>
+pnlClient control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._pnlServer">
+<summary>
+pnlServer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._btnDelQut">
+<summary>
+btnDelQut control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._btnCreateSendMail2">
+<summary>
+btnCreateSendMail2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._txtFlagPricesChanged">
+<summary>
+txtFlagPricesChanged control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblQD">
+<summary>
+lblQD control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._rptLanguagesListPrice">
+<summary>
+rptLanguagesListPrice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblSelectRepLang">
+<summary>
+lblSelectRepLang control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._upPnlAll_Documents">
+<summary>
+upPnlAll_Documents control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._upPnlAll_Documentsdiv">
+<summary>
+upPnlAll_Documentsdiv control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._gvDocuments">
+<summary>
+gvDocuments control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblMaxFileSize">
+<summary>
+lblMaxFileSize control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._btmVSI">
+<summary>
+btmVSI control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._btnCreate_Report2">
+<summary>
+btnCreate_Report2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._btnSendMail">
+<summary>
+btnSendMail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._btnSendMailHT">
+<summary>
+btnSendMailHT control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._txtEmailAdd">
+<summary>
+txtEmailAdd control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._RegularExpValidEmail">
+<summary>
+RegularExpValidEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblQuotationDr">
+<summary>
+lblQuotationDr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._ifif">
+<summary>
+ifif control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._PdfView">
+<summary>
+PdfView control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._txtPDFexist">
+<summary>
+txtPDFexist control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._txtPDFexistBSON">
+<summary>
+txtPDFexistBSON control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._btnPlaceOrder">
+<summary>
+btnPlaceOrder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._PanelParamList">
+<summary>
+PanelParamList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._dgvParamList">
+<summary>
+dgvParamList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._vsMessages">
+<summary>
+vsMessages control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._btnBack">
+<summary>
+btnBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._btmDrawint3D">
+<summary>
+btmDrawint3D control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._btnCatiaDrawing">
+<summary>
+btnCatiaDrawing control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._VldUser">
+<summary>
+VldUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._pnlbson">
+<summary>
+pnlbson control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._ValidationSummary1">
+<summary>
+ValidationSummary1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._label2">
+<summary>
+label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._chkGPCOST">
+<summary>
+chkGPCOST control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._labelC">
+<summary>
+labelC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._txtCurrency">
+<summary>
+txtCurrency control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._txtPdfViewsrc4">
+<summary>
+txtPdfViewsrc4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._TabBSON">
+<summary>
+TabBSON control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._Tab2">
+<summary>
+Tab2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._Tab2OnlySesstion">
+<summary>
+Tab2OnlySesstion control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._txtAllReadyTriedtoBuildDrawing">
+<summary>
+txtAllReadyTriedtoBuildDrawing control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblSelectQutstitle">
+<summary>
+lblSelectQutstitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblSelectQutstitleS">
+<summary>
+lblSelectQutstitleS control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lstvSelectedPrice">
+<summary>
+lstvSelectedPrice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblSelectQutstitle2">
+<summary>
+lblSelectQutstitle2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblPlaceanOrderAttachFile">
+<summary>
+lblPlaceanOrderAttachFile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblApprovalDocs">
+<summary>
+lblApprovalDocs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblSelect">
+<summary>
+lblSelect control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._txtSelectMail">
+<summary>
+txtSelectMail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lbleadP">
+<summary>
+lbleadP control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._txtSelectPhoneNo">
+<summary>
+txtSelectPhoneNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblCustomerOrderN1">
+<summary>
+lblCustomerOrderN1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._txtCustomerOrderN1">
+<summary>
+txtCustomerOrderN1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblCustomerItemN2">
+<summary>
+lblCustomerItemN2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._txtCustomerItemN2">
+<summary>
+txtCustomerItemN2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._lblCustomerAdditionalReq">
+<summary>
+lblCustomerAdditionalReq control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._txtCustomerAdditionalReq">
+<summary>
+txtCustomerAdditionalReq control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.Prices._btnCancelSelectQuantity">
+<summary>
+btnCancelSelectQuantity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._wucTabs">
+<summary>
+wucTabs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._lblSliderId">
+<summary>
+lblSliderId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._RullsCount">
+<summary>
+RullsCount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._lblParamsDes">
+<summary>
+lblParamsDes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._btnClearAll">
+<summary>
+btnClearAll control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._lvParams">
+<summary>
+lvParams control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._divmyDivRightLastF">
+<summary>
+divmyDivRightLastF control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._btnSubmitMessagePricesBuild">
+<summary>
+btnSubmitMessagePricesBuild control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._divmyDivRightLast">
+<summary>
+divmyDivRightLast control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._divLstV">
+<summary>
+divLstV control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._lblT1">
+<summary>
+lblT1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._imgGalNote">
+<summary>
+imgGalNote control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._lblLGI">
+<summary>
+lblLGI control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._btnSaveQuotation">
+<summary>
+btnSaveQuotation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._btnDiscardChanges">
+<summary>
+btnDiscardChanges control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._pnlDife">
+<summary>
+pnlDife control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._btnLogOnNORegistration">
+<summary>
+btnLogOnNORegistration control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._lblValidation">
+<summary>
+lblValidation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._divmyDivRight">
+<summary>
+divmyDivRight control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._lblCurrnetParameterName">
+<summary>
+lblCurrnetParameterName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._PlaceHolder1">
+<summary>
+PlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._ph_Export">
+<summary>
+ph_Export control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._lblContactUs">
+<summary>
+lblContactUs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._txtMailName">
+<summary>
+txtMailName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._lblMailName">
+<summary>
+lblMailName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._txtMailEmail">
+<summary>
+txtMailEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._lblMailEmail">
+<summary>
+lblMailEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._txtMailCountry">
+<summary>
+txtMailCountry control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._txtMailCompanyName">
+<summary>
+txtMailCompanyName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._txtMailMessage">
+<summary>
+txtMailMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._btnSubmitMessage">
+<summary>
+btnSubmitMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._hdnScrollTop">
+<summary>
+hdnScrollTop control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._txthdn">
+<summary>
+txthdn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._divRulls">
+<summary>
+divRulls control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._lblLastCurrentparameterIndex">
+<summary>
+lblLastCurrentparameterIndex control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._lblisEditMode">
+<summary>
+lblisEditMode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._lblCurrentParameterIndex">
+<summary>
+lblCurrentParameterIndex control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._pnlNote">
+<summary>
+pnlNote control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._Image1">
+<summary>
+Image1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._txtRemark">
+<summary>
+txtRemark control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._pnlRulles">
+<summary>
+pnlRulles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._divslider">
+<summary>
+divslider control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._btnMinValueRange">
+<summary>
+btnMinValueRange control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._btnMaxValueRange">
+<summary>
+btnMaxValueRange control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._pnlSetParam">
+<summary>
+pnlSetParam control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._txtValue">
+<summary>
+txtValue control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._btnSelectParam">
+<summary>
+btnSelectParam control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._txtValue0">
+<summary>
+txtValue0 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._txtSliderStepVal">
+<summary>
+txtSliderStepVal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._txtSliderMaxVal">
+<summary>
+txtSliderMaxVal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._txtSliderStartVal">
+<summary>
+txtSliderStartVal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._txtSliderMinVal">
+<summary>
+txtSliderMinVal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._divGridRulls">
+<summary>
+divGridRulls control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._dgvRulles">
+<summary>
+dgvRulles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._VldUser">
+<summary>
+VldUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._ImageLeftBoderID">
+<summary>
+ImageLeftBoderID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._ImgMainImageL">
+<summary>
+ImgMainImageL control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._ImgMainImageRID">
+<summary>
+ImgMainImageRID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._ImgMainImageR">
+<summary>
+ImgMainImageR control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._lblDC">
+<summary>
+lblDC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._ImgLogoImage">
+<summary>
+ImgLogoImage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._lblCookie">
+<summary>
+lblCookie control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._lblForCheck">
+<summary>
+lblForCheck control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._dgvParamList">
+<summary>
+dgvParamList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QBuilder._hfRepoprtsNames">
+<summary>
+hfRepoprtsNames control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._lblAlertPriceCh2">
+<summary>
+lblAlertPriceCh2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._lblVVqut">
+<summary>
+lblVVqut control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._lblAlertPriceCh1">
+<summary>
+lblAlertPriceCh1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._upPnlAll_QutList">
+<summary>
+upPnlAll_QutList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._lblToDuplicateBC">
+<summary>
+lblToDuplicateBC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._lblToDuplicateQutNo">
+<summary>
+lblToDuplicateQutNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._lblToRenewBC">
+<summary>
+lblToRenewBC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._lblToRenewQutNo">
+<summary>
+lblToRenewQutNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._lblDeleteBranchCode">
+<summary>
+lblDeleteBranchCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._lblDeleteQuotationNo">
+<summary>
+lblDeleteQuotationNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._btnDuplicateQuotation">
+<summary>
+btnDuplicateQuotation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._btnRenewQuotation">
+<summary>
+btnRenewQuotation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._lblFolderPath">
+<summary>
+lblFolderPath control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._selecteddisplayType">
+<summary>
+selecteddisplayType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._btnRedirectPrices">
+<summary>
+btnRedirectPrices control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._hfRepoprtsNames">
+<summary>
+hfRepoprtsNames control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._wucTabs">
+<summary>
+wucTabs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._lblmql">
+<summary>
+lblmql control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._txtSearchAll">
+<summary>
+txtSearchAll control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._btnSearchAll">
+<summary>
+btnSearchAll control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._chkSearchOrderd">
+<summary>
+chkSearchOrderd control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._chkSearchExpired">
+<summary>
+chkSearchExpired control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._chkSearchSubmit">
+<summary>
+chkSearchSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._txtConnect">
+<summary>
+txtConnect control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._AddtoMyQuotations">
+<summary>
+AddtoMyQuotations control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._divBS">
+<summary>
+divBS control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._ddlBranch">
+<summary>
+ddlBranch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._divBC">
+<summary>
+divBC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._ddlCustomer">
+<summary>
+ddlCustomer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._lvQuotationListA">
+<summary>
+lvQuotationListA control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._hfGridQutNo">
+<summary>
+hfGridQutNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._hfGridItemDesc">
+<summary>
+hfGridItemDesc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._hfQuotationDate">
+<summary>
+hfQuotationDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._hfExpiryDate">
+<summary>
+hfExpiryDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._hfLastUpdate">
+<summary>
+hfLastUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._hfReportLanguage">
+<summary>
+hfReportLanguage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._hfStatus">
+<summary>
+hfStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._hfItemNumber">
+<summary>
+hfItemNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._hfCustomerName">
+<summary>
+hfCustomerName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._hfduplicateTitle">
+<summary>
+hfduplicateTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._hfduplicateMessage">
+<summary>
+hfduplicateMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._hfduplicateButton">
+<summary>
+hfduplicateButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._hfduplicateButtonCancel">
+<summary>
+hfduplicateButtonCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._hfPrevious">
+<summary>
+hfPrevious control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._hfNext">
+<summary>
+hfNext control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.QuotationsList._hfFirst">
+<summary>
+hfFirst control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._SM_Mastr">
+<summary>
+SM_Mastr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._upPnlAll">
+<summary>
+upPnlAll control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._txtMessagetxtMailName">
+<summary>
+txtMessagetxtMailName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._txtMessagetxtMailEmail">
+<summary>
+txtMessagetxtMailEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._txtMessagetxtMailCountry">
+<summary>
+txtMessagetxtMailCountry control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._txtMessagetxtMailCompanyName">
+<summary>
+txtMessagetxtMailCompanyName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._txtMessageContactU">
+<summary>
+txtMessageContactU control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._txtMessageFeedBack">
+<summary>
+txtMessageFeedBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._txthideshlogbutton">
+<summary>
+txthideshlogbutton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._txthideshlogbuttonSelected">
+<summary>
+txthideshlogbuttonSelected control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._txttxtdivMyQut2">
+<summary>
+txttxtdivMyQut2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._lblCustomerNo">
+<summary>
+lblCustomerNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._lblCustoName">
+<summary>
+lblCustoName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._lblCustomerAddress">
+<summary>
+lblCustomerAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._lblISCARSubsidiary">
+<summary>
+lblISCARSubsidiary control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._lblSubsidiaryAddress">
+<summary>
+lblSubsidiaryAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._lblPaymenttTerms">
+<summary>
+lblPaymenttTerms control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._lblShippingMethod">
+<summary>
+lblShippingMethod control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._lblsalesperson">
+<summary>
+lblsalesperson control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._lblsalespersonEmail">
+<summary>
+lblsalespersonEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._lbldeskUser">
+<summary>
+lbldeskUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._lbldeskUserEmail">
+<summary>
+lbldeskUserEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._lbltechnicalPerson">
+<summary>
+lbltechnicalPerson control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._lbltechnicalPersonEmail">
+<summary>
+lbltechnicalPersonEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hfMyAccountbtn">
+<summary>
+hfMyAccountbtn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hfMyQuotations">
+<summary>
+hfMyQuotations control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hfbtn_ContactUs">
+<summary>
+hfbtn_ContactUs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hfbtn_Feedback">
+<summary>
+hfbtn_Feedback control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hfbtnUserG2">
+<summary>
+hfbtnUserG2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hffontNewQ">
+<summary>
+hffontNewQ control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hfLogOut">
+<summary>
+hfLogOut control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hfLogIn">
+<summary>
+hfLogIn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hfMyAccountDetails">
+<summary>
+hfMyAccountDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hfCustomerNumber">
+<summary>
+hfCustomerNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hfCustomerName">
+<summary>
+hfCustomerName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hfCustomerAddress">
+<summary>
+hfCustomerAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hfSubSidiary">
+<summary>
+hfSubSidiary control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hfSubsidaryAddress">
+<summary>
+hfSubsidaryAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hfContactDetails">
+<summary>
+hfContactDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hfPaymentTerms">
+<summary>
+hfPaymentTerms control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hfShippingMethod">
+<summary>
+hfShippingMethod control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hfSalesPerson">
+<summary>
+hfSalesPerson control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hfEmail">
+<summary>
+hfEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._HfDeskUser">
+<summary>
+HfDeskUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._HfTechnicalPerson">
+<summary>
+HfTechnicalPerson control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hftCountry">
+<summary>
+hftCountry control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hftCompanyName">
+<summary>
+hftCompanyName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hftMessage">
+<summary>
+hftMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hftContactUs">
+<summary>
+hftContactUs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hftImprove">
+<summary>
+hftImprove control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hftrelevantRes">
+<summary>
+hftrelevantRes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hftiQuoteAdvisor">
+<summary>
+hftiQuoteAdvisor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hftiwouldyouimprove">
+<summary>
+hftiwouldyouimprove control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hfbSubmit">
+<summary>
+hfbSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hfbSend">
+<summary>
+hfbSend control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hfbCancel">
+<summary>
+hfbCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hfPingCaption">
+<summary>
+hfPingCaption control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hfLanguageselected">
+<summary>
+hfLanguageselected control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hfCloseMaster">
+<summary>
+hfCloseMaster control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._btnLanguageselected">
+<summary>
+btnLanguageselected control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hfselectedBC">
+<summary>
+hfselectedBC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._btnloginUserName">
+<summary>
+btnloginUserName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._btnloginUserNameVF">
+<summary>
+btnloginUserNameVF control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._divLoginout">
+<summary>
+divLoginout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._rptLanguagesListCaptions">
+<summary>
+rptLanguagesListCaptions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._lblMasterReporCountry">
+<summary>
+lblMasterReporCountry control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._divUnit">
+<summary>
+divUnit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._unitSwitch">
+<summary>
+unitSwitch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._btnUnit">
+<summary>
+btnUnit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._btnUnitC">
+<summary>
+btnUnitC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._lblMasterEc">
+<summary>
+lblMasterEc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._Label12">
+<summary>
+Label12 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hlTransition">
+<summary>
+hlTransition control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hlPostBachAdmin">
+<summary>
+hlPostBachAdmin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._hlUserCustomerConnect">
+<summary>
+hlUserCustomerConnect control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._ImageButton1">
+<summary>
+ImageButton1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._btnOpenHome">
+<summary>
+btnOpenHome control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._UpdatePanel3">
+<summary>
+UpdatePanel3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._ph_Export">
+<summary>
+ph_Export control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._divMyQut2">
+<summary>
+divMyQut2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._btnCloseMyQutDiv">
+<summary>
+btnCloseMyQutDiv control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._lblTmyQut">
+<summary>
+lblTmyQut control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._lblTpleaseLogin">
+<summary>
+lblTpleaseLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._btnDivLogIn">
+<summary>
+btnDivLogIn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._lblTinsertoffer">
+<summary>
+lblTinsertoffer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._txtFindSN">
+<summary>
+txtFindSN control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._btnFind">
+<summary>
+btnFind control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._divHelpMnu">
+<summary>
+divHelpMnu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._pnlGuideTemp">
+<summary>
+pnlGuideTemp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._pnlGuide">
+<summary>
+pnlGuide control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._pnlinfGud1">
+<summary>
+pnlinfGud1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._btninfoGud1">
+<summary>
+btninfoGud1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._pnlinfGud2">
+<summary>
+pnlinfGud2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._btninfoGud2">
+<summary>
+btninfoGud2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._pnlinfGud3">
+<summary>
+pnlinfGud3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._btninfoGud3">
+<summary>
+btninfoGud3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._pnlinfGud4">
+<summary>
+pnlinfGud4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._btninfoGud4">
+<summary>
+btninfoGud4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._lblBranchCode">
+<summary>
+lblBranchCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._btnOpenQuotations">
+<summary>
+btnOpenQuotations control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._btnStartNewQ">
+<summary>
+btnStartNewQ control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._ContentPlaceHolderMain">
+<summary>
+ContentPlaceHolderMain control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._ContentPlaceHolderTemp">
+<summary>
+ContentPlaceHolderTemp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._Footer1Ens">
+<summary>
+Footer1Ens control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._Footer2Ens">
+<summary>
+Footer2Ens control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._Footer3Ens">
+<summary>
+Footer3Ens control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._Footer4Ens">
+<summary>
+Footer4Ens control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._lblUserInformation">
+<summary>
+lblUserInformation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._btnLogOnWithoutRegistration">
+<summary>
+btnLogOnWithoutRegistration control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._btnLogOnWithSave">
+<summary>
+btnLogOnWithSave control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._btnSendFeedback">
+<summary>
+btnSendFeedback control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._btnReportSubmitID">
+<summary>
+btnReportSubmitID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._txtFeed_Bpic">
+<summary>
+txtFeed_Bpic control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._txtFeed_Apic">
+<summary>
+txtFeed_Apic control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._UpdateProgress1">
+<summary>
+UpdateProgress1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._btnLogout">
+<summary>
+btnLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._reBC">
+<summary>
+reBC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._ttrErepTr">
+<summary>
+ttrErepTr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._reBCDcod">
+<summary>
+reBCDcod control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:semiPrj.SemiSTDMaster._heBC">
+<summary>
+heBC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,1524 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="SemiSTDMaster.master.vb" Inherits="semiPrj.SemiSTDMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <script src="../jq/jquery-3.5.0.min.js"></script>
+
+
+    <title>iQuote</title>
+    <link rel="icon" type="image/ico" href="../media/Icons/IQ.png" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link rel="stylesheet" href="~/App_Themes/LTR/cssSemiGlobal-min.css" />
+
+
+
+    <link href="../App_Themes/LTR/jquery-confirm.min.css" rel="stylesheet" />
+
+    <script src="../jq/jquery-confirm.min.js"></script>
+
+    <link href="../jq/jquery-ui-min.css" rel="stylesheet" />
+
+    <script src="../jq/jquery-ui-min-n.js"></script>
+
+    <link href="../App_Themes/LTR/mnueBurger.css" rel="stylesheet" />
+
+
+    <style type="text/css">
+
+        .text-center{
+            text-align:center;
+        }
+
+        .flagcounty {
+            width: 28px;
+        }
+
+        .flagDiv {
+            /*display:none;*/
+            background-color: white;
+            height: 200px;
+            overflow: auto;
+        }
+
+        .ImgWaitcss {
+        }
+
+        @media screen and (max-width: 1000px) {
+
+            .ImgWaitcss {
+                width: 100px;
+            }
+        }
+
+
+
+        .ReshlTransition {
+            display: inline !important;
+        }
+
+        .ReshlTransitionS {
+            display: none !important;
+        }
+
+        @media screen and (max-width: 1000px) {
+
+            .ReshlTransition {
+                display: none !important;
+            }
+        }
+
+
+        @media screen and (max-width: 1000px) {
+
+            .ReshlTransitionS {
+                display: inline !important;
+            }
+        }
+
+
+
+        .header {
+            position: absolute;
+        }
+
+        .Logincss {
+            /*padding-left: 38px;*/
+            padding-top: 5px;
+            border-style: none;
+            /*float: right;*/
+            /*text-align: left;*/
+            vertical-align: middle;
+            /*width: 90px;*/
+            cursor: pointer;
+            background-color: transparent;
+            /*visibility:hidden;*/
+            font-size: 15px;
+            color: #1d5095 !important;
+            font-family: Oswald,Calibri,Arial !important;
+            z-index: 1000;
+            /*margin-right: 10px*/
+            width: 70%
+        }
+
+        @media screen and (max-width: 1024px) {
+
+            .Logincss {
+                font-size: 1px !important;
+                height: 30px;
+            }
+        }
+
+        .LogincssX {
+            padding-top: 1px;
+            border-style: none;
+            border-color: lightgray;
+            border-width: 1px;
+            float: right;
+            text-align: right;
+            vertical-align: top;
+            width: 20px;
+            /*height: 20px;*/
+            cursor: pointer;
+            background-color: transparent;
+        }
+
+        .DisplayItemForMobile {
+            display: block !important;
+        }
+
+        @media screen and (max-width: 1024px) {
+
+            .DisplayItemForMobile {
+                display: none !important;
+            }
+        }
+
+        .btnDlgDecline {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: white !important;
+        }
+
+        .btnDlgDeclineBlack {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: black !important;
+        }
+
+
+        .btnDlgDeclineSend {
+            position: absolute;
+            bottom: 2px;
+            right: 20px;
+        }
+
+
+        .MessageTitleLabel {
+            border: none;
+            left: 5.41%;
+            right: 9.24%;
+            top: 19.51%;
+            bottom: 72.47%;
+            font-size: 15px;
+            line-height: 23px;
+            color: #000000;
+            background-color: white;
+            width: 304px;
+        }
+
+        .MessageTitleLabel2 {
+            border: none;
+            left: 5.41%;
+            right: 9.24%;
+            top: 19.51%;
+            bottom: 72.47%;
+            line-height: 23px;
+            color: #000000;
+            background-color: white;
+            width: 350px;
+        }
+
+
+        .bodyOverF {
+            overflow: hidden
+        }
+
+        /*        @media screen and (max-width: 1000px) {
+            .bodyOverF {
+                overflow: auto;
+            }
+        }*/
+
+        .custom-dialog {
+            position: absolute;
+            background-color: white !important;
+        }
+
+        .mainLeftRightPadding {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        @media screen and (max-width: 1024px) {
+
+            .mainLeftRightPadding {
+                padding-left: 1px;
+                padding-right: 1px;
+            }
+        }
+
+
+        .csNewQb {
+            background-color: white;
+            color: #12498a;
+            font-weight: bold;
+            background-color: white;
+            background-color: transparent;
+        }
+
+        .csNewQbInput {
+            background-color: white;
+            color: #12498a;
+            font-weight: bold;
+            border-left: none;
+            background-color: white;
+        }
+    </style>
+
+    <script>
+
+
+
+        try {
+
+            checkCookie()
+            function getCookie(cname) {
+                let name = cname + "=";
+                let ca = document.cookie.split(';');
+                for (let i = 0; i < ca.length; i++) {
+                    let c = ca[i];
+                    while (c.charAt(0) == ' ') {
+                        c = c.substring(1);
+                    }
+                    if (c.indexOf(name) == 0) {
+                        return c.substring(name.length, c.length);
+                    }
+                }
+                return "";
+            }
+            function checkCookie() {
+                let urlLink;
+                if (window.location.href.includes('localhost'))
+                    urlLink = "http://localhost:60377/"
+                else
+                    if (window.location.href.includes('iquote.ssl.imc-companies'))
+                        urlLink = "https://iquote.ssl.imc-companies.com/"
+                    else
+                        if (window.location.href.includes('dmstest'))
+                            urlLink = "http://dmstest/iQuote/"
+                let etoedfrku = getCookie("etoedfrku");
+                let HkhtrycdFg = getCookie("HkhtrycdFg");
+                if (etoedfrku != "") {
+                    if (etoedfrku != HkhtrycdFg) {
+                        window.open(urlLink, "_self")
+                    }
+                }
+            }
+        }
+        catch (error) {
+            window.open("https://iquote.ssl.imc-companies.com/", "_self")
+        }
+
+    </script>
+
+
+    <script>
+
+        function OpenUserG(tType) {
+
+            if (tType == 'A')
+                window.open("../UserGuide/iQuote-UserGuideTemp-" + document.getElementById("lblBranchCode").innerHTML + ".PDF", "_blank")
+            else
+                window.open("../UserGuide/iQuote-UserGuide-" + document.getElementById("lblBranchCode").innerHTML + ".PDF", "_blank")
+        }
+
+        $(function () {
+
+            if ($("[id$=btnUnit]").val() == 'I') {
+                $('#chkUnit').prop('checked', false);
+                $('.slider.round').css({ 'padding-left': '30px' });
+                $('#txtUnit').text('inch');
+            }
+            if ($("[id$=btnUnit]").val() == 'M') {
+                $('#chkUnit').prop('checked', true);
+                $('#txtUnit').text('mm');
+            }
+
+
+            $('.switch').click(function () {
+                if (window.location.href.indexOf("Prices.aspx") > -1 || window.location.href.indexOf("QBuilder.aspx") > -1 || window.location.href.indexOf("QuotationsList.aspx") > -1) {
+                    return false;
+                }
+                else {
+                    if ($("[id$=btnUnit]").val() == 'I') {
+                        $("[id$=btnUnit]").val('M');
+                        $('#txtUnit').text('mm');
+                    }
+                    else {
+                        $("[id$=btnUnit]").val('I');
+                        $('#txtUnit').text('inch');
+                    }
+                }
+
+                if ($("[id$=btnUnit]").val() == 'I') {
+                    $('#chkUnit').prop('checked', false);
+                    $('.slider.round').css({ 'padding-left': '30px' });
+                }
+                else {
+                    $('#chkUnit').prop('checked', true);
+                    $('.slider.round').css({ 'padding-left': '10px' });
+                }
+
+                btn = document.getElementById("btnUnitC");
+                btn.click();
+            });
+
+        });
+
+
+
+        function CusomerAlertForLoginFailedTimeOut(b,bcTos) {
+            setTimeout(CusomerAlertForLoginFailed(b,bcTos), 1000);
+        }
+
+
+        function CusomerAlertForLoginFailed(b, bcTos) {
+
+            var Msgcontent = '<div id="dddFk" style="width: 100%;overflow:hidden; height: 350px; padding: 0px !important; background-image: url(../media/Icons/CreatU.png); background-repeat: no-repeat; background-size: 230px; background-position: right; background-position-y: top">' +
+                '<div style="text-align: left; width: 100%;overflow:hidden; margin-left: 10px; margin-top: 5px; "><input type="text" disabled="disabled" class="FontFamily MainSubTitle" value="iQuote Message"></div>' +
+                '<div style="text-align: left; width: 100%;overflow:hidden; margin-left: 10px; margin-top: 5px;">' +
+                '<div style="text-align: left; margin-left: 10px; margin-top: 5px;"><input type="text" style="font-weight:bold" disabled="disabled" class="MailfirstRowStyle MessageTitleLabel2" value="Dear Customer," ></div>' +
+                '<div style="text-align: left; margin-left: 10px; margin-top: 10px;"><input type="text" class="MailGeneralBodyRowStyl MessageTitleLabel2" value="Thank you for using Iscar IQUOTE, the fastest" disabled="disabled" ></div>' +
+                '<div style="text-align: left; margin-left: 10px; margin-top: 5px;"><input type="text" class="MailGeneralBodyRowStyle MessageTitleLabel2" value="way to build and quote your own Semi Standard" disabled="disabled" ></div>' +
+                '<div style="text-align: left; margin-left: 10px; margin-top: 5px;"><input type="text" class="MailGeneralBodyRowStyle MessageTitleLabel2" value="tools." disabled="disabled" ></div>' +
+                '<div style="text-align: left; margin-left: 10px; margin-top: 5px;"><input type="text" class="MailGeneralBodyRowStyle MessageTitleLabel2" value="We got your request to create a new account in" disabled="disabled" ></div>' +
+                '<div style="text-align: left; margin-left: 10px; margin-top: 5px;"><input type="text" class="MailGeneralBodyRowStyle MessageTitleLabel2" value="our system," disabled="disabled" ></div>' +
+                '<div style="text-align: left; margin-left: 10px; margin-top: 5px;"><input type="text" class="MailGeneralBodyRowStyle MessageTitleLabel2" value="' + b + ' subsidiary will reach out to you shortly to" disabled="disabled" ></div>' +
+                '<div style="text-align: left; margin-left: 10px; margin-top: 5px;"><input type="text" class="MailGeneralBodyRowStyle MessageTitleLabel2" value="open an account and grant you the ability to" disabled="disabled" ></div>' +
+                '<div style="text-align: left; margin-left: 10px; margin-top: 5px;"><input type="text" class="MailGeneralBodyRowStyle MessageTitleLabel2" value="get a commercial offer." disabled="disabled" ></div>' +
+                '</div></div>';
+            if (bcTos == "IG") {
+                Msgcontent = '<div id="dddFk" style="width: 100%;overflow:hidden; height: 350px; padding: 0px !important; background-image: url(../media/Icons/CreatU.png); background-repeat: no-repeat; background-size: 230px; background-position: right; background-position-y: top">' +
+                    '<div style="text-align: left; width: 100%;overflow:hidden; margin-left: 10px; margin-top: 5px; "><input type="text" disabled="disabled" class="FontFamily MainSubTitle" value="iQuote-Nachricht"></div>' +
+                    '<div style="text-align: left; width: 100%;overflow:hidden; margin-left: 10px; margin-top: 5px;">' +
+                    '<div style="text-align: left; margin-left: 10px; margin-top: 5px;"><input type="text" style="font-weight:bold" disabled="disabled" class="MailfirstRowStyle MessageTitleLabel2" value="Lieber Kunde," ></div>' +
+                    '<div style="text-align: left; margin-left: 10px; margin-top: 10px;"><input type="text" class="MailGeneralBodyRowStyl MessageTitleLabel2" value="Vielen Dank für die Verwendung von Iscar IQUOTE, dem schnellsten" disabled="disabled" ></div>' +
+                    '<div style="text-align: left; margin-left: 10px; margin-top: 5px;"><input type="text" class="MailGeneralBodyRowStyle MessageTitleLabel2" value="wMöglichkeit, Ihren eigenen Semi-Standard zu erstellen und zu zitieren" disabled="disabled" ></div>' +
+                    '<div style="text-align: left; margin-left: 10px; margin-top: 5px;"><input type="text" class="MailGeneralBodyRowStyle MessageTitleLabel2" value="Werkzeuge." disabled="disabled" ></div>' +
+                    '<div style="text-align: left; margin-left: 10px; margin-top: 5px;"><input type="text" class="MailGeneralBodyRowStyle MessageTitleLabel2" value="Wir haben Ihre Anfrage erhalten, ein neues Konto zu erstellen" disabled="disabled" ></div>' +
+                    '<div style="text-align: left; margin-left: 10px; margin-top: 5px;"><input type="text" class="MailGeneralBodyRowStyle MessageTitleLabel2" value="our system," disabled="disabled" ></div>' +
+                    '<div style="text-align: left; margin-left: 10px; margin-top: 5px;"><input type="text" class="MailGeneralBodyRowStyle MessageTitleLabel2" value="' + b + ' Die Tochtergesellschaft wird sich in Kürze bei Ihnen melden" disabled="disabled" ></div>' +
+                    '<div style="text-align: left; margin-left: 10px; margin-top: 5px;"><input type="text" class="MailGeneralBodyRowStyle MessageTitleLabel2" value="ein Konto eröffnen und Ihnen die Möglichkeit geben" disabled="disabled" ></div>' +
+                    '<div style="text-align: left; margin-left: 10px; margin-top: 5px;"><input type="text" class="MailGeneralBodyRowStyle MessageTitleLabel2" value="ein kommerzielles Angebot einholen." disabled="disabled" ></div>' +
+                    '</div></div>';
+            };
+
+            $.confirm({
+                useBootstrap: false,
+                boxWidth: '620px',
+                title: false,
+                content: Msgcontent,
+                buttons: {
+                    somethingElse: {
+                        text: document.getElementById('hfCloseMaster').value,
+                        btnClass: 'btn-blueD btnDlgDeclineSend',
+                        action: function () {
+                        }
+                    },
+                    Cancel:
+                    {
+                        text: 'X',
+                        btnClass: 'btnDlgDecline',
+                        action: function () {
+                        }
+                    }
+                }
+            }
+            )
+        }
+
+        function SerialNumberNotExistAlert() {
+
+            $.dialog({
+                useBootstrap: false,
+                title: '<div class="AlertTitleStyle" >Warning!</div>',
+                content: '<div class="AlertBodyStyle" >The Number you have entered does not exist.</div>'
+            });
+        }
+
+
+
+
+        function OpenQuotations() {
+
+            if (document.getElementById("txttxtdivMyQut2").value != "FALSE") {
+                document.getElementById("btnOpenQuotations").click();
+            }
+            return false;
+        }
+
+        function LogOut() {
+            if (document.getElementById("btnLogOutdivshow").value != '') {
+                cancelonbeforeunload();
+                document.getElementById("divLoginout").style.visibility = "visible";
+            }
+
+        }
+        function LogOutInput() {
+            cancelonbeforeunload();
+            document.getElementById("btnLogout").click();
+        }
+        function ClosLogoutDiv() {
+            document.getElementById("divLoginout").style.visibility = "hidden";
+        }
+
+
+        function SetLogOutUserName(s) {
+            document.getElementById("btnLogOutdivshow").value = s;
+            document.getElementById("btnLogOutdivshow").style.width = "78%";
+            document.getElementById("divLogOutName").style.width = "162px";
+            if (window.innerWidth > 1024) {
+                document.getElementById("divLogOutName").style.backgroundImage = "url('../media/Icons/LiginIcoEL.png')";
+
+            }
+            else {
+                //document.getElementById("divLogOutName").style.backgroundImage = "url('../media/Icons/LiginIcoEmenu.png')";
+                document.getElementById("divLogOutName").style.width = "";
+
+            }
+        }
+
+        function hideshlogbutton(sSh) {
+            try {
+
+                if (document.getElementById("txthideshlogbutton").value != '') {
+                    SetLogOutUserName(document.getElementById("txthideshlogbutton").value);
+                };
+            }
+            catch (error) {
+            }
+            try {
+                const queryString = window.location.search;
+                const params = new URLSearchParams(queryString);
+
+                let paramValue = $('#heBC').text();
+                if (paramValue == "") {
+                    paramValue = "ZZ"
+                };
+
+                document.getElementById("currentflag").src = "../media/flags/" + paramValue + ".svg"
+            }
+            catch (error) {
+              //  document.getElementById("currentflag").src = "../media/flags/ZZ.svg"
+            }
+        }
+
+        function HideLastDiv() {
+            document.getElementById("ContentPlaceHolderMain_divmyDivRightLast").style.visibility = "hidden";
+        }
+
+        function MessageEnter_Pressed() {
+            if (event.keyCode == 13) {
+                window.event.preventDefault();
+                window.event.stopImmediatePropagation();
+                var _val = window.event.target.value;
+                window.event.target.value = _val + '\n';
+            }
+        }
+    </script>
+
+    <script>
+
+        function cancelonbeforeunload() {
+            window.onbeforeunload = null;
+        }
+
+    </script>
+    <script type="text/javascript">
+
+
+        function ShowHelp() {
+            document.getElementById("divHelp").style.visibility = "visible";
+        };
+
+        function HideHelp() {
+            document.getElementById("divHelp").style.visibility = "hidden";
+        };
+
+        function CopyMessageText() {
+            document.getElementById('txtMessageContactU').value = document.getElementById('w3review').value;
+            document.getElementById('txtMessageContactU').value.replace(/\n/g, '<br>').replace('&', '%26');
+            document.getElementById('txtMessagetxtMailName').value = document.getElementById('txtMailName1').value;
+            document.getElementById('txtMessagetxtMailEmail').value = document.getElementById('txtMailEmail1').value;
+            document.getElementById('txtMessagetxtMailCountry').value = document.getElementById('txtMailCountry1').value;
+            document.getElementById('txtMessagetxtMailCompanyName').value = document.getElementById('txtMailCompanyName1').value;
+
+            document.getElementById('w3review').value = '';
+            document.getElementById('txtMailName1').value = '';
+            document.getElementById('txtMailEmail1').value = '';
+            document.getElementById('txtMailCountry1').value = '';
+            document.getElementById('txtMailCompanyName1').value = '';
+
+        }
+        function CopyMessageTextS() {
+            document.getElementById('txtMessageFeedBack').value = document.getElementById('wreviewFeed').value;
+            document.getElementById('wreviewFeed').value = ''
+        }
+
+        function ContactUs() {
+            let hfcCompanyName = document.getElementById('hftCompanyName').value;
+            let hfcMessage = document.getElementById('hftMessage').value;
+            let hfcContactUs = document.getElementById('hftContactUs').value;
+            let hfcount = document.getElementById('hftCountry').value;
+            let hfEmail = document.getElementById('hfEmail').value;
+            let hfbSubmit = document.getElementById('hfbSubmit').value;
+            document.getElementById("divHelp").style.visibility = "hidden";
+            $.confirm({
+                useBootstrap: false,
+                boxWidth: '700px',
+                title: '<div style="text-align: left; width: 100%; padding-left: 10px; padding-top: 5px; "><input type="text" disabled="disabled" ID="lblContactUs1" class="FontFamily MainSubTitle" value="' + hfcContactUs + '"/></div>',
+                content: '<div id="ph_Help" style="width:650px !important">' +
+                    '<div style="text-align: left; padding-left: 10px; padding-top: 10px;"><input type="text" disabled="disabled" class="FontFamilyRoboto FontSizeRoboto13 MessageTitleLabel" value="Name *"/></div>' +
+                    '<div style="text-align: left; padding-left: 10px; padding-top: 0px;">' +
+                    '<input type="text" ID="txtMailName1" class="FontFamilyRoboto FontSizeRoboto13 MessageTxtN" />' +
+                    '&nbsp;<input type="text" ID="lblMailName" value="" class="FontFamily validSumcss FontFamilyRoboto FontSizeRoboto15 BorderNone" readonly="readonly"/>' +
+                    '</div>' +
+                    '<div style="text-align: left; padding-left: 10px; padding-top: 10px;"><input type="text" class="FontFamilyRoboto FontSizeRoboto13 MessageTitleLabel" value="' + hfEmail + ' *" disabled="disabled"/></div>' +
+                    '<div style="text-align: left; padding-left: 10px; padding-top: 0px;">' +
+                    '<input type="text" ID="txtMailEmail1" class="FontFamilyRoboto FontSizeRoboto13 MessageTxtN" />' +
+                    '&nbsp;<input type="text" ID="lblMailEmail" value="" class="FontFamily validSumcss FontFamilyRoboto FontSizeRoboto15 BorderNone" readonly="readonly"/>' +
+                    '</div>' +
+                    '<div style="text-align: left; padding-left: 10px; padding-top: 10px;"><input type="text" class="FontFamilyRoboto FontSizeRoboto13 MessageTitleLabel" value="' + hfcount + '" disabled="disabled"/></div>' +
+                    '<div style="text-align: left; padding-left: 10px; padding-top: 0px;"><input type="text" ID="txtMailCountry1" class="FontFamilyRoboto FontSizeRoboto13 MessageTxtN"  /></div>' +
+                    '<div style="text-align: left; padding-left: 10px; padding-top: 10px;"><input type="text" class="FontFamilyRoboto FontSizeRoboto13 MessageTitleLabel" value="' + hfcCompanyName + '" disabled="disabled"/></div>' +
+                    '<div style="text-align: left; padding-left: 10px; padding-top: 0px;"><input type="text" ID="txtMailCompanyName1" class="FontFamilyRoboto FontSizeRoboto13 MessageTxtN"  /></div>' +
+                    '<div style="text-align: left; padding-left: 10px; padding-top: 10px;"><input type="text" class="FontFamilyRoboto FontSizeRoboto13 MessageTitleLabel" value="' + hfcMessage + '" disabled="disabled"/></div>' +
+                    '<div style="text-align: left; padding-left: 10px; padding-top: 0px;"><textarea id="w3review" name="w3review" rows="6" cols="50" style="width:86%; border-color:lightgray" class="FontFamilyRoboto FontSizeRoboto13 MessageTxtN"/>',
+                buttons: {
+                    somethingElse: {
+                        text: hfbSubmit,
+                        btnClass: 'btn-blueD btnDlgDeclineSend',
+                        action: function () {
+                            if (document.getElementById("txtMailName1").value == "") {
+                                document.getElementById("lblMailName").value = "Empty Name!";
+                                return false;
+                            }
+                            else {
+                                if (document.getElementById("txtMailEmail1").value == "") {
+                                    document.getElementById("lblMailEmail").value = "Empty Email Address!";
+                                    return false;
+                                }
+                                else {
+                                    CopyMessageText();
+                                    $('#btnReportSubmitID').click();
+                                }
+                            }
+                        }
+                    },
+                    Cancel:
+                    {
+                        text: 'X',
+                        btnClass: 'btnDlgDeclineBlack',
+                        action: function () {
+                        }
+                    }
+
+                }
+            }
+            )
+        }
+
+        function Feedback() {
+            document.getElementById("divHelp").style.visibility = "hidden";
+            let hftImprove = document.getElementById('hftImprove').value;
+            let hftrelevantRes = document.getElementById('hftrelevantRes').value;
+            let hftiQuoteAdvisor = document.getElementById('hftiQuoteAdvisor').value;
+            let hftiwouldyouimprove = document.getElementById('hftiwouldyouimprove').value;
+            let hfbSend = document.getElementById('hfbSend').value;
+            $.confirm({
+                useBootstrap: false,
+                boxWidth: '622px',
+                title: false,
+                content: '<div id="dddd" style="width: 100%;overflow:hidden; height: 350px; padding: 0px !important; background-image: url(../media/Icons/feedbackIcons/CornerIMage.png); background-repeat: no-repeat; background-size: 230px; background-position: right; background-position-y: top">' +
+                    '<div style="text-align: left; width: 100%;overflow:hidden; margin-left: 10px; margin-top: 5px; "><input type="text" disabled="disabled" class="FontFamily MainSubTitle" value="' + hftImprove + '"/></div>' +
+                    '<div style="text-align: left; width: 100%;overflow:hidden; margin-left: 10px; margin-top: 5px;">' +
+                    '<div style="text-align: left; margin-left: 10px; margin-top: 10px;">' +
+                    '<input type="text" disabled="disabled" class="FontFamilyRoboto FontSizeRoboto13 MessageTitleLabel" value="1. ' + hftrelevantRes + '?" /></div>' +
+                    '<div style="text-align: left; margin-left: 10px; margin-top: 0px;">' +
+                    '<img src="../media/Icons/feedbackIcons/facegreen.svg" style="width: 30px; cursor: pointer" id="feedpicAA" onclick="setfeedback_Apicture(11,1)" />&nbsp;' +
+                    '<img src="../media/Icons/feedbackIcons/faceblue.svg" style="width: 30px; cursor: pointer" id="feedpicAB" onclick="setfeedback_Apicture(12,1)" />&nbsp;' +
+                    '<img src="../media/Icons/feedbackIcons/facered.svg" style="width: 30px; cursor: pointer" id="feedpicAC" onclick="setfeedback_Apicture(13,1)" />&nbsp;' +
+                    '</div>' +
+                    '<div style="text-align: left; margin-left: 10px; margin-top: 10px;">' +
+                    '<input type="text" class="FontFamilyRoboto FontSizeRoboto13 MessageTitleLabel" value="2. ' + hftiQuoteAdvisor + '?" disabled="disabled" /></div>' +
+                    '<div style="text-align: left; margin-left: 10px; margin-top: 0px;">' +
+                    '<img src="../media/Icons/feedbackIcons/facegreen.svg" style="width: 30px; cursor: pointer" id="feedpicBA" onclick="setfeedback_Apicture(21,2)" />&nbsp;' +
+                    '<img src="../media/Icons/feedbackIcons/faceblue.svg" style="width: 30px; cursor: pointer" id="feedpicBB" onclick="setfeedback_Apicture(22,2)" />&nbsp;' +
+                    '<img src="../media/Icons/feedbackIcons/facered.svg" style="width: 30px; cursor: pointer" id="feedpicBC" onclick="setfeedback_Apicture(23,2)" />&nbsp;' +
+                    '</div>' +
+                    '<div style="text-align: left; margin-left: 10px; margin-top: 10px;">' +
+                    '<input type="text" class="FontFamilyRoboto FontSizeRoboto13 MessageTitleLabel" value="3. ' + hftiwouldyouimprove + '?" disabled="disabled" />' +
+                    '</div>' +
+                    '<div style="text-align: left; margin-left: 10px; margin-top: 0px;">' +
+                    '<textarea id="wreviewFeed" name="wreviewFeed" rows="6" cols="10" class="FontFamilyRoboto FontSizeRoboto13 MessageTxtNMS"></textarea>' +
+                    '</div>' +
+                    '</div>' +
+                    '</div>',
+                buttons: {
+                    somethingElse: {
+                        text: hfbSend,
+                        btnClass: 'btn-blueD btnDlgDeclineSend',
+                        action: function () {
+                            CopyMessageTextS();
+                            $('#btnSendFeedback').click();
+                        }
+                    },
+                    Cancel:
+                    {
+                        text: 'X',
+                        btnClass: 'btnDlgDecline',
+                        action: function () {
+                        }
+                    }
+                }
+            }
+            )
+        }
+
+        function setfeedback_Apicture(pic, stP) {
+            if (stP == 1) {
+                document.getElementById('feedpicAA').src = "../media/Icons/feedbackIcons/facegreen.svg";
+                document.getElementById('feedpicAB').src = "../media/Icons/feedbackIcons/faceblue.svg";
+                document.getElementById('feedpicAC').src = "../media/Icons/feedbackIcons/facered.svg";
+                document.getElementById('<%= txtFeed_Apic.ClientID %>').value = "";
+
+            }
+            else {
+                if (stP == 2) {
+                    document.getElementById('feedpicBA').src = "../media/Icons/feedbackIcons/facegreen.svg";
+                    document.getElementById('feedpicBB').src = "../media/Icons/feedbackIcons/faceblue.svg";
+                    document.getElementById('feedpicBC').src = "../media/Icons/feedbackIcons/facered.svg";
+                    document.getElementById('<%= txtFeed_Bpic.ClientID %>').value = "";
+
+                }
+            }
+
+            if (pic == 11) {
+                document.getElementById('feedpicAA').src = "../media/Icons/feedbackIcons/facegreen1.svg";
+                document.getElementById('<%= txtFeed_Apic.ClientID %>').value = "AA";
+            }
+            if (pic == 12) {
+                document.getElementById('feedpicAB').src = "../media/Icons/feedbackIcons/faceblue1.svg";
+                document.getElementById('<%= txtFeed_Apic.ClientID %>').value = "AB";
+
+            }
+            if (pic == 13) {
+                document.getElementById('feedpicAC').src = "../media/Icons/feedbackIcons/facered1.svg";
+                document.getElementById('<%= txtFeed_Apic.ClientID %>').value = "AC";
+
+            }
+            if (pic == 21) {
+                document.getElementById('feedpicBA').src = "../media/Icons/feedbackIcons/facegreen1.svg";
+                document.getElementById('<%= txtFeed_Bpic.ClientID %>').value = "BA";
+
+            }
+            if (pic == 22) {
+                document.getElementById('feedpicBB').src = "../media/Icons/feedbackIcons/faceblue1.svg";
+                document.getElementById('<%= txtFeed_Bpic.ClientID %>').value = "BB";
+            }
+            if (pic == 23) {
+                document.getElementById('feedpicBC').src = "../media/Icons/feedbackIcons/facered1.svg";
+                document.getElementById('<%= txtFeed_Bpic.ClientID %>').value = "BC";
+            };
+        }
+
+        function ShowAccountDetails() {
+            var CN, CNA, CCA, ISN, ISA, PTE, SHM, SALP, SALE, DESP, DESE, TECP, TECE;
+            CN = document.getElementById("lblCustomerNo").innerHTML;
+            CNA = document.getElementById("lblCustoName").innerHTML;
+            CCA = document.getElementById("lblCustomerAddress").innerHTML;
+            ISN = document.getElementById("lblISCARSubsidiary").innerHTML;
+            ISA = document.getElementById("lblSubsidiaryAddress").innerHTML;
+            PTE = document.getElementById("lblPaymenttTerms").innerHTML;
+            SHM = document.getElementById("lblShippingMethod").innerHTML;
+            SALP = document.getElementById("lblsalesperson").innerHTML;
+            SALE = document.getElementById("lblsalespersonEmail").innerHTML;
+            DESP = document.getElementById("lbldeskUser").innerHTML;
+            DESE = document.getElementById("lbldeskUserEmail").innerHTML;
+            TECP = document.getElementById("lbltechnicalPerson").innerHTML;
+            TECE = document.getElementById("lbltechnicalPersonEmail").innerHTML;
+
+            var t = "";
+            t = '<div>'
+            t = t + '<table style="direction:ltr; width:100%;">'
+            t = t + '<tr><td class="AlignLeft"><div class="MainSubTitle AlignLeft FontFamily FontSizeOswald18 divAlertConfirm">' + document.getElementById("hfMyAccountDetails").value + '</div></td></tr>'
+            t = t + '<tr><td class="AlignLeft">&nbsp;</td></tr>'
+            t = t + '<tr><td class="AlignLeft"><div class="MessageLabelscss">' + document.getElementById("hfCustomerNumber").value + ':&nbsp;<font color="#1d5095">' + CN + '</font></div></td></tr>'
+            t = t + '<tr><td class="AlignLeft"><div class="MessageLabelscss">' + document.getElementById("hfCustomerName").value + ':&nbsp;<font color="#1d5095">' + CNA + '</font></div></td></tr>'
+            t = t + '<tr><td class="AlignLeft"><div class="MessageLabelscss">' + document.getElementById("hfCustomerAddress").value + ':&nbsp;<font color="#1d5095">' + CCA + '</font></div></td></tr>'
+            t = t + '<tr><td class="AlignLeft">&nbsp;</td></tr>'
+            t = t + '<tr><td class="AlignLeft"><div class="MessageLabelscss">' + document.getElementById("hfSubSidiary").value + ':&nbsp;<font color="#1d5095">' + ISN + '</font></div></td></tr>'
+            t = t + '<tr><td class="AlignLeft"><div class="MessageLabelscss">' + document.getElementById("hfSubsidaryAddress").value + ':&nbsp;<font color="#1d5095">' + ISA + '</font></div></td></tr>'
+            t = t + '<tr><td class="AlignLeft"><div class="MessageLabelscss">' + document.getElementById("hfContactDetails").value + ':&nbsp;</div></td></tr>'
+            t = t + '<tr><td class="AlignLeft">&nbsp;</td></tr>'
+            t = t + '<tr><td class="AlignLeft"><div class="MessageLabelscss">' + document.getElementById("hfPaymentTerms").value + ':&nbsp;<font color="#1d5095">' + PTE + '</font></div></td></tr>'
+            t = t + '<tr><td class="AlignLeft"><div class="MessageLabelscss">' + document.getElementById("hfShippingMethod").value + ':&nbsp;<font color="#1d5095">' + SHM + '</font></div></td></tr>'
+            t = t + '<tr><td class="AlignLeft">&nbsp;</td></tr>'
+            t = t + '<tr><td class="AlignLeft"><div class="MessageLabelscss">' + document.getElementById("hfSalesPerson").value + ':&nbsp;<font color="#1d5095">' + SALP + '</font></div></td></tr>'
+            t = t + '<tr><td class="AlignLeft"><div class="MessageLabelscss">' + document.getElementById("hfEmail").value + ':&nbsp;<font color="#1d5095">' + SALE + '</font></div></td></tr>'
+            t = t + '<tr><td class="AlignLeft">&nbsp;</td></tr>'
+            t = t + '<tr><td class="AlignLeft"><div class="MessageLabelscss">' + document.getElementById("HfDeskUser").value + ':&nbsp;<font color="#1d5095">' + DESP + '</font></div></td></tr>'
+            t = t + '<tr><td class="AlignLeft"><div class="MessageLabelscss">' + document.getElementById("hfEmail").value + ':&nbsp;<font color="#1d5095">' + DESE + '</font></div></td></tr>'
+            t = t + '<tr><td class="AlignLeft">&nbsp;</td></tr>'
+            t = t + '<tr><td class="AlignLeft"><div class="MessageLabelscss">' + document.getElementById("HfTechnicalPerson").value + ':&nbsp;<font color="#1d5095">' + TECP + '</font></div></td></tr>'
+            t = t + '<tr><td class="AlignLeft"><div class="MessageLabelscss">' + document.getElementById("hfEmail").value + ':&nbsp;<font color="#1d5095">' + TECE + '</font></div></td></tr>'
+            t = t + '<tr><td class="AlignLeft">&nbsp;</td></tr>'
+            t = t + '</table>'
+            t = t + '</div>'
+
+            $.dialog({
+                title: '',
+                content: t
+            });
+            return false;
+        }
+
+        function HideAccountBTN() {
+            try {
+                document.getElementById("MyAccountbtn").style.visibility = "hidden";
+                document.getElementById("MyAccountbtn").style.border = "none";
+                document.getElementById("MyAccountbtn").style.width = "1px";
+                document.getElementById("MyAccountbtn").style.height = "1px";
+                document.getElementById("MyAccountbtnmenue").style.visibility = "hidden";
+                document.getElementById("MyAccountbtnmenue").style.border = "none";
+                document.getElementById("MyAccountbtnmenue").style.width = "1px";
+                document.getElementById("MyAccountbtnmenue").style.height = "1px";
+                document.getElementById("MyAccountbtnmenuediv").style.visibility = "hidden";
+                document.getElementById("MyAccountbtnmenuediv").style.border = "none";
+                document.getElementById("MyAccountbtnmenuediv").style.width = "1px";
+                document.getElementById("MyAccountbtnmenuediv").style.height = "1px";
+            }
+            catch (Error) {
+
+            }
+        }
+
+
+
+
+
+
+        function SetCaptionForLabels() {
+     
+            try {
+
+                try {
+                    document.getElementById("MyAccountbtn").value = document.getElementById("hfMyAccountbtn").value;
+                }
+                catch (error) {
+                }
+                try {
+                    document.getElementById("sMyQuotations").value = document.getElementById("hfMyQuotations").value;
+                }
+                catch (error) {
+                }
+                try {
+                    document.getElementById("btn_ContactUs").value = document.getElementById("hfbtn_ContactUs").value;
+                }
+                catch (error) {
+                }
+                try {
+                    document.getElementById("btn_Feedback").value = document.getElementById("hfbtn_Feedback").value;
+                }
+                catch (error) {
+                }
+                try {
+                    document.getElementById("btnUserG2").value = document.getElementById("hfbtnUserG2").value;
+                }
+                catch (error) {
+                }
+                try {
+                    document.getElementById("fontNewQ").innerHTML = '&nbsp;&nbsp;' + document.getElementById("hffontNewQ").value;
+                }
+                catch (error) {
+                }
+                try {
+                    document.getElementById("btnloginUserName").value = document.getElementById("hfLogIn").value;
+                } catch (error) {
+                    //document.getElementById("btnloginUserName").value = 'Log In';
+                }
+                try {
+                    document.getElementById("btnLogoutInput").value = document.getElementById("hfLogOut").value;
+                } catch (error) {
+                }
+                //try {
+                //    //$('#lblsection1Footer').text($('#hfFooter1').val());
+                //    //$('#lblsection2Footer').text($('#hfFooter2').val()).css('text-decoration', 'underline');
+                //    //$('#lblsection3Footer').text($('#hfFooter3').val());
+                //    //$('#lblsection4Footer').text($('#hfFooter4').val()).css('text-decoration', 'underline');
+
+                //} catch (error) {
+
+                //}
+                try {
+                    $('#lblPingCaption').text($('#hfPingCaption').val());
+
+                } catch (error) {
+
+                }
+
+            } catch (error) {
+                // Code to handle the exception
+                // ...
+            }
+
+        }
+    </script>
+
+
+
+
+
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .containerMain {
+            box-sizing: border-box; /* Include padding in total width */
+        }
+
+        header {
+            background-color: #dddddd;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .left-icon, .right-icon {
+            /*font-size: 24px;*/
+            margin: 0 50px;
+            /*padding: 2px;*/
+        }
+
+        @media screen and (max-width: 1024px) {
+
+            .left-icon, .right-icon {
+                margin: 0 10px;
+            }
+        }
+
+
+        @media screen and (max-width: 1024px) {
+
+            .right-icon {
+                margin: 0 10px;
+                width: 100%;
+                display: flex;
+                direction: rtl;
+            }
+        }
+
+        @media screen and (max-width: 1024px) {
+
+            .left-icon {
+                display: none
+            }
+        }
+    </style>
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+<body onload="hideshlogbutton(''); hideshlogbuttonSelected(); DoHumborger(); SetCaptionForLabels(); disaleNewbtn(); CheckMyQOpenQuotations(); " class="bodyOverF">
+
+    <form id="form1" runat="server" method="post" enctype="multipart/form-data">
+        <ajaxToolkit1:ToolkitScriptManager ID="SM_Mastr" runat="server" AsyncPostBackTimeout="3000" ScriptMode="Release" AjaxFrameworkMode="Enabled">
+        </ajaxToolkit1:ToolkitScriptManager>
+
+
+        <asp:UpdatePanel ID="upPnlAll" runat="server" UpdateMode="Conditional">
+
+            <ContentTemplate>
+
+
+                <script>
+                    try {
+                        function DoHumborger() {
+
+                            var sAller = false
+                            if (sAller == false) {
+                                const hamburger = document.querySelector(".hamburgerXX");
+                                const navMenu = document.querySelector(".nav-menuXX");
+                                hamburger.addEventListener("click", () => {
+                                    hamburger.classList.toggle("active");
+                                    navMenu.classList.toggle("active");
+                                })
+                                document.querySelectorAll(".nav-linkXX").forEach(n => n.addEventListener("click", () => {
+                                    hamburger.classList.remove("active");
+                                    navMenu.classList.remove("active");
+                                }))
+                            }
+                        }
+
+                    }
+                    catch (error) {
+                        // alert(222);
+                    }
+
+
+
+
+
+
+                    function ManualDialogSelectedLanguage() {
+
+
+                        //-----Selected langage-----
+
+                        $('#dialogLangCaptionsA').dialog({
+                            autoOpen: false,
+                            //show: { effect: 'fade', duration: 700 },
+                            //hide: { effect: 'fade', duration: 500 },
+                            show: { effect: 'drop', duration: 700, direction: "up" },
+                            hide: { effect: 'drop', duration: 500, direction: "up" },
+                            position: { my: "right top", at: "right bottom", of: "#currentflagSelected" },
+                            width: "260px",
+                            title: "Language"
+                        });
+
+                        $('#currentflagSelected').click(function () {
+                            $('#dialogLangCaptionsA').dialog('open');
+                        });
+
+                        $('.ui-dialog-titlebar-close').click(function () {
+                            $('#tdToc').dialog('close');
+                        });
+                    }
+
+                    function CloseLangselect() {
+                        try {
+                            $('#dialogLangCaptionsA').dialog('close');
+                        }               
+                        catch (error) {
+                           
+                        }
+                    }
+
+                    function Hidemnue() {
+                        try {
+                            document.querySelector(".hamburgerXX").classList.remove("active");
+                            document.querySelector(".nav-menuXX").classList.remove("active");
+                        }               
+                        catch (error) {
+                           
+                        }
+                    }
+
+                </script>
+
+                <style>
+                    .upperdiv {
+                        position: absolute;
+                        z-index: 2;
+                        position: absolute;
+                        width: 250px;
+                        /*top: 38px;*/
+                    }
+                </style>
+
+                <asp:TextBox ID="txtMessagetxtMailName" runat="server" CssClass="display_non"></asp:TextBox>
+                <asp:TextBox ID="txtMessagetxtMailEmail" runat="server" CssClass="display_non"></asp:TextBox>
+                <asp:TextBox ID="txtMessagetxtMailCountry" runat="server" CssClass="display_non"></asp:TextBox>
+                <asp:TextBox ID="txtMessagetxtMailCompanyName" runat="server" CssClass="display_non"></asp:TextBox>
+                <asp:TextBox ID="txtMessageContactU" runat="server" TextMode="MultiLine" CssClass="display_non"></asp:TextBox>
+                <asp:TextBox ID="txtMessageFeedBack" runat="server" TextMode="MultiLine" CssClass="display_non"></asp:TextBox>
+                <asp:TextBox ID="txthideshlogbutton" runat="server" CssClass="display_non"></asp:TextBox>
+                <asp:TextBox ID="txthideshlogbuttonSelected" runat="server" CssClass="display_non"></asp:TextBox>
+                <asp:TextBox ID="txttxtdivMyQut2" runat="server" CssClass="display_non"></asp:TextBox>
+
+                <asp:Label ID="lblCustomerNo" runat="server" CssClass="display_non"></asp:Label>
+                <asp:Label ID="lblCustoName" runat="server" CssClass="display_non"></asp:Label>
+                <asp:Label ID="lblCustomerAddress" runat="server" CssClass="display_non"></asp:Label>
+                <asp:Label ID="lblISCARSubsidiary" runat="server" CssClass="display_non"></asp:Label>
+                <asp:Label ID="lblSubsidiaryAddress" runat="server" CssClass="display_non"></asp:Label>
+
+                <asp:Label ID="lblPaymenttTerms" runat="server" CssClass="display_non"></asp:Label>
+                <asp:Label ID="lblShippingMethod" runat="server" CssClass="display_non"></asp:Label>
+
+                <asp:Label ID="lblsalesperson" runat="server" CssClass="display_non"></asp:Label>
+                <asp:Label ID="lblsalespersonEmail" runat="server" CssClass="display_non"></asp:Label>
+                <asp:Label ID="lbldeskUser" runat="server" CssClass="display_non"></asp:Label>
+                <asp:Label ID="lbldeskUserEmail" runat="server" CssClass="display_non"></asp:Label>
+                <asp:Label ID="lbltechnicalPerson" runat="server" CssClass="display_non"></asp:Label>
+                <asp:Label ID="lbltechnicalPersonEmail" runat="server" CssClass="display_non"></asp:Label>
+
+                <asp:HiddenField ID="hfMyAccountbtn" runat="server" Value="" />
+                <asp:HiddenField ID="hfMyQuotations" runat="server" Value="" />
+                <asp:HiddenField ID="hfbtn_ContactUs" runat="server" Value="" />
+                <asp:HiddenField ID="hfbtn_Feedback" runat="server" Value="" />
+                <asp:HiddenField ID="hfbtnUserG2" runat="server" Value="" />
+                <asp:HiddenField ID="hffontNewQ" runat="server" Value="" />
+                <asp:HiddenField ID="hfLogOut" runat="server" Value="" />
+                <asp:HiddenField ID="hfLogIn" runat="server" Value="" />
+
+                <asp:HiddenField ID="hfMyAccountDetails" runat="server" Value="" />
+                <asp:HiddenField ID="hfCustomerNumber" runat="server" Value="" />
+                <asp:HiddenField ID="hfCustomerName" runat="server" Value="" />
+                <asp:HiddenField ID="hfCustomerAddress" runat="server" Value="" />
+                <asp:HiddenField ID="hfSubSidiary" runat="server" Value="" />
+                <asp:HiddenField ID="hfSubsidaryAddress" runat="server" Value="" />
+                <asp:HiddenField ID="hfContactDetails" runat="server" Value="" />
+                <asp:HiddenField ID="hfPaymentTerms" runat="server" Value="" />
+                <asp:HiddenField ID="hfShippingMethod" runat="server" Value="" />
+                <asp:HiddenField ID="hfSalesPerson" runat="server" Value="" />
+                <asp:HiddenField ID="hfEmail" runat="server" Value="" />
+                <asp:HiddenField ID="HfDeskUser" runat="server" Value="" />
+                <asp:HiddenField ID="HfTechnicalPerson" runat="server" Value="" />
+                <asp:HiddenField ID="hftCountry" runat="server" Value="" />
+                <asp:HiddenField ID="hftCompanyName" runat="server" Value="" />
+                <asp:HiddenField ID="hftMessage" runat="server" Value="" />
+                <asp:HiddenField ID="hftContactUs" runat="server" Value="" />
+                <asp:HiddenField ID="hftImprove" runat="server" Value="" />
+                <asp:HiddenField ID="hftrelevantRes" runat="server" Value="" />
+                <asp:HiddenField ID="hftiQuoteAdvisor" runat="server" Value="" />
+                <asp:HiddenField ID="hftiwouldyouimprove" runat="server" Value="" />
+                <asp:HiddenField ID="hfbSubmit" runat="server" Value="" />
+                <asp:HiddenField ID="hfbSend" runat="server" Value="" />
+                <asp:HiddenField ID="hfbCancel" runat="server" Value="" />
+                <%--<asp:HiddenField ID="hfFooter1" runat="server" Value="" />--%>
+                <%--<asp:HiddenField ID="hfFooter2" runat="server" Value="" />--%>
+                <%--<asp:HiddenField ID="hfFooter3" runat="server" Value="" />--%>
+                <%--<asp:HiddenField ID="hfFooter4" runat="server" Value="" />--%>
+                <asp:HiddenField ID="hfPingCaption" runat="server" Value="" />
+                            <asp:HiddenField ID="hfLanguageselected" runat="server" Value="" EnableViewState="true" />
+                <asp:HiddenField ID="hfCloseMaster" runat="server" Value="" />
+            <asp:Button ID="btnLanguageselected" runat="server" Text="" CssClass="display_non" />
+                <asp:HiddenField ID="hfselectedBC" runat="server" ></asp:HiddenField>
+                <%--/**********************************************/--%>
+
+                <div class="containerMain">
+                    <header>
+                        <span class="left-icon">
+                            <div class="col-sm-6 " style="height: 40px; background-color: #dddddd;">
+                                <div class="TopGlobal_ButtonsLeft " style="height: 34px">
+                                    <a href="http://www.iscar.com" target="_blank">
+                                        <img src="../media/Images/ISCAR_Logo_flat.svg" title="Home" alt="Home" class="logoImg" /></a>
+                                    <%--<asp:Label ID="lblLoginUser" runat="server" class="mainHedearLeftcss"></asp:Label>--%>
+                                </div>
+
+                            </div>
+
+                        </span>
+
+                        <span class="right-icon">
+                            <div id="divLogOutName" class="divLGN">
+                                <asp:Button runat="server" ID="btnloginUserName" CssClass="Logincss" Text="Log In" OnClientClick="cancelonbeforeunload()" />
+                                <asp:Button runat="server" ID="btnloginUserNameVF" CssClass="LogopenDialogincss" Text="Log In" Enabled="false" />
+                                <input type="button" id="btnLogOutdivshow" class="Logincss" onclick="LogOut()" value="" style="width: 78% !important" />
+                                <br />
+                                <div id="divLoginout" class="LogOutDiv" runat="server" style="z-index: 1000; margin-top: 5px; padding-top: 5px;">
+                                    <div class="AlignLeft VerticalAlignMiddle" style="z-index: 1001; display: inline-flex">
+                                        <input type="button" id="btnLogoutInput" class="btnButtonLogOut FontFamily" onclick="LogOutInput()" value="Log Out" />&nbsp;&nbsp;
+                                        <input type="button" id="btnCloseDiv" class="FontFamily FontSize LogincssX" onclick="ClosLogoutDiv()" value="x" style="text-align: unset" />
+                                    </div>
+                                </div>
+                            </div>
+                            <nav class="navbarXX ">
+                                <ul class="nav-menuXX">
+                                    <li class="DisplayOnlyInMnue">
+                                        <input type="button" value="My Quotations" id="sMyQuotationsMenu" class="FontFamily FontSizeRoboto16 MyAcMenue" onclick="cancelonbeforeunload(); OpenQuotations();" />
+                                    </li>
+                                    <li class="DisplayOnlyInMnue">
+                                        <input type="button" value="New Quotation" id="imgNewmenue" class="FontFamily FontSizeRoboto16 MyAcMenue" onclick="cancelonbeforeunload(); StartNewQ();" />
+                                    </li>
+                                    <li class="DisplayOnlyInMnue" id="MyAccountbtnmenuediv">
+                                        <input type="button" value="My Account" id="MyAccountbtnmenue" class="FontFamily FontSizeRoboto16 MyAcMenue" onclick="ShowAccountDetails();  " />
+                                    </li>
+                                    <li class="nav-itemXX" style="display: flex">
+
+                                        <img id="currentflagSelected" class="MNUiMGCSS" title="" alt="" src="../media/flags/ZZ.svg" height="31" style="padding-top: 3px; margin-left: -1px; cursor: default" onclick="Hidemnue()"/><%-- onclick="ChooseLanguage()"--%>
+
+                                        <div class="cssUnitSwitchflags" style="border-left: none; float: right">
+                                            <%--<img id="currentflagLanguage" class="MNUiMGCSS" title="" alt="" src="../media/flags/ZZ.svg" height="32" style="padding: 0px !important">--%>
+                                            <%---------28.03.24------------%>
+                                            <div id="dialogLangCaptionsA" title="" class="flagDiv upperdiv">
+                                                <asp:Repeater ID="rptLanguagesListCaptions" runat="server">
+                                                    <ItemTemplate>
+                                                        <div style="width: 100%; direction: ltr; display: inline-block; text-align: left">
+                                                            <a href="javascript:SelectLanguage('<%# Eval("LanguageId")%>','<%# Eval("LanguageCode")%>');" style="text-decoration: none;">
+                                                                <%--<asp:Button ID="btnItem" runat="server" CommandName="SelectItem" CommandArgument='<%# Eval("LanguageId") %>' Text='<%# Eval("LanguageName") %>' OnClick="btnItem_Click" />--%>
+
+                                                                <table>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <img class="flagcounty" src="../media/flags/<%# Eval("LanguageImg")%>.svg">&nbsp;</td>
+                                                                        <td id="tdToc" style="color: #1d5095">&nbsp;<%# Eval("LanguageName")%></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </a>
+                                                        </div>
+                                                    </ItemTemplate>
+                                                </asp:Repeater>
+                                            </div>
+                                            <%--------------------------%>
+                                        </div>
+
+
+
+
+
+                                        &nbsp;<div style="margin-top: 5px">
+                                            <asp:Label ID="lblMasterReporCountry" runat="server" CssClass="DisplayOnlyInMnue FontFamily FontSizeRoboto16 MyAcMenue"></asp:Label>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-itemXX ">
+                                        <div class="TopGlobal_Buttons socialsection">
+                                            <a href="http://www.youtube.com/iscarweb" id="TopGlobal1_linkyoutube" target="_blank">
+                                                <img title="YouTube" alt="" src="../media/icons/you_tube.svg" id="imgToYouTube" class="MNUiMGCSS"></a>
+                                            <a href="https://www.facebook.com/IscarCuttingTools" id="TopGlobal1_linkfacebook" target="_blank">
+                                                <img title="Facebook" alt="" src="../media/icons/facebook.svg" id="imgToFacebook" class="MNUiMGCSS"></a>
+
+                                            <a href="https://twitter.com/ISCARltd" id="TopGlobal1_linktwitter" target="_blank">
+                                                <img title="Twitter" alt="" src="../media/icons/twitter.svg" class="MNUiMGCSS"></a>
+
+                                            <a href="https://www.linkedin.com/company/28849/" id="TopGlobal1_linklinkedin" target="_blank">
+                                                <img id="imgLinkedIn" title="LinkedIn" alt="" src="../media/icons/LinkdIn.svg" class="MNUiMGCSS"></a>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="nav-itemXX ">
+                                        <div class="cssUnitSwitch" id="divUnit" runat="server">
+                                            <span id="unitSwitch" runat="server" class="switchSpan">
+                                                <div class="switch marginOnlyInMnue">
+                                                    <input id="chkUnit" type="checkbox" />
+                                                    <span id="txtUnit" class="slider round" style="padding-top: 2px; font-size: 15px; color: #1d5095 !important; font-family: Oswald,Calibri,Arial !important;"></span>
+                                                </div>
+                                            </span>
+                                            <asp:Button ID="btnUnit" runat="server" Style="display: none;" OnClientClick="cancelonbeforeunload()" />
+                                            <asp:Button ID="btnUnitC" runat="server" OnClick="btnUnitC_Click" Style="display: none;" OnClientClick="cancelonbeforeunload()" />
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-itemXX iconIsAmin">
+                                        <div class="" id="div2">
+                                            <a href="https://www.iscar.com/eCatalog/" target="_blank" id="tgecatalogMenu">
+                                                <img id="currenEca" class="MNUiMGCSS" title="" alt="" src="../media/icons/ecat_Icon.svg" height="32" style="padding-top: 3px; margin-left: -1px; cursor: default">
+                                            </a>
+                                            ;<asp:Label ID="lblMasterEc" runat="server" CssClass="FontFamily FontSizeRoboto16 MyAcMenue">E-Catalog</asp:Label>
+                                        </div>
+
+                                    </li>
+
+                                    <li class="nav-itemXX iconIsAmin">
+                                        <div class="" id="div3">
+
+                                            <img id="menuIcon" class="MNUiMGCSS" title="" alt="" src="../media/icons/Help_Icon.svg" height="32" style="padding-top: 3px; margin-left: -1px; cursor: default">
+
+                                            <asp:Label ID="Label1" runat="server" onclick="ContactUs()" CssClass="FontFamily FontSizeRoboto16 MyAcMenue">Contact Us</asp:Label>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-itemXX iconIsAmin">
+                                        <div class="" id="div34">
+
+                                            <img id="menuIcon22" class="MNUiMGCSS" title="" alt="" src="../media/icons/Help_Icon.svg" height="32" style="padding-top: 3px; margin-left: -1px; cursor: default">
+
+                                            <asp:Label ID="Label12" runat="server" onclick="Feedback()" CssClass="FontFamily FontSizeRoboto16 MyAcMenue">Feedback</asp:Label>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-itemXX iconIsAmin">
+                                        <div class="" id="div4">
+
+                                            <img id="menuIcon23" class="MNUiMGCSS" title="" alt="" src="../media/icons/Help_Icon.svg" height="32" style="padding-top: 3px; margin-left: -1px; cursor: default">
+
+                                            <asp:Label ID="Label2" runat="server" onclick="OpenUserG('A')" CssClass="FontFamily FontSizeRoboto16 MyAcMenue">User Guide</asp:Label>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-itemXX">
+                                        <asp:HyperLink ID="hlTransition" runat="server" Text="Simulation"  CssClass="FontFamily FontSizeRoboto15 MyAc text-center " Width="100px" Height="29px" ForeColor="Yellow" Font-Underline="true" Font-Italic="true" Target="_self" OnClientClick="cancelonbeforeunload()"></asp:HyperLink>
+                                    </li>
+                                    <li class="nav-itemXX">
+                                        <asp:HyperLink ID="hlPostBachAdmin" runat="server" Text="Admin Info"  CssClass="FontFamily FontSizeRoboto15 MyAc text-center " Width="100px" Height="29px" ForeColor="Yellow" Font-Underline="true" Font-Italic="true" Target="_blank" OnClientClick="cancelonbeforeunload()"></asp:HyperLink>
+                                    </li>
+                                    <li class="nav-itemXX">
+                                        <asp:HyperLink ID="hlUserCustomerConnect" runat="server" Text="User Admin"  CssClass="FontFamily FontSizeRoboto15 MyAc text-center " Width="100px" Height="29px" ForeColor="Yellow" Font-Underline="true" Font-Italic="true" Target="_self" OnClientClick="cancelonbeforeunload()"></asp:HyperLink>
+                                    </li>
+
+                                </ul>
+                                <div>
+                                    <asp:ImageButton ImageUrl="../media/Icons/IQUOTE.png" ToolTip="Home" CssClass="logoImgIquoteTop" runat="server" ID="ImageButton1" OnClientClick="window.open('https://iquote.ssl.imc-companies.com')" />
+                                </div>
+                            </nav>
+                            <div class="hamburgerXX" style="padding-left: 4px !important; padding-right: 30%">
+                                <span class="barXX"></span>
+                                <span class="barXX"></span>
+                                <span class="barXX"></span>
+                            </div>
+
+                        </span>
+                    </header>
+                    <header style="background-color: white; border-bottom: thin solid #d3d3d3">
+
+
+                        <span class="left-icon">
+                            <asp:ImageButton ImageUrl="../media/Icons/IQUOTE.png" ToolTip="Home" CssClass="logoImgIquote" runat="server" ID="btnOpenHome" OnClientClick="window.open('https://iquote.ssl.imc-companies.com')" />
+                        </span>
+                        <span class="right-icon">
+
+
+
+                            <section class="mainheader">
+                                <div>
+                                    <asp:UpdatePanel ID="UpdatePanel3" runat="server" UpdateMode="Conditional">
+                                        <ContentTemplate>
+                                            <asp:PlaceHolder runat="server" ID="ph_Export">
+
+                                                <div id="divMyQut2" class="FindSerial" runat="server" visible="false">
+                                                    <div style="text-align: right; width: 50px; float: right">
+                                                        <asp:Button runat="server" ID="btnCloseMyQutDiv" Text="X" CssClass="FontFamilyRoboto FontSizeRoboto18 ButtonClose" />
+                                                    </div>
+                                                    <div style="text-align: left; width: 50%; padding-left: 10px; padding-top: 5px !important;">
+                                                        <asp:Label ID="lblTmyQut" runat="server" CssClass="FontFamily MainSubTitle" Text="My Quotation"></asp:Label>
+                                                    </div>
+                                                    <div style="text-align: left; padding-left: 10px; padding-top: 10px !important;">
+                                                        <asp:Label ID="lblTpleaseLogin" runat="server" CssClass="FontFamilyRoboto FontSizeRoboto13 MyQuotationPlease" Text="Please login to see quotations"></asp:Label>
+                                                    </div>
+                                                    <div style="text-align: left; padding-left: 10px; padding-top: 15px !important; padding-right: 10px;">
+                                                        <asp:Button runat="server" ID="btnDivLogIn" Text="Log in" CssClass="MyQuotationLogIn FCbachColor FontSizeRoboto13 FontFamilyRoboto" OnClientClick="cancelonbeforeunload();" Width="100%" />
+                                                    </div>
+                                                    <div style="text-align: left; padding-left: 10px; padding-top: 20px !important;">
+                                                        <hr class="DifLine" style="margin-left: 20px; width: 80%" />
+                                                    </div>
+                                                    <div style="text-align: left; padding-left: 10px; padding-top: 15px !important;">
+                                                        <asp:Label ID="lblTinsertoffer" runat="server" CssClass="FontFamilyRoboto FontSizeRoboto13 MyQuotationPlease" Text="Insert offer serial number"></asp:Label>
+                                                    </div>
+                                                    <div style="text-align: left; padding-left: 10px; padding-top: 10px !important;">
+                                                        <asp:TextBox ID="txtFindSN" CssClass="FontFamilyRoboto FontSizeRoboto13 MyQuotationInserNocss" runat="server"></asp:TextBox>
+                                                        <asp:Button ID="btnFind" runat="server" CssClass="MyQuotationFind FontFamilyRoboto FontSizeRoboto13 BCbachColor FCbachColor" Width="60px" Text="Find" OnClientClick="cancelonbeforeunload();" />
+                                                    </div>
+
+                                                </div>
+                                            </asp:PlaceHolder>
+                                        </ContentTemplate>
+                                    </asp:UpdatePanel>
+
+
+                                </div>
+                                <div class="cssNotToDisplayInMenue" style="display: flex; margin-top: 18px">
+                                    <div class="cssNotToDisplayInMenue">
+                                        <img title="Help" alt="" src="../media/icons/Help_Icon.svg" class="imgTitlecs" onclick="ShowHelp()" />
+                                        <div style="float: right; visibility: hidden; position: absolute" id="divHelp">
+                                            <br />
+                                            <div id="divHelpMnu" class="Export_s" runat="server" style="direction: ltr;">
+                                                <div style="text-align: right; display: flex; padding-left: 10px;">
+                                                    <input type="text" id="btn_ContactUs" value="Contact Us" class="btn-Transperant FontFamilyRoboto FontSizeRoboto13" onclick="ContactUs()" style="margin-top: 12px; width: 120px;" />
+                                                    <input type="text" id="btn_CloseExportDiv" value="X" class="ButtonClose" onclick="HideHelp()" style="float: right;" />
+                                                </div>
+                                                <hr class="DifLineN" />
+                                                <div style="text-align: left; padding-left: 10px;">
+                                                    <input type="text" id="btn_Feedback" value="Feedback" class="btn-Transperant FontFamilyRoboto FontSizeRoboto13" onclick="Feedback()" style="width: 120px;" />
+                                                </div>
+                                                <hr class="DifLineN" />
+                                                <asp:Panel ID="pnlGuideTemp" runat="server" CssClass="pnlGuide" Visible="false" ScrollBars="None">
+                                                    <div style="text-align: left; padding-left: 10px; padding-bottom: 10px;">
+                                                        <input style="background-color: white;" type="button" id="btnUserG1" class="btn-Transperant FontFamilyRoboto FontSizeRoboto13" value="User Guide" onclick="OpenUserG('A')" />
+                                                    </div>
+                                                </asp:Panel>
+                                                <asp:Panel ID="pnlGuide" runat="server" CssClass="pnlGuide" Visible="false" ScrollBars="None">
+                                                    <div style="text-align: left; padding-left: 10px; ">
+                                                        <input style="background-color: white;" type="button" id="btnUserG2" class="btn-Transperant FontFamilyRoboto FontSizeRoboto13" value="User Guide" onclick="OpenUserG('B')" />
+                                                    </div>
+                                                </asp:Panel><hr class="DifLineN" style="margin-top: 6px !important;" />
+                                                <asp:Panel ID="pnlinfGud1" runat="server" CssClass="pnlGuide" Visible="false" ScrollBars="None">
+                                                    <div style="text-align: left; padding-left: 10px; ">
+                                                        <input style="background-color: white;" type="button" id="btninfoGud1" runat="server" class="btn-Transperant FontFamilyRoboto FontSizeRoboto13" value="Legal notice" onclick="window.open('../forms/LglInfo/IG/eleg1.html', '_blank')" />
+                                                    <hr class="DifLineN" /></div>
+                                                     
+                                                </asp:Panel>
+                                                <asp:Panel ID="pnlinfGud2" runat="server" CssClass="pnlGuide" Visible="false" ScrollBars="None">
+                                                    <div style="text-align: left; padding-left: 10px; ">
+                                                        <input style="background-color: white;" type="button" id="btninfoGud2" runat="server" class="btn-Transperant FontFamilyRoboto FontSizeRoboto13" value="Terms of use" onclick="window.open('../forms/LglInfo/IG/eleg2.html', '_blank')" />
+                                                   <hr class="DifLineN" /> </div>
+                                                </asp:Panel>
+                                                <asp:Panel ID="pnlinfGud3" runat="server" CssClass="pnlGuide" Visible="false" ScrollBars="None">
+                                                    <div style="text-align: left; padding-left: 10px; ">
+                                                        <input style="background-color: white;" type="button" id="btninfoGud3" runat="server" class="btn-Transperant FontFamilyRoboto FontSizeRoboto13" value="Terms of sale" onclick="window.open('../forms/LglInfo/IG/eleg3.html', '_blank')" />
+                                                   <hr class="DifLineN" /> </div>
+                                                </asp:Panel>
+                                                <asp:Panel ID="pnlinfGud4" runat="server" CssClass="pnlGuide" Visible="false" ScrollBars="None">
+                                                    <div style="text-align: left; padding-left: 10px; padding-bottom: 10px;">
+                                                        <input style="background-color: white;" type="button" id="btninfoGud4" runat="server" class="btn-Transperant FontFamilyRoboto FontSizeRoboto13" value="Privacy policy" onclick="window.open('../forms/LglInfo/IG/eleg4.html', '_blank')" />
+                                                  </div>
+                                                </asp:Panel>
+                                                <asp:Label ID="lblBranchCode" runat="server" CssClass="display_non"></asp:Label>
+                                            </div>
+                                        </div>
+                                        <a href="https://www.iscar.com/eCatalog/" target="_blank" id="tgecatalog">
+                                            <img title="ecat" alt="" src="../media/icons/ecat_Icon.svg" class="imgTitlecs" /></a>
+                                    </div>
+
+                                    <div class="cssNotToDisplayInMenue">
+
+
+                                        <input type="button" value="My Quotations" id="sMyQuotations" class="FontFamily FontSizeRoboto15 MyAc" onclick="cancelonbeforeunload(); OpenQuotations();" />
+
+                                        <asp:Button ID="btnOpenQuotations" runat="server" Text="" BorderStyle="None" />
+                                        <%--<img id="imgNew" class="imbMnuBtnfR" src="../media/Icons/NewSearch.png" onclick="StartNewQ();" style="padding-right: 4px; margin-top: 1px;" />--%>
+                                        <button type="button" id="btnNewQut" class="FontFamily FontSizeRoboto15 MyAc csNewQbInput" onclick="StartNewQ()">
+                                            <font id="fontNewQ" class="csNewQb">&nbsp;&nbsp;New</font>
+                                            <img src="../media/Icons/NewS.png" alt="Search" style="float: left; width: 27px; margin-left: 1px; margin-top: -1px; background-color: transparent;">
+                                        </button>
+                                        <input type="button" value="My Account" id="MyAccountbtn" class="FontFamily FontSizeRoboto15 MyAc" onclick="ShowAccountDetails();  " />
+                                        <asp:Button ID="btnStartNewQ" runat="server" CssClass="display_non" />
+
+
+
+
+                                    </div>
+                                </div>
+
+
+
+                            </section>
+
+                        </span>
+                    </header>
+
+                    <div class="TopGlobal_n">
+                        <div class="containBorderDiv">
+
+                            <section class="mainheader">
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolderMain" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </section>
+
+
+                            <section class="maincontent">
+                            </section>
+
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolderTemp" runat="server"></asp:ContentPlaceHolder>
+                        </div>
+                        <div class="wrapfooter flexwrapper">
+                            <section class="mainfooter clearerfooter InlineBlock" id="sectionFooterId">
+                                <%--<label id="lblsection1Footer">Any use of the iQuote program is subject to</label>--%>
+                                <asp:Label ID="Footer1Ens" runat="server" Text="Any use of the iQuote program is subject to"></asp:Label>
+                                <u><a href="https://www.iscar.com/Ecat/terms/Legal.asp" target="_blank">
+                                    <%--<label id="lblsection2Footer" style="cursor: pointer; color: black">ISCAR's Terms of Use </label>--%>
+                                    <asp:Label ID="Footer2Ens" runat="server" Text="dd"></asp:Label>
+                                </a></u>
+                                <%--<label id="lblsection3Footer">and </label>--%>
+                                <asp:Label ID="Footer3Ens" runat="server" Text="and "></asp:Label>
+                                <u><a href="https://www.imc-companies.com/A141203UniformTermsOfSale.pdf" target="_blank">
+                                    <%--<label id="lblsection4Footer" style="cursor: pointer; color: black">ISCAR's General Terms of Sale </label>--%>
+                                    <asp:Label ID="Footer4Ens" runat="server" Text="ISCAR's General Terms of Sale "></asp:Label>
+                                </a></u>
+
+                            </section>
+                            <div style="width: 94%">
+                                <asp:Label ID="lblUserInformation" runat="server" Text="" CssClass="FontSizeRoboto13 FontFamily ReshlTransition" ForeColor="Red" Font-Italic="true"></asp:Label>
+
+
+                            </div>
+                        </div>
+
+                        <div>
+                            <asp:Button ID="btnLogOnWithoutRegistration" runat="server" Text="Reg. for..." CssClass="DisplayNone" />
+                            <asp:Button ID="btnLogOnWithSave" runat="server" Text="Login" CssClass="DisplayNone" />
+                        </div>
+                    </div>
+
+                    <asp:Button ID="btnSendFeedback" runat="server" CssClass="MyQuotationFind FontFamilyRoboto FontSizeRoboto13 BCbachColor FCbachColor display_non" Width="60px" Text="Submit" />
+                    <asp:Button ID="btnReportSubmitID" runat="server" CssClass="MyQuotationFind FontFamilyRoboto FontSizeRoboto13 BCbachColor FCbachColor display_non" Width="60px" Text="Submit" />
+                    <asp:TextBox ID="txtFeed_Bpic" runat="server" CssClass="display_non"></asp:TextBox>
+                    <asp:TextBox ID="txtFeed_Apic" runat="server" CssClass="display_non"></asp:TextBox>
+
+
+
+                    <!-- Your main content goes here -->
+
+                </div>
+
+                <%--/**********************************************/--%>
+            </ContentTemplate>
+        </asp:UpdatePanel>
+        <asp:UpdateProgress ID="UpdateProgress1" runat="server" DynamicLayout="true" DisplayAfter="1000" AssociatedUpdatePanelID="upPnlAll">
+            <ProgressTemplate>
+                <div class="modal1">
+                    <div class="center1" style="width: 99%; text-align: center;">
+                        <img runat="server" id="ajaxLoader" alt="loading" src="~/media/Images/Wait.gif" class="ImgWaitcss" /><br />
+                        <br />
+                        <asp:Label runat="server" ID="lblPingCaption" Text="Please wait while iQUOTE is processing your request" CssClass="FontFamilyRoboto FontSizeRoboto13" Width="400px"></asp:Label>
+                    </div>
+                    <div class="" style="height: 10px;">
+                    </div>
+                </div>
+            </ProgressTemplate>
+        </asp:UpdateProgress>
+
+
+        <script>
+            //disaleNewbtn();
+            function disaleNewbtn() {
+                
+                try {
+
+                    if (window.location.href.includes("ConfiguratorBuilder") == true) {
+                        //document.getElementById("imgNew").disabled = true;
+                        //document.getElementById("imgNew").style.display = "none";
+                        document.getElementById("btnNewQut").disabled = true;
+                        document.getElementById("btnNewQut").style.display = "none";
+
+                        document.getElementById("imgNewmenue").disabled = true;
+                        document.getElementById("imgNewmenue").style.display = "none";
+                    }
+                    else {
+                        document.getElementById("btnNewQut").disabled = false;
+                        //document.getElementById("imgNew").disabled = false;
+
+                        document.getElementById("imgNewmenue").disabled = false;
+                    }
+                }
+                catch (error) {
+                }
+            }
+
+            function CheckMyQOpenQuotations() {
+                if (document.getElementById("txttxtdivMyQut2").value == "FALSE") {
+                    document.getElementById("imgMyQuotations").src = '../media/icons/MyQuotationsDis.png'
+                    document.getElementById("imgMyQuotations").style.cursor = 'default'
+                }
+            }
+
+            function StartNewQ() {
+                btn = document.getElementById("btnStartNewQ");
+                btn.click();
+            }
+
+
+
+
+
+            function hideshlogbuttonSelected() {
+               // alert(document.getElementById("txthideshlogbuttonSelected").value);
+                
+                if (document.getElementById("txthideshlogbuttonSelected").value != '') {
+                    SetLogOutUserName(document.getElementById("txthideshlogbuttonSelected").value);
+                }
+
+                try {
+                    const queryStringPrice = window.location.search;
+                    const paramsPrice = new URLSearchParams(queryStringPrice);
+
+                    let paramValuePrice = $('#hfselectedBC').val();
+                    if (paramValuePrice == "") {
+                        paramValuePrice = "ZZ"
+                    };
+
+                    document.getElementById("currentflagSelected").src = "../media/flags/" + paramValuePrice + ".svg"
+                }
+                catch (error) {
+                    document.getElementById("currentflagSelected").src = "../media/flags/EN.svg"
+                }
+
+            }
+
+
+            function SelectLanguage(lngS, lngSbc) {
+
+                $('#hfLanguageselected').val(lngS);
+
+                $('#btnLanguageselected').click()
+
+            }
+
+        </script>
+
+
+
+        <asp:Button ID="btnLogout" runat="server" CssClass="display_non" Text="Log Out" />
+        
+        <asp:Label ID="reBC" runat="server" CssClass="display_non"></asp:Label>
+        <asp:Label ID="ttrErepTr" runat="server" CssClass="display_non"></asp:Label>
+        <asp:Label ID="reBCDcod" runat="server" CssClass="display_non"></asp:Label>
+        <asp:Label ID="heBC" runat="server" CssClass="display_non"></asp:Label>
+
+        <%--<asp:Label ID="lblCaption" runat="server" Text="<%$ Resources:Resources, caption %>" />--%>
+    </form>
+</body>
+</html>

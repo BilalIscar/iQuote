@@ -1,0 +1,445 @@
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\SemiApp_bl.dll.config
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\SemiApp_bl.dll
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\SemiApp_bl.pdb
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\SemiApp_bl.xml
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\Newtonsoft.Json.dll
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Buffers.dll
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Memory.dll
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Net.Http.Formatting.dll
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Numerics.Vectors.dll
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Text.Encodings.Web.dll
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Text.Json.dll
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.ValueTuple.dll
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\Newtonsoft.Json.xml
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Buffers.xml
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Memory.xml
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Net.Http.Formatting.xml
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Numerics.Vectors.xml
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Text.Encodings.Web.xml
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Text.Json.xml
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.ValueTuple.xml
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.AssemblyReference.cache
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\obj\Debug\SemiApp_bl.Resources.resources
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.GenerateResource.cache
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.CopyComplete
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\obj\Debug\SemiApp_bl.dll
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\obj\Debug\SemiApp_bl.xml
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\obj\Debug\SemiApp_bl.pdb
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\bin\Debug\SemiApp_bl.dll.config
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\bin\Debug\SemiApp_bl.dll
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\bin\Debug\SemiApp_bl.pdb
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\bin\Debug\SemiApp_bl.xml
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\bin\Debug\Newtonsoft.Json.dll
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\bin\Debug\System.Buffers.dll
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\bin\Debug\System.Memory.dll
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\bin\Debug\System.Net.Http.Formatting.dll
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\bin\Debug\System.Numerics.Vectors.dll
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\bin\Debug\System.Text.Encodings.Web.dll
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\bin\Debug\System.Text.Json.dll
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\bin\Debug\System.ValueTuple.dll
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\bin\Debug\Newtonsoft.Json.xml
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\bin\Debug\System.Buffers.xml
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\bin\Debug\System.Memory.xml
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\bin\Debug\System.Net.Http.Formatting.xml
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\bin\Debug\System.Numerics.Vectors.xml
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\bin\Debug\System.Text.Encodings.Web.xml
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\bin\Debug\System.Text.Json.xml
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\bin\Debug\System.ValueTuple.xml
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.AssemblyReference.cache
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\obj\Debug\SemiApp_bl.Resources.resources
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.GenerateResource.cache
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.CopyComplete
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\obj\Debug\SemiApp_bl.dll
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\obj\Debug\SemiApp_bl.xml
+D:\Documents\Visual Studio 2022\Projects\iQuote_New\SemiAppn\SemiApp_bl\obj\Debug\SemiApp_bl.pdb
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\bin\Debug\SemiApp_bl.dll.config
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\bin\Debug\SemiApp_bl.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\bin\Debug\SemiApp_bl.pdb
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\bin\Debug\SemiApp_bl.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\bin\Debug\Newtonsoft.Json.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\bin\Debug\System.Buffers.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\bin\Debug\System.Memory.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\bin\Debug\System.Net.Http.Formatting.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\bin\Debug\System.Numerics.Vectors.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\bin\Debug\System.Text.Encodings.Web.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\bin\Debug\System.Text.Json.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\bin\Debug\System.ValueTuple.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\bin\Debug\Newtonsoft.Json.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\bin\Debug\System.Buffers.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\bin\Debug\System.Memory.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\bin\Debug\System.Net.Http.Formatting.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\bin\Debug\System.Numerics.Vectors.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\bin\Debug\System.Text.Encodings.Web.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\bin\Debug\System.Text.Json.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\bin\Debug\System.ValueTuple.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.AssemblyReference.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\obj\Debug\SemiApp_bl.Resources.resources
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.GenerateResource.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.CoreCompileInputs.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.CopyComplete
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\obj\Debug\SemiApp_bl.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\obj\Debug\SemiApp_bl.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - G\SemiApp_bl\obj\Debug\SemiApp_bl.pdb
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\bin\Debug\SemiApp_bl.dll.config
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\bin\Debug\SemiApp_bl.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\bin\Debug\SemiApp_bl.pdb
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\bin\Debug\SemiApp_bl.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\bin\Debug\Newtonsoft.Json.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\bin\Debug\System.Buffers.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\bin\Debug\System.Memory.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\bin\Debug\System.Net.Http.Formatting.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\bin\Debug\System.Numerics.Vectors.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\bin\Debug\System.Text.Encodings.Web.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\bin\Debug\System.Text.Json.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\bin\Debug\System.ValueTuple.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\bin\Debug\Newtonsoft.Json.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\bin\Debug\System.Buffers.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\bin\Debug\System.Memory.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\bin\Debug\System.Net.Http.Formatting.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\bin\Debug\System.Numerics.Vectors.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\bin\Debug\System.Text.Encodings.Web.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\bin\Debug\System.Text.Json.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\bin\Debug\System.ValueTuple.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.AssemblyReference.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\obj\Debug\SemiApp_bl.Resources.resources
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.GenerateResource.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.CoreCompileInputs.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.CopyComplete
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\obj\Debug\SemiApp_bl.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\obj\Debug\SemiApp_bl.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiAppl\SemiApp_bl\obj\Debug\SemiApp_bl.pdb
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\bin\Debug\SemiApp_bl.dll.config
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\bin\Debug\SemiApp_bl.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\bin\Debug\SemiApp_bl.pdb
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\bin\Debug\SemiApp_bl.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\bin\Debug\Newtonsoft.Json.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\bin\Debug\System.Buffers.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\bin\Debug\System.Memory.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\bin\Debug\System.Net.Http.Formatting.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\bin\Debug\System.Numerics.Vectors.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\bin\Debug\System.Text.Encodings.Web.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\bin\Debug\System.Text.Json.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\bin\Debug\System.ValueTuple.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\bin\Debug\Newtonsoft.Json.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\bin\Debug\System.Buffers.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\bin\Debug\System.Memory.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\bin\Debug\System.Net.Http.Formatting.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\bin\Debug\System.Numerics.Vectors.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\bin\Debug\System.Text.Encodings.Web.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\bin\Debug\System.Text.Json.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\bin\Debug\System.ValueTuple.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.AssemblyReference.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\obj\Debug\SemiApp_bl.Resources.resources
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.GenerateResource.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.CoreCompileInputs.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.CopyComplete
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\obj\Debug\SemiApp_bl.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\obj\Debug\SemiApp_bl.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last\SemiApp_bl\obj\Debug\SemiApp_bl.pdb
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\bin\Debug\SemiApp_bl.dll.config
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\bin\Debug\SemiApp_bl.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\bin\Debug\SemiApp_bl.pdb
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\bin\Debug\SemiApp_bl.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\bin\Debug\Newtonsoft.Json.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\bin\Debug\System.Buffers.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\bin\Debug\System.Memory.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\bin\Debug\System.Net.Http.Formatting.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\bin\Debug\System.Numerics.Vectors.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\bin\Debug\System.Text.Encodings.Web.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\bin\Debug\System.Text.Json.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\bin\Debug\System.ValueTuple.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\bin\Debug\Newtonsoft.Json.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\bin\Debug\System.Buffers.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\bin\Debug\System.Memory.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\bin\Debug\System.Net.Http.Formatting.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\bin\Debug\System.Numerics.Vectors.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\bin\Debug\System.Text.Encodings.Web.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\bin\Debug\System.Text.Json.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\bin\Debug\System.ValueTuple.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.AssemblyReference.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\obj\Debug\SemiApp_bl.Resources.resources
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.GenerateResource.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.CoreCompileInputs.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.CopyComplete
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\obj\Debug\SemiApp_bl.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\obj\Debug\SemiApp_bl.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - 23.01.24\SemiApp_bl\obj\Debug\SemiApp_bl.pdb
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\bin\Debug\SemiApp_bl.dll.config
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\bin\Debug\SemiApp_bl.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\bin\Debug\SemiApp_bl.pdb
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\bin\Debug\SemiApp_bl.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\bin\Debug\Newtonsoft.Json.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\bin\Debug\System.Buffers.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\bin\Debug\System.Memory.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\bin\Debug\System.Net.Http.Formatting.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\bin\Debug\System.Numerics.Vectors.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\bin\Debug\System.Text.Encodings.Web.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\bin\Debug\System.Text.Json.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\bin\Debug\System.ValueTuple.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\bin\Debug\Newtonsoft.Json.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\bin\Debug\System.Buffers.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\bin\Debug\System.Memory.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\bin\Debug\System.Net.Http.Formatting.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\bin\Debug\System.Numerics.Vectors.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\bin\Debug\System.Text.Encodings.Web.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\bin\Debug\System.Text.Json.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\bin\Debug\System.ValueTuple.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.AssemblyReference.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\obj\Debug\SemiApp_bl.Resources.resources
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.GenerateResource.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.CoreCompileInputs.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.CopyComplete
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\obj\Debug\SemiApp_bl.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\obj\Debug\SemiApp_bl.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp Last - A\SemiApp_bl\obj\Debug\SemiApp_bl.pdb
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\bin\Debug\SemiApp_bl.dll.config
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\bin\Debug\SemiApp_bl.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\bin\Debug\SemiApp_bl.pdb
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\bin\Debug\SemiApp_bl.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\bin\Debug\Newtonsoft.Json.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\bin\Debug\System.Buffers.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\bin\Debug\System.Memory.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\bin\Debug\System.Net.Http.Formatting.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\bin\Debug\System.Numerics.Vectors.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\bin\Debug\System.Text.Encodings.Web.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\bin\Debug\System.Text.Json.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\bin\Debug\System.ValueTuple.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\bin\Debug\Newtonsoft.Json.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\bin\Debug\System.Buffers.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\bin\Debug\System.Memory.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\bin\Debug\System.Net.Http.Formatting.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\bin\Debug\System.Numerics.Vectors.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\bin\Debug\System.Text.Encodings.Web.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\bin\Debug\System.Text.Json.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\bin\Debug\System.ValueTuple.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.AssemblyReference.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\obj\Debug\SemiApp_bl.Resources.resources
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.GenerateResource.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.CoreCompileInputs.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.CopyComplete
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\obj\Debug\SemiApp_bl.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\obj\Debug\SemiApp_bl.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp-WebClient\SemiApp - 30.01.24\SemiApp_bl\obj\Debug\SemiApp_bl.pdb
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\bin\Debug\SemiApp_bl.dll.config
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\bin\Debug\SemiApp_bl.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\bin\Debug\SemiApp_bl.pdb
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\bin\Debug\SemiApp_bl.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\bin\Debug\Newtonsoft.Json.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\bin\Debug\System.Buffers.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\bin\Debug\System.Memory.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\bin\Debug\System.Net.Http.Formatting.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\bin\Debug\System.Numerics.Vectors.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\bin\Debug\System.Text.Encodings.Web.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\bin\Debug\System.Text.Json.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\bin\Debug\System.ValueTuple.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\bin\Debug\Newtonsoft.Json.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\bin\Debug\System.Buffers.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\bin\Debug\System.Memory.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\bin\Debug\System.Net.Http.Formatting.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\bin\Debug\System.Numerics.Vectors.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\bin\Debug\System.Text.Encodings.Web.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\bin\Debug\System.Text.Json.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\bin\Debug\System.ValueTuple.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.AssemblyReference.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\obj\Debug\SemiApp_bl.Resources.resources
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.GenerateResource.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.CoreCompileInputs.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.CopyComplete
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\obj\Debug\SemiApp_bl.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\obj\Debug\SemiApp_bl.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - before change to the new login (Tair) 14.03.24\SemiApp_bl\obj\Debug\SemiApp_bl.pdb
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\bin\Debug\SemiApp_bl.dll.config
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\bin\Debug\SemiApp_bl.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\bin\Debug\SemiApp_bl.pdb
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\bin\Debug\SemiApp_bl.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\bin\Debug\Newtonsoft.Json.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\bin\Debug\System.Buffers.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\bin\Debug\System.Memory.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\bin\Debug\System.Net.Http.Formatting.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\bin\Debug\System.Numerics.Vectors.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\bin\Debug\System.Text.Encodings.Web.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\bin\Debug\System.Text.Json.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\bin\Debug\System.ValueTuple.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\bin\Debug\Newtonsoft.Json.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\bin\Debug\System.Buffers.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\bin\Debug\System.Memory.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\bin\Debug\System.Net.Http.Formatting.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\bin\Debug\System.Numerics.Vectors.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\bin\Debug\System.Text.Encodings.Web.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\bin\Debug\System.Text.Json.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\bin\Debug\System.ValueTuple.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.AssemblyReference.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\obj\Debug\SemiApp_bl.Resources.resources
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.GenerateResource.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.CoreCompileInputs.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.CopyComplete
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\obj\Debug\SemiApp_bl.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\obj\Debug\SemiApp_bl.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - 29.05.24 - with unq\SemiApp_bl\obj\Debug\SemiApp_bl.pdb
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\bin\Debug\SemiApp_bl.dll.config
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\bin\Debug\SemiApp_bl.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\bin\Debug\SemiApp_bl.pdb
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\bin\Debug\SemiApp_bl.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\bin\Debug\IscarDal.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\bin\Debug\Newtonsoft.Json.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\bin\Debug\System.Buffers.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\bin\Debug\System.Memory.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\bin\Debug\System.Net.Http.Formatting.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\bin\Debug\System.Numerics.Vectors.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\bin\Debug\System.Text.Encodings.Web.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\bin\Debug\System.Text.Json.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\bin\Debug\System.ValueTuple.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\bin\Debug\Newtonsoft.Json.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\bin\Debug\System.Buffers.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\bin\Debug\System.Memory.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\bin\Debug\System.Net.Http.Formatting.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\bin\Debug\System.Numerics.Vectors.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\bin\Debug\System.Text.Encodings.Web.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\bin\Debug\System.Text.Json.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\bin\Debug\System.ValueTuple.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.AssemblyReference.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\obj\Debug\SemiApp_bl.Resources.resources
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.GenerateResource.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.CoreCompileInputs.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.CopyComplete
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\obj\Debug\SemiApp_bl.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\obj\Debug\SemiApp_bl.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp - Last\SemiApp_bl\obj\Debug\SemiApp_bl.pdb
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.AssemblyReference.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\obj\Debug\SemiApp_bl.Resources.resources
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.GenerateResource.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.CoreCompileInputs.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\obj\Debug\SemiApp_bl.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\obj\Debug\SemiApp_bl.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\obj\Debug\SemiApp_bl.pdb
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\bin\Debug\SemiApp_bl.dll.config
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\bin\Debug\SemiApp_bl.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\bin\Debug\SemiApp_bl.pdb
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\bin\Debug\SemiApp_bl.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\bin\Debug\IscarDal.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\bin\Debug\Newtonsoft.Json.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\bin\Debug\System.Buffers.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\bin\Debug\System.Memory.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\bin\Debug\System.Net.Http.Formatting.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\bin\Debug\System.Numerics.Vectors.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\bin\Debug\System.Text.Encodings.Web.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\bin\Debug\System.Text.Json.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\bin\Debug\System.ValueTuple.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\bin\Debug\Newtonsoft.Json.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\bin\Debug\System.Buffers.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\bin\Debug\System.Memory.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\bin\Debug\System.Net.Http.Formatting.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\bin\Debug\System.Numerics.Vectors.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\bin\Debug\System.Text.Encodings.Web.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\bin\Debug\System.Text.Json.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\bin\Debug\System.ValueTuple.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\Semi_App\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.CopyComplete
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\SemiApp_bl.dll.config
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\SemiApp_bl.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\SemiApp_bl.pdb
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\SemiApp_bl.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\IscarDal.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\Newtonsoft.Json.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Buffers.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Memory.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Net.Http.Formatting.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Numerics.Vectors.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Text.Encodings.Web.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Text.Json.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.ValueTuple.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\Newtonsoft.Json.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Buffers.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Memory.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Net.Http.Formatting.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Numerics.Vectors.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Text.Encodings.Web.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Text.Json.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\bin\Debug\System.ValueTuple.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.AssemblyReference.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\obj\Debug\SemiApp_bl.Resources.resources
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.GenerateResource.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.CoreCompileInputs.cache
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\obj\Debug\SemiApp_bl.vbproj.CopyComplete
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\obj\Debug\SemiApp_bl.dll
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\obj\Debug\SemiApp_bl.xml
+C:\o\Projects\Visual Studio 2022\Projects\iQuote_New\SemiApp\SemiApp_bl\obj\Debug\SemiApp_bl.pdb

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://dmstest/wsDOCMNG365/wsDocMngServices.asmx?wsdl" docRef="http://dmstest/wsDOCMNG365/wsDocMngServices.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://dmstest/wsDOCMNG365/wsDocMngServices.asmx" xmlns:q1="http://Iscar.CloudServices/" binding="q1:wsDocMngServicesSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://dmstest/wsDOCMNG365/wsDocMngServices.asmx" xmlns:q2="http://Iscar.CloudServices/" binding="q2:wsDocMngServicesSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

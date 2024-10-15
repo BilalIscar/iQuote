@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="https://www.iscar.com/wsIscarCat/IscarData.asmx?wsdl" docRef="https://www.iscar.com/wsIscarCat/IscarData.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="https://www.iscar.com/wsIscarCat/IscarData.asmx" xmlns:q1="http://tempuri.org/" binding="q1:IscarDataSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="https://www.iscar.com/wsIscarCat/IscarData.asmx" xmlns:q2="http://tempuri.org/" binding="q2:IscarDataSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

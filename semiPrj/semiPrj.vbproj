@@ -1,0 +1,981 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{EEA13A0F-CF74-42E0-8D3F-5F3312A090F4}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>semiPrj</RootNamespace>
+    <AssemblyName>semiPrj</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>semiPrj.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptJSXEmit>React</TypeScriptJSXEmit>
+    <TypeScriptModuleKind />
+    <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
+    <TypeScriptRemoveComments>False</TypeScriptRemoveComments>
+    <TypeScriptOutFile />
+    <TypeScriptOutDir />
+    <TypeScriptGeneratesDeclarations>False</TypeScriptGeneratesDeclarations>
+    <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
+    <TypeScriptSourceMap>True</TypeScriptSourceMap>
+    <TypeScriptMapRoot />
+    <TypeScriptSourceRoot />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>semiPrj.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.5.40412.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <HintPath>\\10.10.2.170\Public1\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="ceTe.DynamicPDF.Converter, Version=1.0.0.14308, Culture=neutral, PublicKeyToken=ac8f8afe08212066, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\bilal\Desktop\ceTe.DynamicPDF.Converter.dll</HintPath>
+    </Reference>
+    <Reference Include="DPAsm">
+      <HintPath>C:\Users\bilal\Desktop\DPAsm.dll</HintPath>
+    </Reference>
+    <Reference Include="DynamicPDF">
+      <HintPath>C:\Users\bilal\Desktop\DynamicPDF.dll</HintPath>
+    </Reference>
+    <Reference Include="IscarDal, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\bilal\Desktop\IscarDal.dll</HintPath>
+    </Reference>
+    <Reference Include="LoginBL">
+      <HintPath>C:\Users\bilal\Desktop\LoginBL.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.1484.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.1484.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.1484.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.1484.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebDesign, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.1484.0\lib\net40\Microsoft.ReportViewer.WebDesign.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.1484.0\lib\net40\Microsoft.ReportViewer.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\LTR\Calendar.css" />
+    <Content Include="App_Themes\LTR\cssGlobal.css" />
+    <Content Include="App_Themes\LTR\cssSemiGlobal-min.css" />
+    <Content Include="App_Themes\LTR\cssSemiGlobal.css" />
+    <Content Include="App_Themes\LTR\jquery-confirm.min.css" />
+    <Content Include="App_Themes\LTR\jquery-ui.css" />
+    <Content Include="App_Themes\LTR\mnueBurger.css" />
+    <Content Include="CacheDependency\CacheDependency.txt" />
+    <Content Include="Default.aspx" />
+    <Content Include="fonts\LICENSE.txt" />
+    <Content Include="fonts\OFL.txt" />
+    <Content Include="fonts\README.txt" />
+    <Content Include="formAdmin\AdminData.aspx" />
+    <Content Include="formAdmin\AdminFactors.aspx" />
+    <Content Include="formAdmin\AdminFactorsm.aspx" />
+    <Content Include="formAdmin\Transition.aspx" />
+    <Content Include="formAdmin\ucBettredirect.aspx" />
+    <Content Include="forms\CatalogTableDetails.aspx" />
+    <Content Include="forms\ConfiguratorBuilder.aspx" />
+    <Content Include="forms\LglInfo\IG\eleg4.html" />
+    <Content Include="forms\LglInfo\IG\eleg2.html" />
+    <Content Include="forms\LglInfo\IG\eleg1.html" />
+    <Content Include="forms\LglInfo\IG\eleg3.html" />
+    <Content Include="forms\ShowPDFReportBSONError_2.html" />
+    <Content Include="forms\ShowPDFReportBSONError_3.html" />
+    <Content Include="media\flags\HP.svg" />
+    <Content Include="forms\LogIn.aspx" />
+    <Content Include="forms\Material.aspx" />
+    <Content Include="forms\ShowPDFReportBSON.aspx" />
+    <Content Include="forms\Notification.aspx" />
+    <Content Include="forms\Prices.aspx" />
+    <Content Include="forms\QBuilder.aspx" />
+    <Content Include="forms\QuotationsList.aspx" />
+    <Content Include="forms\ShowPDFReport.aspx" />
+    <Content Include="forms\StartFB.aspx" />
+    <Content Include="formAdmin\UserCustomerCnt.aspx" />
+    <Content Include="jq\jquery-ui-min-n.js" />
+    <Content Include="jq\jquery-ui-min.css" />
+    <Content Include="jq\jquery-3.5.0.min.js" />
+    <Content Include="jq\images\ui-bg_glass_55_fcf0ba_1x400.png" />
+    <Content Include="jq\images\ui-bg_gloss-wave_100_ece8da_500x100.png" />
+    <Content Include="jq\images\ui-bg_highlight-hard_100_f5f3e5_1x100.png" />
+    <Content Include="jq\images\ui-bg_highlight-hard_100_fafaf4_1x100.png" />
+    <Content Include="jq\images\ui-bg_highlight-soft_25_67b021_1x100.png" />
+    <Content Include="jq\images\ui-bg_highlight-soft_95_ffedad_1x100.png" />
+    <Content Include="jq\images\ui-bg_highlight-hard_15_459e00_1x100.png" />
+    <Content Include="jq\jquery-confirm.min.js" />
+    <Content Include="media\Configuration\SecondType\Cl.png" />
+    <Content Include="media\Configuration\ThirdModelImages\Cl.png" />
+    <Content Include="media\flags\argentina.svg" />
+    <Content Include="media\flags\australia.svg" />
+    <Content Include="media\flags\austria.svg" />
+    <Content Include="media\flags\azerbaijan.svg" />
+    <Content Include="media\flags\belarus.svg" />
+    <Content Include="media\flags\belgium.svg" />
+    <Content Include="media\flags\brazil.svg" />
+    <Content Include="media\flags\bulgria.svg" />
+    <Content Include="media\flags\canada.svg" />
+    <Content Include="media\flags\china.svg" />
+    <Content Include="media\flags\croatia.svg" />
+    <Content Include="media\flags\czech.svg" />
+    <Content Include="media\flags\DA.svg" />
+    <Content Include="media\flags\DEFAULT.svg" />
+    <Content Include="media\flags\DEFAULT_OLD.svg" />
+    <Content Include="media\flags\denemark.svg" />
+    <Content Include="media\flags\EN.svg" />
+    <Content Include="media\flags\finland.svg" />
+    <Content Include="media\flags\FR.svg" />
+    <Content Include="media\flags\france.svg" />
+    <Content Include="media\flags\germany.svg" />
+    <Content Include="media\flags\GM.svg" />
+    <Content Include="media\flags\HE.svg" />
+    <Content Include="media\flags\headquarters.svg" />
+    <Content Include="media\flags\HK.svg" />
+    <Content Include="media\flags\hungary.svg" />
+    <Content Include="media\flags\ID.svg" />
+    <Content Include="media\flags\IF.svg" />
+    <Content Include="media\flags\IG.svg" />
+    <Content Include="media\flags\IK.svg" />
+    <Content Include="media\flags\IN.svg" />
+    <Content Include="media\flags\IS.svg" />
+    <Content Include="media\flags\israel.svg" />
+    <Content Include="media\flags\IT.svg" />
+    <Content Include="media\flags\italy.svg" />
+    <Content Include="media\flags\IU.svg" />
+    <Content Include="media\flags\Japan.svg" />
+    <Content Include="media\flags\JP.svg" />
+    <Content Include="media\flags\JU.svg" />
+    <Content Include="media\flags\KR.svg" />
+    <Content Include="media\flags\LH.svg" />
+    <Content Include="media\flags\LT.svg" />
+    <Content Include="media\flags\mexico.svg" />
+    <Content Include="media\flags\new Zealand.svg" />
+    <Content Include="media\flags\poland.svg" />
+    <Content Include="media\flags\portugal.svg" />
+    <Content Include="media\flags\PR.svg" />
+    <Content Include="media\flags\RU.svg" />
+    <Content Include="media\flags\russia.svg" />
+    <Content Include="media\flags\SD.svg" />
+    <Content Include="media\flags\Slovenia.svg" />
+    <Content Include="media\flags\south  korea.svg" />
+    <Content Include="media\flags\south africa.svg" />
+    <Content Include="media\flags\SP.svg" />
+    <Content Include="media\flags\spain.svg" />
+    <Content Include="media\flags\swidan.svg" />
+    <Content Include="media\flags\switzrland.svg" />
+    <Content Include="media\flags\taiwan.svg" />
+    <Content Include="media\flags\thailand.svg" />
+    <Content Include="media\flags\the netherlands.svg" />
+    <Content Include="media\flags\turky.svg" />
+    <Content Include="media\flags\uk.svg" />
+    <Content Include="media\flags\ukraina.svg" />
+    <Content Include="media\flags\usa.svg" />
+    <Content Include="media\flags\vietnam.svg" />
+    <Content Include="media\flags\VT.svg" />
+    <Content Include="media\flags\WA.svg" />
+    <Content Include="media\flags\WB.svg" />
+    <Content Include="media\flags\WH.svg" />
+    <Content Include="media\flags\WK.svg" />
+    <Content Include="media\flags\WM.svg" />
+    <Content Include="media\flags\WP.svg" />
+    <Content Include="media\flags\WS.svg" />
+    <Content Include="media\flags\WT.svg" />
+    <Content Include="media\flags\WV.svg" />
+    <Content Include="media\flags\WZ.svg" />
+    <Content Include="media\flags\XZ.svg" />
+    <Content Include="media\flags\XZ_X.svg" />
+    <Content Include="media\flags\ZZ.svg" />
+    <Content Include="media\Icons\arrowdown.png" />
+    <Content Include="media\Icons\arrowup.png" />
+    <Content Include="media\Icons\asc.svg" />
+    <Content Include="media\Icons\created.png" />
+    <Content Include="media\Icons\desc.svg" />
+    <Content Include="media\Icons\disabled cart.png" />
+    <Content Include="media\Icons\disabledcart.png" />
+    <Content Include="media\Icons\disabledcart.svg" />
+    <Content Include="media\Icons\disabledcartordered.png" />
+    <Content Include="media\Icons\disabledcartordered.svg" />
+    <Content Include="media\Icons\enabledcart.png" />
+    <Content Include="media\Icons\enabledcart.svg" />
+    <Content Include="media\Icons\enabledcartordered.png" />
+    <Content Include="media\Icons\enabledcartordered.svg" />
+    <Content Include="media\Icons\foldericon.svg" />
+    <Content Include="media\Icons\iAdd.png" />
+    <Content Include="media\Icons\iconNo1.svg" />
+    <Content Include="media\Icons\iconNo2.svg" />
+    <Content Include="media\Icons\iconNo3.svg" />
+    <Content Include="media\Icons\icon_arrow.svg" />
+    <Content Include="media\Icons\LiginIcoEE.png" />
+    <Content Include="media\Icons\LiginIcoEmenu.png" />
+    <Content Include="media\Icons\NewS.png" />
+    <Content Include="media\Icons\none.svg" />
+    <Content Include="media\Icons\Orde1.png" />
+    <Content Include="media\Icons\Orde2.png" />
+    <Content Include="media\Icons\Orde3.png" />
+    <Content Include="media\Icons\Orde4.png" />
+    <Content Include="media\Icons\Orde5.png" />
+    <Content Include="media\Icons\Orde6.png" />
+    <Content Include="media\Icons\ordered.png" />
+    <Content Include="media\Icons\orderslogo.svg" />
+    <Content Include="media\Icons\redwarning.png" />
+    <Content Include="media\Icons\submitted.png" />
+    <Content Include="media\Icons\VHistory.png" />
+    <Content Include="media\Icons\warningblue.png" />
+    <Content Include="media\Icons\warningyellow.png" />
+    <Content Include="media\Images\BannerFFooter.png" />
+    <Content Include="media\Images\bluebell.png" />
+    <Content Include="media\Images\Default\DEFAULT.svg" />
+    <Content Include="media\Images\drawerr2.png" />
+    <Content Include="media\Images\drawerr3.png" />
+    <Content Include="media\Images\ErrorImgMsg.png" />
+    <Content Include="media\Icons\AR_l.svg" />
+    <Content Include="media\Icons\copyIcon.png" />
+    <Content Include="media\Icons\CreatU.png" />
+    <Content Include="media\Icons\DOWNLOADc.png" />
+    <Content Include="media\Icons\IQUOTE.png" />
+    <Content Include="media\Icons\MyQuotationsDis.png" />
+    <Content Include="media\Icons\NEWc.png" />
+    <Content Include="media\Icons\Screa.gif" />
+    <Content Include="media\Icons\Screa.png" />
+    <Content Include="media\Icons\X.png" />
+    <Content Include="media\Icons\XGrid.png" />
+    <Content Include="media\Configuration\FirstMain\DR.png" />
+    <Content Include="media\Configuration\FirstMain\IS.png" />
+    <Content Include="media\Configuration\FirstMain\MF.png" />
+    <Content Include="media\Configuration\FirstMain\ML.png" />
+    <Content Include="media\Configuration\FirstMain\RE.png" />
+    <Content Include="media\Configuration\FirstMain\TG.png" />
+    <Content Include="media\Configuration\FirstMain\TH.png" />
+    <Content Include="media\Configuration\SecondType\indexable.png" />
+    <Content Include="media\Configuration\SecondType\Solid.png" />
+    <Content Include="media\Configuration\ThirdModelImages\2517.gif" />
+    <Content Include="media\Configuration\ThirdModelImages\2671.gif" />
+    <Content Include="media\Configuration\ThirdModelImages\4414.gif" />
+    <Content Include="media\Configuration\ThirdModelImages\946.gif" />
+    <Content Include="media\Icons\feedbackIcons\CornerIMage.png" />
+    <Content Include="media\Icons\feedbackIcons\faceblue.svg" />
+    <Content Include="media\Icons\feedbackIcons\faceblue1.svg" />
+    <Content Include="media\Icons\feedbackIcons\facegreen.svg" />
+    <Content Include="media\Icons\ByuIcon.png" />
+    <Content Include="media\Icons\Delete.png" />
+    <Content Include="media\Icons\Duplicate.png" />
+    <Content Include="media\Icons\ecat_Icon.svg" />
+    <Content Include="media\Icons\facebook.svg" />
+    <Content Include="media\Icons\Favorite_icon.svg" />
+    <Content Include="media\Icons\feedbackIcons\facegreen1.svg" />
+    <Content Include="media\Icons\feedbackIcons\facered.svg" />
+    <Content Include="media\Icons\feedbackIcons\facered1.svg" />
+    <Content Include="media\Icons\Help_Icon.svg" />
+    <Content Include="media\Icons\iconAT.png" />
+    <Content Include="media\Icons\iconGeneral.png" />
+    <Content Include="media\Icons\iconGeneralW.png" />
+    <Content Include="media\Icons\iconModel.png" />
+    <Content Include="media\Icons\iconWPM.png" />
+    <Content Include="media\Icons\icon_AddToCart_White.svg" />
+    <Content Include="media\Icons\icon_LoginC.svg" />
+    <Content Include="media\Icons\Icon_Search.svg" />
+    <Content Include="media\Icons\IQ.png" />
+    <Content Include="media\Icons\LiginIcoE.png" />
+    <Content Include="media\Icons\LiginIcoEL.png" />
+    <Content Include="media\Icons\Ligout.png" />
+    <Content Include="media\Icons\LinkdIn.svg" />
+    <Content Include="media\Icons\list-icon.jpg" />
+    <Content Include="media\Icons\ListArrow.png" />
+    <Content Include="media\Icons\loginAR.svg" />
+    <Content Include="media\Icons\NewSearch.png" />
+    <Content Include="media\Icons\OK.png" />
+    <Content Include="media\Icons\OK_Dis.PNG" />
+    <Content Include="media\Icons\Search29.png" />
+    <Content Include="media\Icons\SmallDownIcon.png" />
+    <Content Include="media\Images\bgIw.png" />
+    <Content Include="media\Images\DEFAULT.png" />
+    <Content Include="media\Images\DEFAULTRun.gif" />
+    <Content Include="media\Icons\Renew.png" />
+    <Content Include="media\Icons\Save.png" />
+    <Content Include="media\Icons\Search.png" />
+    <Content Include="media\Icons\Search_icon.svg" />
+    <Content Include="media\Icons\twitter.svg" />
+    <Content Include="media\Icons\you_tube.svg" />
+    <Content Include="media\Images\Default\rec.svg" />
+    <Content Include="media\Images\Default\Standard.svg" />
+    <Content Include="media\Images\greybell.png" />
+    <Content Include="media\Images\ISCAR_Logo_flat.svg" />
+    <Content Include="media\Images\MailLogoD.jpg" />
+    <Content Include="media\Images\ReportErr.png" />
+    <Content Include="media\Images\SearchRep.png" />
+    <Content Include="media\Images\timouticon.png" />
+    <Content Include="media\ModelIcons\4414.gif" />
+    <Content Include="media\ModelImages\GUNDRILL\4414_T.gif" />
+    <Content Include="media\ModelImages\GUNDRILL\GUNDRILL.gif" />
+    <Content Include="media\ModelImages\GUNDRILL\GUNDRILL.png" />
+    <Content Include="media\ModelImages\GUNDRILL\GUNDRILLX.gif" />
+    <Content Include="media\ModelImages\GUNDRILL\StartL.png" />
+    <Content Include="media\ModelImages\SolidEndMillsBallNose\Finishing.png" />
+    <Content Include="media\ModelImages\SolidEndMillsBallNose\Roughing.png" />
+    <Content Include="media\ModelImages\SolidEndMillsBallNose\SolidEndMillsBallNose.png" />
+    <Content Include="media\ModelImages\SolidEndmills\1007.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\1108.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\1109.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\1111.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\1113.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\1128.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\1129.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\1130.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\1131.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\1133.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\1134.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\1135.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\1137.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\1138.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\1139.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\1140.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\1142.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\1143.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\1151.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\1207.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\1844.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\1845.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\1953.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\1956.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\2005.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\2020.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\2021.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\2024.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\2127.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\2158.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\2211.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\2326.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\2327.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\2518.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\2519.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\2520.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\2934.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\2966.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\3212.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\3213.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\3266.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\3267.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\3268.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\3643.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\3647.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\3655.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\3737.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\3738.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\3744.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\3818.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\3819.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\3823.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\3887.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\3892.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\3966.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\525.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\528.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\802.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\803.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\804.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\924.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\925.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\940.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\941.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\942.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\943.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\944.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\945.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\947.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\948.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\949.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\950.gif" />
+    <Content Include="media\ParamImages\SolidEndMillsBallNose\Finishing_Ae.png" />
+    <Content Include="media\ParamImages\SolidEndMillsBallNose\Finishing_LU.png" />
+    <Content Include="media\ParamImages\SolidEndMillsBallNose\Finishing_SHANK.png" />
+    <Content Include="media\ParamImages\SolidEndMillsBallNose\Roughing_Ae.png" />
+    <Content Include="media\ParamImages\SolidEndMillsBallNose\Roughing_SHANK.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\5622143 D_APMX.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\5623377 D_APMX.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Finishing_Ae - Copy.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Finishing_Ae.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Finishing_AeX.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Finishing_LU - Copy.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Finishing_LU_OLD.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Finishing_NOFX.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Finishing_NOFXCXCC.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Finishing_NOF_XX.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Roughing_Ae - Copy.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Roughing_Ae.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Roughing_Aex.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Roughing_LU - Copy.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Roughing_LU_OLD.png" />
+    <Content Include="media\TabImage\icon_Material_active.svg" />
+    <Content Include="media\TabImage\icon_Material_dis.svg" />
+    <Content Include="media\TabImage\icon_parameters_active.svg" />
+    <Content Include="media\TabImage\icon_parameters_dis.svg" />
+    <Content Include="media\TabImage\icon_ProductType_active.svg" />
+    <Content Include="media\Images\Default\PinDown.png" />
+    <Content Include="media\Images\Default\PinUp.png" />
+    <Content Include="media\Images\Default\Remark.gif" />
+    <Content Include="media\Images\Default\Search.png" />
+    <Content Include="media\Images\Default\SearchImage.png" />
+    <Content Include="media\Images\Default\spinner.gif" />
+    <Content Include="media\Images\Default\STD.gif" />
+    <Content Include="media\Images\Default\STD.png" />
+    <Content Include="media\Images\indexable.png" />
+    <Content Include="media\Images\ISCAR_Logo.svg" />
+    <Content Include="media\Images\Pxl.png" />
+    <Content Include="media\Images\Solid.png" />
+    <Content Include="media\Images\Wait.gif" />
+    <Content Include="media\ModelIcons\2517.gif" />
+    <Content Include="media\ModelIcons\2671.gif" />
+    <Content Include="media\ModelIcons\946.gif" />
+    <Content Include="media\ModelImages\Cham Drill Insert\ChamDrillInsert.gif" />
+    <Content Include="media\ModelImages\Cham Drill Insert\StartL.png" />
+    <Content Include="media\ModelImages\SolidEndMillsBallNose\Finishing_.jpg" />
+    <Content Include="media\ModelImages\SolidEndMillsBallNose\Roughing_.jpg" />
+    <Content Include="media\ModelImages\SolidEndMillsBallNose\SolidEndMillsBallNose.jpg" />
+    <Content Include="media\ModelImages\SolidEndMillsBallNose\StartL.png" />
+    <Content Include="media\ModelImages\SolidEndMillsSquare\Finishingfff.jpg" />
+    <Content Include="media\ModelImages\SolidEndMillsSquare\FinishingXX.jpg" />
+    <Content Include="media\ModelImages\SolidEndMillsSquare\Finishing.png" />
+    <Content Include="media\ModelImages\SolidEndMillsSquare\Roughing.jpg" />
+    <Content Include="media\ModelImages\SolidEndMillsSquare\Roughing.png" />
+    <Content Include="media\ModelImages\SolidEndMillsSquare\Roughing_LU.jpg" />
+    <Content Include="media\ModelImages\SolidEndMillsSquare\SolidEndMillsSquare1.jpg" />
+    <Content Include="media\ModelImages\SolidEndMillsSquare\SolidEndMillsSquare.png" />
+    <Content Include="media\ModelImages\SolidEndMillsSquare\SolidEndMillsSquare_1.jpg" />
+    <Content Include="media\ModelImages\SolidEndMillsSquare\Start.png" />
+    <Content Include="media\ModelImages\SolidEndMillsSquare\StartL.png" />
+    <Content Include="media\ModelImages\SolidEndmills\1600.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\1780.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\2517.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\2647.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\2649.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\2935.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\3183.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\3265.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\3316.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\3670.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\946.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\951.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\952.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\953.gif" />
+    <Content Include="media\ModelImages\SolidEndmills\StartL.png" />
+    <Content Include="media\ParamImages\LOGO.png" />
+    <Content Include="media\ParamImages\OLD\F_APMX.png" />
+    <Content Include="media\ParamImages\OLD\F_Corner Design.png" />
+    <Content Include="media\ParamImages\OLD\F_DC.png" />
+    <Content Include="media\ParamImages\OLD\F_FHA.png" />
+    <Content Include="media\ParamImages\OLD\F_LU.png" />
+    <Content Include="media\ParamImages\OLD\F_NOF.png" />
+    <Content Include="media\ParamImages\OLD\F_OAL.png" />
+    <Content Include="media\ParamImages\OLD\F_SHANK.png" />
+    <Content Include="media\ParamImages\OLD\R_APMX.png" />
+    <Content Include="media\ParamImages\OLD\R_Corner Type.png" />
+    <Content Include="media\ParamImages\OLD\R_DC.png" />
+    <Content Include="media\ParamImages\OLD\R_FHA.png" />
+    <Content Include="media\ParamImages\OLD\R_LU.png" />
+    <Content Include="media\ParamImages\OLD\R_NOF.png" />
+    <Content Include="media\ParamImages\OLD\R_OAL.png" />
+    <Content Include="media\ParamImages\OLD\R_SHANK.png" />
+    <Content Include="media\ParamImages\SolidEndMillsBallNose\Application Type.png" />
+    <Content Include="media\ParamImages\SolidEndMillsBallNose\Finishing_APMX.png" />
+    <Content Include="media\ParamImages\SolidEndMillsBallNose\Finishing_Corner Type.png" />
+    <Content Include="media\ParamImages\SolidEndMillsBallNose\Finishing_DC.png" />
+    <Content Include="media\ParamImages\SolidEndMillsBallNose\Finishing_FHA.png" />
+    <Content Include="media\ParamImages\SolidEndMillsBallNose\Finishing_NOF.png" />
+    <Content Include="media\ParamImages\SolidEndMillsBallNose\Finishing_OAL.png" />
+    <Content Include="media\ParamImages\SolidEndMillsBallNose\Finishing_Relieved Neck %28LU%29.png" />
+    <Content Include="media\ParamImages\SolidEndMillsBallNose\Finishing_SHANKS.png" />
+    <Content Include="media\ParamImages\SolidEndMillsBallNose\Roughing_APMX.png" />
+    <Content Include="media\ParamImages\SolidEndMillsBallNose\Roughing_Corner Type.png" />
+    <Content Include="media\ParamImages\SolidEndMillsBallNose\Roughing_DC.png" />
+    <Content Include="media\ParamImages\SolidEndMillsBallNose\Roughing_FHA.png" />
+    <Content Include="media\ParamImages\SolidEndMillsBallNose\Roughing_LU.png" />
+    <Content Include="media\ParamImages\SolidEndMillsBallNose\Roughing_NOF.png" />
+    <Content Include="media\ParamImages\SolidEndMillsBallNose\Roughing_OAL.png" />
+    <Content Include="media\ParamImages\SolidEndMillsBallNose\Roughing_SHANKS.png" />
+    <Content Include="media\ParamImages\SolidEndMillsBallNose\StartR.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Application Type - Copy.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Application Type.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\edit.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Finishing_APMX.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Finishing_Corner Design.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Finishing_Corner_Design.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Finishing_DC.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Finishing_FHA.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Finishing_LU.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Finishing_NOF.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Finishing_OAL.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Finishing_SHANK.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Roughing_APMX.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Roughing_Corner Type.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Roughing_Corner_Design.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Roughing_DC.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Roughing_FHA.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Roughing_LU.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Roughing_NOF.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Roughing_OAL.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Roughing_SHANK.png" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\StartR.png" />
+    <Content Include="media\ParamImages\SolidEndmills\Application Type - Copy.png" />
+    <Content Include="media\ParamImages\SolidEndmills\Application Type.png" />
+    <Content Include="media\ParamImages\SolidEndmills\Finishing_APMX.png" />
+    <Content Include="media\ParamImages\SolidEndmills\Finishing_Corner_Design.png" />
+    <Content Include="media\ParamImages\SolidEndmills\Finishing_DC.png" />
+    <Content Include="media\ParamImages\SolidEndmills\Finishing_FHA.png" />
+    <Content Include="media\ParamImages\SolidEndmills\Finishing_LU.png" />
+    <Content Include="media\ParamImages\SolidEndmills\Finishing_NOF.png" />
+    <Content Include="media\ParamImages\SolidEndmills\Finishing_OAL.png" />
+    <Content Include="media\ParamImages\SolidEndmills\Finishing_SHANK.png" />
+    <Content Include="media\ParamImages\SolidEndmills\Roughing_APMX.png" />
+    <Content Include="media\ParamImages\SolidEndmills\Roughing_Corner_Design.png" />
+    <Content Include="media\ParamImages\SolidEndmills\Roughing_DC.png" />
+    <Content Include="media\ParamImages\SolidEndmills\Roughing_FHA.png" />
+    <Content Include="media\ParamImages\SolidEndmills\Roughing_LU.png" />
+    <Content Include="media\ParamImages\SolidEndmills\Roughing_NOF.png" />
+    <Content Include="media\ParamImages\SolidEndmills\Roughing_OAL.png" />
+    <Content Include="media\ParamImages\SolidEndmills\Roughing_SHANK.png" />
+    <Content Include="media\ParamImages\SolidEndmills\StartR.png" />
+    <Content Include="media\TabImage\icon_ProductType_dis.svg" />
+    <Content Include="media\Images\Succeded.svg" />
+    <Content Include="media\TabImage\icon_Resaults_active.svg" />
+    <Content Include="media\TabImage\icon_Resaults_dis.svg" />
+    <Content Include="media\TabImage\img3DTab.png" />
+    <Content Include="media\TabImage\img3DTabC.png" />
+    <Content Include="Reports\MainQuotationDataReport.aspx" />
+    <Content Include="SqlServerTypes\Loader.cs" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="uc\wucTab.ascx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="formAdmin\AdminData.aspx.designer.vb">
+      <DependentUpon>AdminData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="formAdmin\AdminData.aspx.vb">
+      <DependentUpon>AdminData.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="formAdmin\Transition.aspx.designer.vb">
+      <DependentUpon>Transition.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="formAdmin\Transition.aspx.vb">
+      <DependentUpon>Transition.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="formAdmin\ucBettredirect.aspx.designer.vb">
+      <DependentUpon>ucBettredirect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="formAdmin\ucBettredirect.aspx.vb">
+      <DependentUpon>ucBettredirect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resource\EN.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EN.resx</DependentUpon>
+    </Compile>
+    <Compile Include="utl.vb" />
+    <Content Include="App_Code\ds_MainQutData.vb">
+      <DependentUpon>ds_MainQutData.xsd</DependentUpon>
+    </Content>
+    <Compile Include="formAdmin\AdminFactorsm.aspx.designer.vb">
+      <DependentUpon>AdminFactorsm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="formAdmin\AdminFactorsm.aspx.vb">
+      <DependentUpon>AdminFactorsm.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="forms\CatalogTableDetails.aspx.designer.vb">
+      <DependentUpon>CatalogTableDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="forms\CatalogTableDetails.aspx.vb">
+      <DependentUpon>CatalogTableDetails.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="forms\CatiaReportHandel.ashx.vb">
+      <DependentUpon>CatiaReportHandel.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Idinty.vb" />
+    <Compile Include="forms\Material.aspx.designer.vb">
+      <DependentUpon>Material.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Material.aspx.vb">
+      <DependentUpon>Material.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="forms\ShowPDFReportBSON.aspx.designer.vb">
+      <DependentUpon>ShowPDFReportBSON.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="forms\ShowPDFReportBSON.aspx.vb">
+      <DependentUpon>ShowPDFReportBSON.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="forms\ShowPDFReport.aspx.designer.vb">
+      <DependentUpon>ShowPDFReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="forms\ShowPDFReport.aspx.vb">
+      <DependentUpon>ShowPDFReport.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="forms\StartFB.aspx.designer.vb">
+      <DependentUpon>StartFB.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="forms\StartFB.aspx.vb">
+      <DependentUpon>StartFB.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="formAdmin\UserCustomerCnt.aspx.designer.vb">
+      <DependentUpon>UserCustomerCnt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="formAdmin\UserCustomerCnt.aspx.vb">
+      <DependentUpon>UserCustomerCnt.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reports\MainQuotationDataReport.aspx.designer.vb">
+      <DependentUpon>MainQuotationDataReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\MainQuotationDataReport.aspx.vb">
+      <DependentUpon>MainQuotationDataReport.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="uc\wucTab.ascx.designer.vb">
+      <DependentUpon>wucTab.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="uc\wucTab.ascx.vb">
+      <DependentUpon>wucTab.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="uc\wucTabcls.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="formAdmin\AdminFactors.aspx.designer.vb">
+      <DependentUpon>AdminFactors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="formAdmin\AdminFactors.aspx.vb">
+      <DependentUpon>AdminFactors.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="forms\ConfiguratorBuilder.aspx.designer.vb">
+      <DependentUpon>ConfiguratorBuilder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="forms\ConfiguratorBuilder.aspx.vb">
+      <DependentUpon>ConfiguratorBuilder.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="forms\LogIn.aspx.designer.vb">
+      <DependentUpon>LogIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="forms\LogIn.aspx.vb">
+      <DependentUpon>LogIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="forms\Notification.aspx.designer.vb">
+      <DependentUpon>Notification.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Notification.aspx.vb">
+      <DependentUpon>Notification.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="forms\Prices.aspx.designer.vb">
+      <DependentUpon>Prices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Prices.aspx.vb">
+      <DependentUpon>Prices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="forms\QBuilder.aspx.designer.vb">
+      <DependentUpon>QBuilder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="forms\QBuilder.aspx.vb">
+      <DependentUpon>QBuilder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="forms\QuotationsList.aspx.designer.vb">
+      <DependentUpon>QuotationsList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="forms\QuotationsList.aspx.vb">
+      <DependentUpon>QuotationsList.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="masters\SemiSTDMaster.Master.designer.vb">
+      <DependentUpon>SemiSTDMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="masters\SemiSTDMaster.Master.vb">
+      <DependentUpon>SemiSTDMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MainQuotationDataReport.rdlc" />
+    <EmbeddedResource Include="Resource\EN.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>EN.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="masters\SemiSTDMaster.Master" />
+    <Content Include="fonts\Oswald-VariableFont_wght.ttf" />
+    <Content Include="fonts\static\Oswald-Bold.ttf" />
+    <Content Include="fonts\static\Oswald-ExtraLight.ttf" />
+    <Content Include="fonts\static\Oswald-Light.ttf" />
+    <Content Include="fonts\static\Oswald-Medium.ttf" />
+    <Content Include="fonts\static\Oswald-Regular.ttf" />
+    <Content Include="fonts\static\Oswald-SemiBold.ttf" />
+    <Content Include="fonts\Roboto-Black.ttf" />
+    <Content Include="fonts\Roboto-BlackItalic.ttf" />
+    <Content Include="fonts\Roboto-Bold.ttf" />
+    <Content Include="fonts\Roboto-BoldItalic.ttf" />
+    <Content Include="fonts\Roboto-Italic.ttf" />
+    <Content Include="fonts\Roboto-Light.ttf" />
+    <Content Include="fonts\Roboto-LightItalic.ttf" />
+    <Content Include="fonts\Roboto-Medium.ttf" />
+    <Content Include="fonts\Roboto-MediumItalic.ttf" />
+    <Content Include="fonts\Roboto-Regular.ttf" />
+    <Content Include="fonts\Roboto-Thin.ttf" />
+    <Content Include="fonts\Roboto-ThinItalic.ttf" />
+    <Content Include="App_Code\ds_MainQutData.xsc">
+      <DependentUpon>ds_MainQutData.xsd</DependentUpon>
+    </Content>
+    <None Include="App_Code\ds_MainQutData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_MainQutData.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="App_Code\ds_MainQutData.xss">
+      <DependentUpon>ds_MainQutData.xsd</DependentUpon>
+    </Content>
+    <Content Include="forms\CatiaReportHandel.ashx" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Finishing_Ae.png.old" />
+    <Content Include="media\ParamImages\SolidEndMillsSquare\Roughing_Ae.png.old" />
+    <Content Include="forms\UserGuide\iQuote-UserGuide-IS.pdf" />
+    <Content Include="forms\UserGuide\iQuote-UserGuideTemp-IS.pdf" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="My Project\DataSources\System.Data.DataTable.datasource" />
+    <None Include="My Project\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="media\Images\ModelRullPicture\" />
+    <Folder Include="media\ParamImages\ChamDrillInsert\" />
+    <Folder Include="UserGuide\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SemiApp_bl\SemiApp_bl.vbproj">
+      <Project>{b39360a6-b924-4770-83f4-5cec8e3f259d}</Project>
+      <Name>SemiApp_bl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>60377</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:60377/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

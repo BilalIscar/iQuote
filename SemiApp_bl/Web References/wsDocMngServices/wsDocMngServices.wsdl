@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://Iscar.CloudServices/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://Iscar.CloudServices/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://Iscar.CloudServices/">
+      <s:element name="MoveFLD_OBJECT">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sSourceSubject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sSourceObject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sTargetSubject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sTargetObject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FileOwner" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AdditionaData" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MoveFLD_OBJECTResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MoveFLD_OBJECTResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidationSoapHeader" type="tns:ValidationSoapHeader" />
+      <s:complexType name="ValidationSoapHeader">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="DevToken" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DevTokenKey" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UniqeIDToken" type="s:string" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+      <s:element name="Upload_Document">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="branchCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Subject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FolderPath" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FileName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FileOwner" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="File" type="s:base64Binary" />
+            <s:element minOccurs="1" maxOccurs="1" name="Overwrite" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Upload_DocumentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Upload_DocumentResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetListObject">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FolderArr" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sSubject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetListObjectResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetListObjectResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Download_Document">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FolderArr" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sSubject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FileName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Download_DocumentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Download_DocumentResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetiQuote_PendingQuotationsList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Enviroment" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="RequestApp" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetiQuote_PendingQuotationsListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetiQuote_PendingQuotationsListResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteFile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Subject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="branchCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="folderArr" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Filename" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FileId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="userid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteFileResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IsObjectExist">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sObject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sSubject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sFileName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="BranchCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IsObjectExistResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="IsObjectExistResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="wsVersion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="swebVersion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="wsVersionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="wsVersionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="MoveFLD_OBJECTSoapIn">
+    <wsdl:part name="parameters" element="tns:MoveFLD_OBJECT" />
+  </wsdl:message>
+  <wsdl:message name="MoveFLD_OBJECTSoapOut">
+    <wsdl:part name="parameters" element="tns:MoveFLD_OBJECTResponse" />
+  </wsdl:message>
+  <wsdl:message name="MoveFLD_OBJECTValidationSoapHeader">
+    <wsdl:part name="ValidationSoapHeader" element="tns:ValidationSoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="Upload_DocumentSoapIn">
+    <wsdl:part name="parameters" element="tns:Upload_Document" />
+  </wsdl:message>
+  <wsdl:message name="Upload_DocumentSoapOut">
+    <wsdl:part name="parameters" element="tns:Upload_DocumentResponse" />
+  </wsdl:message>
+  <wsdl:message name="Upload_DocumentValidationSoapHeader">
+    <wsdl:part name="ValidationSoapHeader" element="tns:ValidationSoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="GetListObjectSoapIn">
+    <wsdl:part name="parameters" element="tns:GetListObject" />
+  </wsdl:message>
+  <wsdl:message name="GetListObjectSoapOut">
+    <wsdl:part name="parameters" element="tns:GetListObjectResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetListObjectValidationSoapHeader">
+    <wsdl:part name="ValidationSoapHeader" element="tns:ValidationSoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="Download_DocumentSoapIn">
+    <wsdl:part name="parameters" element="tns:Download_Document" />
+  </wsdl:message>
+  <wsdl:message name="Download_DocumentSoapOut">
+    <wsdl:part name="parameters" element="tns:Download_DocumentResponse" />
+  </wsdl:message>
+  <wsdl:message name="Download_DocumentValidationSoapHeader">
+    <wsdl:part name="ValidationSoapHeader" element="tns:ValidationSoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="GetiQuote_PendingQuotationsListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetiQuote_PendingQuotationsList" />
+  </wsdl:message>
+  <wsdl:message name="GetiQuote_PendingQuotationsListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetiQuote_PendingQuotationsListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetiQuote_PendingQuotationsListValidationSoapHeader">
+    <wsdl:part name="ValidationSoapHeader" element="tns:ValidationSoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="DeleteFileSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteFile" />
+  </wsdl:message>
+  <wsdl:message name="DeleteFileSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteFileValidationSoapHeader">
+    <wsdl:part name="ValidationSoapHeader" element="tns:ValidationSoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="IsObjectExistSoapIn">
+    <wsdl:part name="parameters" element="tns:IsObjectExist" />
+  </wsdl:message>
+  <wsdl:message name="IsObjectExistSoapOut">
+    <wsdl:part name="parameters" element="tns:IsObjectExistResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsObjectExistValidationSoapHeader">
+    <wsdl:part name="ValidationSoapHeader" element="tns:ValidationSoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="wsVersionSoapIn">
+    <wsdl:part name="parameters" element="tns:wsVersion" />
+  </wsdl:message>
+  <wsdl:message name="wsVersionSoapOut">
+    <wsdl:part name="parameters" element="tns:wsVersionResponse" />
+  </wsdl:message>
+  <wsdl:portType name="wsDocMngServicesSoap">
+    <wsdl:operation name="MoveFLD_OBJECT">
+      <wsdl:input message="tns:MoveFLD_OBJECTSoapIn" />
+      <wsdl:output message="tns:MoveFLD_OBJECTSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Upload_Document">
+      <wsdl:input message="tns:Upload_DocumentSoapIn" />
+      <wsdl:output message="tns:Upload_DocumentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetListObject">
+      <wsdl:input message="tns:GetListObjectSoapIn" />
+      <wsdl:output message="tns:GetListObjectSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Download_Document">
+      <wsdl:input message="tns:Download_DocumentSoapIn" />
+      <wsdl:output message="tns:Download_DocumentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetiQuote_PendingQuotationsList">
+      <wsdl:input message="tns:GetiQuote_PendingQuotationsListSoapIn" />
+      <wsdl:output message="tns:GetiQuote_PendingQuotationsListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFile">
+      <wsdl:input message="tns:DeleteFileSoapIn" />
+      <wsdl:output message="tns:DeleteFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="IsObjectExist">
+      <wsdl:input message="tns:IsObjectExistSoapIn" />
+      <wsdl:output message="tns:IsObjectExistSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="wsVersion">
+      <wsdl:input message="tns:wsVersionSoapIn" />
+      <wsdl:output message="tns:wsVersionSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="wsDocMngServicesSoap" type="tns:wsDocMngServicesSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="MoveFLD_OBJECT">
+      <soap:operation soapAction="http://Iscar.CloudServices/MoveFLD_OBJECT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:MoveFLD_OBJECTValidationSoapHeader" part="ValidationSoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Upload_Document">
+      <soap:operation soapAction="http://Iscar.CloudServices/Upload_Document" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:Upload_DocumentValidationSoapHeader" part="ValidationSoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetListObject">
+      <soap:operation soapAction="http://Iscar.CloudServices/GetListObject" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetListObjectValidationSoapHeader" part="ValidationSoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Download_Document">
+      <soap:operation soapAction="http://Iscar.CloudServices/Download_Document" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:Download_DocumentValidationSoapHeader" part="ValidationSoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetiQuote_PendingQuotationsList">
+      <soap:operation soapAction="http://Iscar.CloudServices/GetiQuote_PendingQuotationsList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetiQuote_PendingQuotationsListValidationSoapHeader" part="ValidationSoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFile">
+      <soap:operation soapAction="http://Iscar.CloudServices/DeleteFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:DeleteFileValidationSoapHeader" part="ValidationSoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsObjectExist">
+      <soap:operation soapAction="http://Iscar.CloudServices/IsObjectExist" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:IsObjectExistValidationSoapHeader" part="ValidationSoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="wsVersion">
+      <soap:operation soapAction="http://Iscar.CloudServices/wsVersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wsDocMngServicesSoap12" type="tns:wsDocMngServicesSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="MoveFLD_OBJECT">
+      <soap12:operation soapAction="http://Iscar.CloudServices/MoveFLD_OBJECT" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:MoveFLD_OBJECTValidationSoapHeader" part="ValidationSoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Upload_Document">
+      <soap12:operation soapAction="http://Iscar.CloudServices/Upload_Document" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:Upload_DocumentValidationSoapHeader" part="ValidationSoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetListObject">
+      <soap12:operation soapAction="http://Iscar.CloudServices/GetListObject" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetListObjectValidationSoapHeader" part="ValidationSoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Download_Document">
+      <soap12:operation soapAction="http://Iscar.CloudServices/Download_Document" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:Download_DocumentValidationSoapHeader" part="ValidationSoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetiQuote_PendingQuotationsList">
+      <soap12:operation soapAction="http://Iscar.CloudServices/GetiQuote_PendingQuotationsList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetiQuote_PendingQuotationsListValidationSoapHeader" part="ValidationSoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFile">
+      <soap12:operation soapAction="http://Iscar.CloudServices/DeleteFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:DeleteFileValidationSoapHeader" part="ValidationSoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsObjectExist">
+      <soap12:operation soapAction="http://Iscar.CloudServices/IsObjectExist" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:IsObjectExistValidationSoapHeader" part="ValidationSoapHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="wsVersion">
+      <soap12:operation soapAction="http://Iscar.CloudServices/wsVersion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="wsDocMngServices">
+    <wsdl:port name="wsDocMngServicesSoap" binding="tns:wsDocMngServicesSoap">
+      <soap:address location="http://dmstest/wsDOCMNG365/wsDocMngServices.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wsDocMngServicesSoap12" binding="tns:wsDocMngServicesSoap12">
+      <soap12:address location="http://dmstest/wsDOCMNG365/wsDocMngServices.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,2047 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\bilal\Desktop\SemiStandardT_P</_PublishTargetUrl>
+    <History>True|2024-08-04T07:09:33.0261529Z;True|2024-08-02T09:38:04.1237759+03:00;True|2024-07-21T15:04:18.8992465+03:00;True|2024-07-21T12:53:35.6453212+03:00;True|2024-07-18T14:54:06.7147098+03:00;True|2024-07-18T13:56:10.3523328+03:00;True|2024-07-18T12:41:38.4673822+03:00;True|2024-07-17T10:46:35.6322450+03:00;True|2024-07-17T10:42:49.6115333+03:00;True|2024-07-17T10:26:40.8556445+03:00;True|2024-07-17T10:13:04.7863609+03:00;True|2024-07-17T10:03:09.3388459+03:00;True|2024-07-16T16:14:43.3048185+03:00;True|2024-07-16T16:06:26.5473847+03:00;True|2024-07-16T14:50:43.8301608+03:00;True|2024-07-16T14:40:34.9189356+03:00;True|2024-07-16T13:47:06.0923630+03:00;True|2024-07-16T10:50:41.5539148+03:00;True|2024-07-16T09:27:54.7456395+03:00;True|2024-07-16T09:27:14.7311621+03:00;True|2024-07-16T09:14:56.9877914+03:00;True|2024-07-16T08:48:00.9324246+03:00;True|2024-07-16T05:22:28.8795995+03:00;True|2024-07-16T05:21:53.0749307+03:00;True|2024-07-16T05:18:22.4940990+03:00;True|2024-07-15T16:56:25.0039977+03:00;False|2024-07-15T16:55:04.2413590+03:00;True|2024-07-15T16:02:35.3001439+03:00;True|2024-07-15T14:39:42.3441400+03:00;True|2024-07-15T12:51:25.5910139+03:00;True|2024-07-15T09:43:35.4918555+03:00;False|2024-07-15T09:40:45.4815253+03:00;False|2024-07-15T09:40:26.0412997+03:00;False|2024-07-15T09:40:06.5007758+03:00;False|2024-07-15T09:39:51.1392884+03:00;False|2024-07-15T09:39:41.3755306+03:00;False|2024-07-15T09:39:30.9150248+03:00;False|2024-07-14T09:25:51.5263664+03:00;False|2024-07-14T09:24:58.2221707+03:00;True|2024-07-11T16:02:14.4655885+03:00;True|2024-07-11T12:08:11.6125724+03:00;True|2024-07-10T09:45:35.7440791+03:00;True|2024-07-09T16:22:34.6596140+03:00;True|2024-07-09T08:39:33.9015151+03:00;True|2024-07-09T08:37:09.0305425+03:00;True|2024-07-09T08:12:41.1239328+03:00;True|2024-07-09T08:03:18.1339141+03:00;True|2024-07-04T10:13:24.6027427+03:00;True|2024-07-04T07:49:55.6317830+03:00;True|2024-07-04T07:39:23.9284649+03:00;True|2024-06-23T17:18:44.0290028+03:00;True|2024-06-23T17:13:42.8222315+03:00;True|2024-06-23T16:00:31.6825767+03:00;True|2024-06-23T10:16:52.9489911+03:00;True|2024-06-23T10:11:19.6366813+03:00;True|2024-06-23T10:01:46.7401191+03:00;True|2024-06-20T15:26:21.9154389+03:00;True|2024-06-20T07:36:58.1474789+03:00;True|2024-06-20T07:33:48.4403878+03:00;True|2024-06-18T14:14:01.8533403+03:00;True|2024-06-18T13:50:51.1662366+03:00;True|2024-06-18T13:39:43.5705055+03:00;True|2024-06-18T12:54:50.6194016+03:00;True|2024-06-18T12:43:21.1085649+03:00;True|2024-06-18T12:32:27.4365257+03:00;True|2024-06-18T12:24:22.3559321+03:00;True|2024-06-18T12:02:21.1557528+03:00;True|2024-06-13T11:23:07.2616855+03:00;True|2024-06-13T10:44:18.1578029+03:00;True|2024-06-13T10:29:34.8769983+03:00;True|2024-06-13T10:24:10.7923314+03:00;True|2024-06-13T10:21:36.3140625+03:00;True|2024-06-13T10:15:48.1678040+03:00;True|2024-06-13T10:15:41.4985295+03:00;True|2024-04-09T08:42:11.4415875+03:00;True|2024-04-08T11:56:10.7462689+03:00;True|2024-04-08T11:53:05.2901563+03:00;True|2024-04-08T11:36:00.9001611+03:00;True|2024-04-03T15:46:00.3542079+03:00;True|2024-04-03T15:41:27.5578669+03:00;True|2024-03-21T10:49:52.3323042+02:00;True|2024-03-20T11:55:29.1828318+02:00;True|2024-03-20T11:34:22.1858081+02:00;True|2024-03-14T11:01:22.8120821+02:00;True|2024-03-14T08:10:39.0448658+02:00;True|2024-03-14T08:01:23.1907407+02:00;True|2024-03-14T07:47:05.6507912+02:00;True|2024-02-06T07:33:18.7787523+02:00;True|2024-02-06T07:28:17.6205858+02:00;True|2024-02-06T07:16:12.5083461+02:00;True|2024-01-11T10:17:57.2490266+02:00;True|2024-01-11T10:14:41.2333455+02:00;True|2024-01-11T08:25:01.9053776+02:00;True|2024-01-11T08:24:49.1193862+02:00;True|2024-01-10T16:29:48.1318590+02:00;True|2024-01-10T15:43:59.9795582+02:00;True|2024-01-08T12:29:04.1577315+02:00;True|2024-01-08T12:03:33.1104283+02:00;True|2024-01-08T07:19:58.1284085+02:00;True|2024-01-07T16:13:21.7380378+02:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AjaxControlToolkit.dll">
+      <publishTime>04/11/2022 16:17:46</publishTime>
+    </File>
+    <File Include="App_Code/ds_MainQutData.vb">
+      <publishTime>07/09/2024 16:08:05</publishTime>
+    </File>
+    <File Include="App_Code/ds_MainQutData.xsc">
+      <publishTime>07/09/2024 16:08:05</publishTime>
+    </File>
+    <File Include="App_Code/ds_MainQutData.xsd">
+      <publishTime>09/07/2024 16:08:05</publishTime>
+    </File>
+    <File Include="App_Code/ds_MainQutData.xss">
+      <publishTime>07/09/2024 16:08:05</publishTime>
+    </File>
+    <File Include="App_Themes/LTR/Calendar.css">
+      <publishTime>04/10/2023 13:44:12</publishTime>
+    </File>
+    <File Include="App_Themes/LTR/cssGlobal.css">
+      <publishTime>08/21/2022 17:27:16</publishTime>
+    </File>
+    <File Include="App_Themes/LTR/cssSemiGlobal-min.css">
+      <publishTime>07/23/2024 08:21:55</publishTime>
+    </File>
+    <File Include="App_Themes/LTR/cssSemiGlobal.css">
+      <publishTime>03/31/2024 07:13:14</publishTime>
+    </File>
+    <File Include="App_Themes/LTR/jquery-confirm.min.css">
+      <publishTime>10/15/2023 13:43:09</publishTime>
+    </File>
+    <File Include="App_Themes/LTR/jquery-ui.css">
+      <publishTime>06/20/2023 09:43:09</publishTime>
+    </File>
+    <File Include="App_Themes/LTR/mnueBurger.css">
+      <publishTime>04/03/2024 07:57:56</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>04/11/2022 16:17:46</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/DynamicPDF.dll">
+      <publishTime>04/19/2022 16:30:32</publishTime>
+    </File>
+    <File Include="bin/EnvDTE.dll">
+      <publishTime>10/22/2009 19:51:18</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/IscarDal.dll">
+      <publishTime>04/19/2022 16:30:32</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/LoginBL.dll">
+      <publishTime>12/16/2020 12:59:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Bcl.AsyncInterfaces.dll">
+      <publishTime>02/03/2021 04:16:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 17:10:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.MSXML.dll">
+      <publishTime>10/22/2009 19:51:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.Common.dll">
+      <publishTime>09/25/2021 22:14:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.DataVisualization.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.Design.dll">
+      <publishTime>09/25/2021 22:14:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.ProcessingObjectModel.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.WebDesign.dll">
+      <publishTime>09/25/2021 22:14:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.WebForms.dll">
+      <publishTime>09/25/2021 22:14:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.WinForms.dll">
+      <publishTime>09/25/2021 22:14:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SqlServer.Types.dll">
+      <publishTime>12/10/2016 15:26:34</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/17/2021 20:03:36</publishTime>
+    </File>
+    <File Include="bin/pt/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/pt/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/pt/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/pt/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/pt/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/pt/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/08/2018 06:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/08/2018 13:18:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/08/2018 13:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/08/2018 06:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/08/2018 13:18:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/08/2018 13:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/08/2018 06:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/08/2018 06:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/08/2018 06:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/08/2018 06:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/08/2018 06:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/08/2018 06:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/08/2018 13:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>08/08/2018 13:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/08/2018 13:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>11/05/2016 18:55:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>11/05/2016 18:55:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/16/2018 04:29:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>11/05/2016 18:55:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>11/05/2016 18:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>11/05/2016 18:56:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>11/05/2016 18:56:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>11/05/2016 18:56:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>11/05/2016 18:56:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/16/2018 04:29:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/05/2016 18:57:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/05/2016 18:57:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/05/2016 18:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/05/2016 18:57:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/05/2016 18:57:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>11/05/2016 18:57:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>11/05/2016 18:57:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>11/05/2016 18:57:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/08/2018 06:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/08/2018 13:18:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/08/2018 13:09:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/08/2018 06:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 13:18:16</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/SemiApp_bl.dll">
+      <publishTime>08/04/2024 10:09:29</publishTime>
+    </File>
+    <File Include="bin/SemiApp_bl.dll.config">
+      <publishTime>07/04/2024 10:11:58</publishTime>
+    </File>
+    <File Include="bin/SemiApp_bl.pdb">
+      <publishTime>08/04/2024 10:09:29</publishTime>
+    </File>
+    <File Include="bin/SemiApp_bl.XmlSerializers.dll">
+      <publishTime>08/04/2024 10:09:29</publishTime>
+    </File>
+    <File Include="bin/semiPrj.dll">
+      <publishTime>08/04/2024 10:09:30</publishTime>
+    </File>
+    <File Include="bin/semiPrj.pdb">
+      <publishTime>08/04/2024 10:09:30</publishTime>
+    </File>
+    <File Include="bin/semiPrj.xml">
+      <publishTime>08/04/2024 10:09:30</publishTime>
+    </File>
+    <File Include="bin/SqlServerTypes/x64/msvcr120.dll">
+      <publishTime>10/11/2021 08:43:34</publishTime>
+    </File>
+    <File Include="bin/SqlServerTypes/x64/SqlServerSpatial140.dll">
+      <publishTime>10/11/2021 08:43:34</publishTime>
+    </File>
+    <File Include="bin/SqlServerTypes/x86/msvcr120.dll">
+      <publishTime>10/11/2021 08:43:34</publishTime>
+    </File>
+    <File Include="bin/SqlServerTypes/x86/SqlServerSpatial140.dll">
+      <publishTime>10/11/2021 08:43:34</publishTime>
+    </File>
+    <File Include="bin/stdole.dll">
+      <publishTime>03/18/2010 23:21:56</publishTime>
+    </File>
+    <File Include="bin/System.Buffers.dll">
+      <publishTime>02/19/2020 10:05:18</publishTime>
+    </File>
+    <File Include="bin/System.Memory.dll">
+      <publishTime>02/19/2020 10:05:18</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>07/09/2013 12:04:28</publishTime>
+    </File>
+    <File Include="bin/System.Numerics.Vectors.dll">
+      <publishTime>05/15/2018 13:29:44</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.CompilerServices.Unsafe.dll">
+      <publishTime>02/03/2021 04:16:26</publishTime>
+    </File>
+    <File Include="bin/System.Text.Encodings.Web.dll">
+      <publishTime>02/03/2021 04:19:50</publishTime>
+    </File>
+    <File Include="bin/System.Text.Json.dll">
+      <publishTime>02/03/2021 04:20:12</publishTime>
+    </File>
+    <File Include="bin/System.Threading.Tasks.Extensions.dll">
+      <publishTime>02/19/2020 10:05:18</publishTime>
+    </File>
+    <File Include="bin/System.ValueTuple.dll">
+      <publishTime>05/15/2018 13:29:52</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>09/25/2021 22:14:24</publishTime>
+    </File>
+    <File Include="CacheDependency/CacheDependency.txt">
+      <publishTime>08/02/2024 08:49:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>07/23/2024 07:22:00</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>07/18/2023 09:51:30</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>06/02/2024 15:54:54</publishTime>
+    </File>
+    <File Include="fonts/LICENSE.txt">
+      <publishTime>05/26/2021 15:11:22</publishTime>
+    </File>
+    <File Include="fonts/OFL.txt">
+      <publishTime>05/25/2021 13:51:06</publishTime>
+    </File>
+    <File Include="fonts/Oswald-VariableFont_wght.ttf">
+      <publishTime>05/25/2021 13:51:06</publishTime>
+    </File>
+    <File Include="fonts/README.txt">
+      <publishTime>05/25/2021 13:51:06</publishTime>
+    </File>
+    <File Include="fonts/Roboto-Black.ttf">
+      <publishTime>05/26/2021 15:11:22</publishTime>
+    </File>
+    <File Include="fonts/Roboto-BlackItalic.ttf">
+      <publishTime>05/26/2021 15:11:22</publishTime>
+    </File>
+    <File Include="fonts/Roboto-Bold.ttf">
+      <publishTime>05/26/2021 15:11:22</publishTime>
+    </File>
+    <File Include="fonts/Roboto-BoldItalic.ttf">
+      <publishTime>05/26/2021 15:11:22</publishTime>
+    </File>
+    <File Include="fonts/Roboto-Italic.ttf">
+      <publishTime>05/26/2021 15:11:22</publishTime>
+    </File>
+    <File Include="fonts/Roboto-Light.ttf">
+      <publishTime>05/26/2021 15:11:22</publishTime>
+    </File>
+    <File Include="fonts/Roboto-LightItalic.ttf">
+      <publishTime>05/26/2021 15:11:22</publishTime>
+    </File>
+    <File Include="fonts/Roboto-Medium.ttf">
+      <publishTime>05/26/2021 15:11:22</publishTime>
+    </File>
+    <File Include="fonts/Roboto-MediumItalic.ttf">
+      <publishTime>05/26/2021 15:11:22</publishTime>
+    </File>
+    <File Include="fonts/Roboto-Regular.ttf">
+      <publishTime>05/26/2021 15:11:22</publishTime>
+    </File>
+    <File Include="fonts/Roboto-Thin.ttf">
+      <publishTime>05/26/2021 15:11:22</publishTime>
+    </File>
+    <File Include="fonts/Roboto-ThinItalic.ttf">
+      <publishTime>05/26/2021 15:11:22</publishTime>
+    </File>
+    <File Include="fonts/static/Oswald-Bold.ttf">
+      <publishTime>05/25/2021 13:51:06</publishTime>
+    </File>
+    <File Include="fonts/static/Oswald-ExtraLight.ttf">
+      <publishTime>05/25/2021 13:51:06</publishTime>
+    </File>
+    <File Include="fonts/static/Oswald-Light.ttf">
+      <publishTime>05/25/2021 13:51:06</publishTime>
+    </File>
+    <File Include="fonts/static/Oswald-Medium.ttf">
+      <publishTime>05/25/2021 13:51:06</publishTime>
+    </File>
+    <File Include="fonts/static/Oswald-Regular.ttf">
+      <publishTime>05/25/2021 13:51:06</publishTime>
+    </File>
+    <File Include="fonts/static/Oswald-SemiBold.ttf">
+      <publishTime>05/25/2021 13:51:06</publishTime>
+    </File>
+    <File Include="formAdmin/AdminData.aspx">
+      <publishTime>05/16/2024 10:35:38</publishTime>
+    </File>
+    <File Include="formAdmin/AdminFactors.aspx">
+      <publishTime>04/10/2023 11:55:00</publishTime>
+    </File>
+    <File Include="formAdmin/AdminFactorsm.aspx">
+      <publishTime>05/16/2024 10:35:38</publishTime>
+    </File>
+    <File Include="formAdmin/Transition.aspx">
+      <publishTime>06/27/2024 12:19:21</publishTime>
+    </File>
+    <File Include="formAdmin/ucBettredirect.aspx">
+      <publishTime>05/27/2024 12:51:02</publishTime>
+    </File>
+    <File Include="formAdmin/UserCustomerCnt.aspx">
+      <publishTime>06/04/2024 08:12:28</publishTime>
+    </File>
+    <File Include="forms/CatalogTableDetails.aspx">
+      <publishTime>07/12/2022 10:09:16</publishTime>
+    </File>
+    <File Include="forms/CatiaReportHandel.ashx">
+      <publishTime>03/16/2022 14:46:39</publishTime>
+    </File>
+    <File Include="forms/ConfiguratorBuilder.aspx">
+      <publishTime>07/14/2024 17:29:52</publishTime>
+    </File>
+    <File Include="forms/LogIn.aspx">
+      <publishTime>05/30/2024 15:22:31</publishTime>
+    </File>
+    <File Include="forms/LoginRedirect.aspx">
+      <publishTime>12/05/2022 14:12:36</publishTime>
+    </File>
+    <File Include="forms/Material.aspx">
+      <publishTime>04/01/2024 10:46:16</publishTime>
+    </File>
+    <File Include="forms/Notification.aspx">
+      <publishTime>05/16/2024 10:35:37</publishTime>
+    </File>
+    <File Include="forms/Prices.aspx">
+      <publishTime>08/02/2024 08:57:42</publishTime>
+    </File>
+    <File Include="forms/Pricesmo.aspx">
+      <publishTime>11/09/2023 08:26:13</publishTime>
+    </File>
+    <File Include="forms/QBuilder.aspx">
+      <publishTime>07/18/2024 08:05:45</publishTime>
+    </File>
+    <File Include="forms/QuotationsList.aspx">
+      <publishTime>08/01/2024 15:34:17</publishTime>
+    </File>
+    <File Include="forms/ShowPDFReport.aspx">
+      <publishTime>01/03/2024 07:34:01</publishTime>
+    </File>
+    <File Include="forms/ShowPDFReportBSON.aspx">
+      <publishTime>01/03/2024 07:34:01</publishTime>
+    </File>
+    <File Include="forms/ShowPDFReportBSONError.aspx">
+      <publishTime>07/15/2024 08:54:12</publishTime>
+    </File>
+    <File Include="forms/ShowPDFReportBSONError_2.html">
+      <publishTime>07/15/2024 12:46:54</publishTime>
+    </File>
+    <File Include="forms/ShowPDFReportBSONError_3.html">
+      <publishTime>07/15/2024 12:47:50</publishTime>
+    </File>
+    <File Include="forms/StartFB.aspx">
+      <publishTime>06/06/2024 10:33:54</publishTime>
+    </File>
+    <File Include="forms/UserGuide/iQuote-UserGuide-IS.pdf">
+      <publishTime>03/21/2023 15:40:10</publishTime>
+    </File>
+    <File Include="forms/UserGuide/iQuote-UserGuideTemp-IS.pdf">
+      <publishTime>03/21/2023 15:40:10</publishTime>
+    </File>
+    <File Include="HtmlPage1.html">
+      <publishTime>07/16/2024 07:54:01</publishTime>
+    </File>
+    <File Include="jq/images/ui-bg_glass_55_fcf0ba_1x400.png">
+      <publishTime>05/12/2022 14:03:01</publishTime>
+    </File>
+    <File Include="jq/images/ui-bg_gloss-wave_100_ece8da_500x100.png">
+      <publishTime>05/12/2022 14:03:01</publishTime>
+    </File>
+    <File Include="jq/images/ui-bg_highlight-hard_100_f5f3e5_1x100.png">
+      <publishTime>05/12/2022 14:03:03</publishTime>
+    </File>
+    <File Include="jq/images/ui-bg_highlight-hard_100_fafaf4_1x100.png">
+      <publishTime>05/12/2022 14:08:54</publishTime>
+    </File>
+    <File Include="jq/images/ui-bg_highlight-hard_15_459e00_1x100.png">
+      <publishTime>05/12/2022 14:03:02</publishTime>
+    </File>
+    <File Include="jq/images/ui-bg_highlight-soft_25_67b021_1x100.png">
+      <publishTime>05/12/2022 14:03:03</publishTime>
+    </File>
+    <File Include="jq/images/ui-bg_highlight-soft_95_ffedad_1x100.png">
+      <publishTime>05/12/2022 14:03:03</publishTime>
+    </File>
+    <File Include="jq/jquery-1.11.2.min.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="jq/jquery-3.5.0.min.js">
+      <publishTime>07/25/2022 10:10:24</publishTime>
+    </File>
+    <File Include="jq/jquery-confirm.min.js">
+      <publishTime>04/05/2022 08:46:06</publishTime>
+    </File>
+    <File Include="jq/jquery-ui-min-n.js">
+      <publishTime>06/20/2023 10:28:08</publishTime>
+    </File>
+    <File Include="jq/jquery-ui-min.css">
+      <publishTime>07/15/2024 10:03:44</publishTime>
+    </File>
+    <File Include="jq/jquery-ui.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="jq/lazyload.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="masters/pop.htm">
+      <publishTime>03/03/2022 11:10:24</publishTime>
+    </File>
+    <File Include="masters/SemiSTDMaster.Master">
+      <publishTime>07/31/2024 14:57:39</publishTime>
+    </File>
+    <File Include="media/Configuration/FirstMain/DR.png">
+      <publishTime>09/10/2019 08:32:23</publishTime>
+    </File>
+    <File Include="media/Configuration/FirstMain/IS.png">
+      <publishTime>09/10/2019 08:32:23</publishTime>
+    </File>
+    <File Include="media/Configuration/FirstMain/MF.png">
+      <publishTime>09/10/2019 08:32:23</publishTime>
+    </File>
+    <File Include="media/Configuration/FirstMain/ML.png">
+      <publishTime>09/10/2019 08:32:23</publishTime>
+    </File>
+    <File Include="media/Configuration/FirstMain/RE.png">
+      <publishTime>09/10/2019 08:32:23</publishTime>
+    </File>
+    <File Include="media/Configuration/FirstMain/TG.png">
+      <publishTime>09/10/2019 08:32:23</publishTime>
+    </File>
+    <File Include="media/Configuration/FirstMain/TH.png">
+      <publishTime>09/12/2019 12:15:16</publishTime>
+    </File>
+    <File Include="media/Configuration/SecondType/Cl.png">
+      <publishTime>05/10/2022 14:38:55</publishTime>
+    </File>
+    <File Include="media/Configuration/SecondType/indexable.png">
+      <publishTime>01/10/2022 06:54:21</publishTime>
+    </File>
+    <File Include="media/Configuration/SecondType/Solid.png">
+      <publishTime>01/10/2022 06:54:21</publishTime>
+    </File>
+    <File Include="media/Configuration/ThirdModelImages/2517.gif">
+      <publishTime>01/10/2022 06:54:21</publishTime>
+    </File>
+    <File Include="media/Configuration/ThirdModelImages/2671.gif">
+      <publishTime>08/04/2021 11:32:31</publishTime>
+    </File>
+    <File Include="media/Configuration/ThirdModelImages/4414.gif">
+      <publishTime>01/10/2022 06:54:21</publishTime>
+    </File>
+    <File Include="media/Configuration/ThirdModelImages/946.gif">
+      <publishTime>01/10/2022 06:54:21</publishTime>
+    </File>
+    <File Include="media/Configuration/ThirdModelImages/Cl.png">
+      <publishTime>05/10/2022 15:35:27</publishTime>
+    </File>
+    <File Include="media/flags/argentina.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/australia.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/austria.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/azerbaijan.svg">
+      <publishTime>06/18/2023 09:41:49</publishTime>
+    </File>
+    <File Include="media/flags/belarus.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/belgium.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/brazil.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/bulgria.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/canada.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/china.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/croatia.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/czech.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/DA.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/DEFAULT.svg">
+      <publishTime>07/04/2023 13:38:39</publishTime>
+    </File>
+    <File Include="media/flags/DEFAULT_OLD.svg">
+      <publishTime>06/22/2023 10:42:51</publishTime>
+    </File>
+    <File Include="media/flags/denemark.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/EN.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/finland.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/FR.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/france.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/germany.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/GM.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/HE.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/headquarters.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/HK.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/HP.svg">
+      <publishTime>04/01/2024 07:16:09</publishTime>
+    </File>
+    <File Include="media/flags/hungary.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/ID.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/IF.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/IG.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/IK.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/IN.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/IS.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/israel.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/IT.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/italy.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/IU.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/Japan.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/JP.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/JU.svg">
+      <publishTime>06/20/2023 15:45:17</publishTime>
+    </File>
+    <File Include="media/flags/KR.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/LH.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/LT.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/mexico.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/new Zealand.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/poland.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/portugal.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/PR.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/RU.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/russia.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/SD.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/Slovenia.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/south  korea.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/south africa.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/SP.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/spain.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/swidan.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/switzrland.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/taiwan.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/thailand.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/the netherlands.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/turky.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/uk.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/ukraina.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/usa.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/vietnam.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/VT.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/WA.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/WB.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/WH.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/WK.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/WM.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/WP.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/WS.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/WT.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/WV.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/WZ.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/XZ.svg">
+      <publishTime>06/18/2023 09:41:48</publishTime>
+    </File>
+    <File Include="media/flags/XZ_X.svg">
+      <publishTime>06/20/2023 15:45:17</publishTime>
+    </File>
+    <File Include="media/flags/ZZ.svg">
+      <publishTime>06/20/2023 15:43:21</publishTime>
+    </File>
+    <File Include="media/Icons/arrowdown.png">
+      <publishTime>07/05/2023 12:47:21</publishTime>
+    </File>
+    <File Include="media/Icons/arrowup.png">
+      <publishTime>07/05/2023 12:47:21</publishTime>
+    </File>
+    <File Include="media/Icons/AR_l.svg">
+      <publishTime>06/03/2021 14:03:09</publishTime>
+    </File>
+    <File Include="media/Icons/asc.svg">
+      <publishTime>07/17/2023 10:17:32</publishTime>
+    </File>
+    <File Include="media/Icons/ByuIcon.png">
+      <publishTime>02/07/2021 14:56:40</publishTime>
+    </File>
+    <File Include="media/Icons/copyIcon.png">
+      <publishTime>10/06/2022 10:22:52</publishTime>
+    </File>
+    <File Include="media/Icons/created.png">
+      <publishTime>01/30/2023 07:15:43</publishTime>
+    </File>
+    <File Include="media/Icons/CreatU.png">
+      <publishTime>09/28/2022 10:53:30</publishTime>
+    </File>
+    <File Include="media/Icons/Delete.png">
+      <publishTime>11/24/2022 11:32:29</publishTime>
+    </File>
+    <File Include="media/Icons/desc.svg">
+      <publishTime>07/17/2023 10:17:32</publishTime>
+    </File>
+    <File Include="media/Icons/disabled cart.png">
+      <publishTime>08/16/2023 10:36:43</publishTime>
+    </File>
+    <File Include="media/Icons/disabledcart.png">
+      <publishTime>08/16/2023 08:26:18</publishTime>
+    </File>
+    <File Include="media/Icons/disabledcart.svg">
+      <publishTime>08/08/2023 16:10:35</publishTime>
+    </File>
+    <File Include="media/Icons/disabledcartordered.png">
+      <publishTime>08/16/2023 08:25:52</publishTime>
+    </File>
+    <File Include="media/Icons/disabledcartordered.svg">
+      <publishTime>08/08/2023 16:10:35</publishTime>
+    </File>
+    <File Include="media/Icons/DOWNLOADc.png">
+      <publishTime>11/16/2022 07:42:08</publishTime>
+    </File>
+    <File Include="media/Icons/Duplicate.png">
+      <publishTime>02/25/2021 14:23:19</publishTime>
+    </File>
+    <File Include="media/Icons/ecat_Icon.svg">
+      <publishTime>08/10/2020 11:28:36</publishTime>
+    </File>
+    <File Include="media/Icons/enabledcart.png">
+      <publishTime>08/16/2023 08:27:24</publishTime>
+    </File>
+    <File Include="media/Icons/enabledcart.svg">
+      <publishTime>08/08/2023 16:10:35</publishTime>
+    </File>
+    <File Include="media/Icons/enabledcartordered.png">
+      <publishTime>08/16/2023 08:26:51</publishTime>
+    </File>
+    <File Include="media/Icons/enabledcartordered.svg">
+      <publishTime>08/08/2023 16:10:35</publishTime>
+    </File>
+    <File Include="media/Icons/facebook.svg">
+      <publishTime>08/10/2020 11:28:36</publishTime>
+    </File>
+    <File Include="media/Icons/Favorite_icon.svg">
+      <publishTime>08/10/2020 11:28:36</publishTime>
+    </File>
+    <File Include="media/Icons/feedbackIcons/CornerIMage.png">
+      <publishTime>02/22/2022 12:52:00</publishTime>
+    </File>
+    <File Include="media/Icons/feedbackIcons/faceblue.svg">
+      <publishTime>02/22/2022 12:56:52</publishTime>
+    </File>
+    <File Include="media/Icons/feedbackIcons/faceblue1.svg">
+      <publishTime>02/22/2022 12:56:52</publishTime>
+    </File>
+    <File Include="media/Icons/feedbackIcons/facegreen.svg">
+      <publishTime>02/22/2022 12:56:50</publishTime>
+    </File>
+    <File Include="media/Icons/feedbackIcons/facegreen1.svg">
+      <publishTime>02/22/2022 12:56:50</publishTime>
+    </File>
+    <File Include="media/Icons/feedbackIcons/facered.svg">
+      <publishTime>02/22/2022 12:56:50</publishTime>
+    </File>
+    <File Include="media/Icons/feedbackIcons/facered1.svg">
+      <publishTime>02/22/2022 12:56:50</publishTime>
+    </File>
+    <File Include="media/Icons/foldericon.svg">
+      <publishTime>07/19/2023 12:38:10</publishTime>
+    </File>
+    <File Include="media/Icons/Help_Icon.svg">
+      <publishTime>08/10/2020 11:28:36</publishTime>
+    </File>
+    <File Include="media/Icons/iAdd.png">
+      <publishTime>01/24/2023 14:17:27</publishTime>
+    </File>
+    <File Include="media/Icons/iconAT.png">
+      <publishTime>02/08/2021 07:44:31</publishTime>
+    </File>
+    <File Include="media/Icons/iconGeneral.png">
+      <publishTime>02/08/2021 07:44:32</publishTime>
+    </File>
+    <File Include="media/Icons/iconGeneralW.png">
+      <publishTime>02/07/2021 10:59:46</publishTime>
+    </File>
+    <File Include="media/Icons/iconModel.png">
+      <publishTime>02/08/2021 07:44:32</publishTime>
+    </File>
+    <File Include="media/Icons/iconNo1.svg">
+      <publishTime>07/19/2023 12:38:10</publishTime>
+    </File>
+    <File Include="media/Icons/iconNo2.svg">
+      <publishTime>07/19/2023 12:38:10</publishTime>
+    </File>
+    <File Include="media/Icons/iconNo3.svg">
+      <publishTime>07/24/2023 14:43:56</publishTime>
+    </File>
+    <File Include="media/Icons/iconWPM.png">
+      <publishTime>02/08/2021 07:44:31</publishTime>
+    </File>
+    <File Include="media/Icons/icon_AddToCart_White.svg">
+      <publishTime>05/31/2021 08:07:28</publishTime>
+    </File>
+    <File Include="media/Icons/icon_arrow.svg">
+      <publishTime>10/12/2023 07:35:10</publishTime>
+    </File>
+    <File Include="media/Icons/icon_LoginC.svg">
+      <publishTime>02/03/2021 10:37:36</publishTime>
+    </File>
+    <File Include="media/Icons/Icon_Search.svg">
+      <publishTime>08/10/2020 11:28:36</publishTime>
+    </File>
+    <File Include="media/Icons/IQ.png">
+      <publishTime>03/10/2022 10:44:31</publishTime>
+    </File>
+    <File Include="media/Icons/IQUOTE.png">
+      <publishTime>08/02/2022 11:02:00</publishTime>
+    </File>
+    <File Include="media/Icons/LiginIcoE.png">
+      <publishTime>05/24/2021 12:08:06</publishTime>
+    </File>
+    <File Include="media/Icons/LiginIcoEE.png">
+      <publishTime>03/03/2024 16:26:56</publishTime>
+    </File>
+    <File Include="media/Icons/LiginIcoEL.png">
+      <publishTime>05/24/2021 12:11:03</publishTime>
+    </File>
+    <File Include="media/Icons/LiginIcoEmenu.png">
+      <publishTime>10/11/2023 10:26:46</publishTime>
+    </File>
+    <File Include="media/Icons/Ligout.png">
+      <publishTime>02/04/2021 10:07:27</publishTime>
+    </File>
+    <File Include="media/Icons/LinkdIn.svg">
+      <publishTime>08/10/2020 11:28:36</publishTime>
+    </File>
+    <File Include="media/Icons/list-icon.jpg">
+      <publishTime>01/28/2021 11:31:36</publishTime>
+    </File>
+    <File Include="media/Icons/ListArrow.png">
+      <publishTime>03/09/2022 12:42:26</publishTime>
+    </File>
+    <File Include="media/Icons/loginAR.svg">
+      <publishTime>06/03/2021 14:03:09</publishTime>
+    </File>
+    <File Include="media/Icons/MyQuotationsDis.png">
+      <publishTime>09/07/2022 10:36:02</publishTime>
+    </File>
+    <File Include="media/Icons/NEWc.png">
+      <publishTime>11/16/2022 07:31:23</publishTime>
+    </File>
+    <File Include="media/Icons/NewS.png">
+      <publishTime>03/03/2024 13:48:53</publishTime>
+    </File>
+    <File Include="media/Icons/NewSearch.png">
+      <publishTime>06/07/2021 12:05:04</publishTime>
+    </File>
+    <File Include="media/Icons/none.svg">
+      <publishTime>07/17/2023 10:17:32</publishTime>
+    </File>
+    <File Include="media/Icons/OK.png">
+      <publishTime>11/19/2020 09:42:52</publishTime>
+    </File>
+    <File Include="media/Icons/OK_Dis.PNG">
+      <publishTime>11/19/2020 09:42:59</publishTime>
+    </File>
+    <File Include="media/Icons/Orde1.png">
+      <publishTime>07/28/2024 12:16:23</publishTime>
+    </File>
+    <File Include="media/Icons/Orde2.png">
+      <publishTime>07/28/2024 12:16:23</publishTime>
+    </File>
+    <File Include="media/Icons/Orde3.png">
+      <publishTime>07/28/2024 12:16:23</publishTime>
+    </File>
+    <File Include="media/Icons/Orde4.png">
+      <publishTime>07/28/2024 12:16:23</publishTime>
+    </File>
+    <File Include="media/Icons/Orde5.png">
+      <publishTime>07/28/2024 12:16:23</publishTime>
+    </File>
+    <File Include="media/Icons/Orde6.png">
+      <publishTime>07/28/2024 12:16:23</publishTime>
+    </File>
+    <File Include="media/Icons/ordered.png">
+      <publishTime>01/30/2023 07:15:49</publishTime>
+    </File>
+    <File Include="media/Icons/orderslogo.svg">
+      <publishTime>08/01/2023 08:14:27</publishTime>
+    </File>
+    <File Include="media/Icons/redwarning.png">
+      <publishTime>08/01/2023 08:37:12</publishTime>
+    </File>
+    <File Include="media/Icons/Renew.png">
+      <publishTime>02/25/2021 14:23:19</publishTime>
+    </File>
+    <File Include="media/Icons/Save.png">
+      <publishTime>02/18/2021 10:21:43</publishTime>
+    </File>
+    <File Include="media/Icons/Screa.gif">
+      <publishTime>10/30/2022 15:16:22</publishTime>
+    </File>
+    <File Include="media/Icons/Screa.png">
+      <publishTime>10/25/2022 11:41:01</publishTime>
+    </File>
+    <File Include="media/Icons/Search.png">
+      <publishTime>02/11/2021 15:51:01</publishTime>
+    </File>
+    <File Include="media/Icons/Search29.png">
+      <publishTime>12/22/2021 16:17:31</publishTime>
+    </File>
+    <File Include="media/Icons/Search_icon.svg">
+      <publishTime>08/10/2020 11:28:36</publishTime>
+    </File>
+    <File Include="media/Icons/SmallDownIcon.png">
+      <publishTime>07/19/2021 11:59:11</publishTime>
+    </File>
+    <File Include="media/Icons/submitted.png">
+      <publishTime>01/30/2023 07:15:56</publishTime>
+    </File>
+    <File Include="media/Icons/twitter.svg">
+      <publishTime>07/25/2024 07:53:11</publishTime>
+    </File>
+    <File Include="media/Icons/VHistory.png">
+      <publishTime>06/13/2023 07:10:21</publishTime>
+    </File>
+    <File Include="media/Icons/warningblue.png">
+      <publishTime>12/03/2023 08:22:51</publishTime>
+    </File>
+    <File Include="media/Icons/warningyellow.png">
+      <publishTime>12/03/2023 08:22:51</publishTime>
+    </File>
+    <File Include="media/Icons/X.png">
+      <publishTime>08/02/2022 15:24:10</publishTime>
+    </File>
+    <File Include="media/Icons/XGrid.png">
+      <publishTime>11/24/2022 12:18:15</publishTime>
+    </File>
+    <File Include="media/Icons/you_tube.svg">
+      <publishTime>08/10/2020 11:28:36</publishTime>
+    </File>
+    <File Include="media/Images/BannerFFooter.png">
+      <publishTime>06/26/2023 13:35:08</publishTime>
+    </File>
+    <File Include="media/Images/bgIw.png">
+      <publishTime>08/10/2021 08:03:07</publishTime>
+    </File>
+    <File Include="media/Images/bluebell.png">
+      <publishTime>06/07/2023 15:40:14</publishTime>
+    </File>
+    <File Include="media/Images/DEFAULT.png">
+      <publishTime>09/22/2021 16:03:23</publishTime>
+    </File>
+    <File Include="media/Images/Default/DEFAULT.svg">
+      <publishTime>11/09/2021 16:39:30</publishTime>
+    </File>
+    <File Include="media/Images/Default/PinDown.png">
+      <publishTime>10/20/2021 14:04:46</publishTime>
+    </File>
+    <File Include="media/Images/Default/PinUp.png">
+      <publishTime>10/20/2021 14:04:46</publishTime>
+    </File>
+    <File Include="media/Images/Default/rec.svg">
+      <publishTime>10/20/2021 14:04:46</publishTime>
+    </File>
+    <File Include="media/Images/Default/Remark.gif">
+      <publishTime>10/20/2021 14:04:47</publishTime>
+    </File>
+    <File Include="media/Images/Default/Search.png">
+      <publishTime>10/20/2021 14:04:47</publishTime>
+    </File>
+    <File Include="media/Images/Default/SearchImage.png">
+      <publishTime>10/20/2021 14:04:47</publishTime>
+    </File>
+    <File Include="media/Images/Default/spinner.gif">
+      <publishTime>10/20/2021 14:04:47</publishTime>
+    </File>
+    <File Include="media/Images/Default/Standard.svg">
+      <publishTime>10/20/2021 14:04:44</publishTime>
+    </File>
+    <File Include="media/Images/Default/STD.gif">
+      <publishTime>10/20/2021 14:04:46</publishTime>
+    </File>
+    <File Include="media/Images/Default/STD.png">
+      <publishTime>10/20/2021 14:04:46</publishTime>
+    </File>
+    <File Include="media/Images/DEFAULTRun.gif">
+      <publishTime>11/23/2022 16:59:56</publishTime>
+    </File>
+    <File Include="media/Images/drawerr2.png">
+      <publishTime>07/15/2024 11:56:46</publishTime>
+    </File>
+    <File Include="media/Images/drawerr3.png">
+      <publishTime>07/15/2024 11:56:50</publishTime>
+    </File>
+    <File Include="media/Images/ErrorImgMsg.png">
+      <publishTime>12/08/2022 10:31:05</publishTime>
+    </File>
+    <File Include="media/Images/greybell.png">
+      <publishTime>07/09/2023 10:46:33</publishTime>
+    </File>
+    <File Include="media/Images/indexable.png">
+      <publishTime>06/03/2021 08:57:25</publishTime>
+    </File>
+    <File Include="media/Images/ISCAR_Logo.svg">
+      <publishTime>08/10/2020 11:28:36</publishTime>
+    </File>
+    <File Include="media/Images/ISCAR_Logo_flat.svg">
+      <publishTime>05/31/2021 08:12:17</publishTime>
+    </File>
+    <File Include="media/Images/MailLogoD.jpg">
+      <publishTime>10/11/2022 14:50:24</publishTime>
+    </File>
+    <File Include="media/Images/Pxl.png">
+      <publishTime>05/23/2021 09:52:41</publishTime>
+    </File>
+    <File Include="media/Images/ReportErr.png">
+      <publishTime>09/13/2023 15:40:14</publishTime>
+    </File>
+    <File Include="media/Images/SearchRep.png">
+      <publishTime>01/11/2022 13:08:07</publishTime>
+    </File>
+    <File Include="media/Images/Solid.png">
+      <publishTime>06/09/2021 07:46:05</publishTime>
+    </File>
+    <File Include="media/Images/Succeded.svg">
+      <publishTime>05/30/2021 16:05:51</publishTime>
+    </File>
+    <File Include="media/Images/timouticon.png">
+      <publishTime>01/30/2023 14:14:33</publishTime>
+    </File>
+    <File Include="media/Images/Wait.gif">
+      <publishTime>03/01/2022 08:23:41</publishTime>
+    </File>
+    <File Include="media/ModelIcons/2517.gif">
+      <publishTime>08/04/2021 11:32:31</publishTime>
+    </File>
+    <File Include="media/ModelIcons/2671.gif">
+      <publishTime>08/04/2021 11:32:31</publishTime>
+    </File>
+    <File Include="media/ModelIcons/4414.gif">
+      <publishTime>08/04/2021 11:32:31</publishTime>
+    </File>
+    <File Include="media/ModelIcons/946.gif">
+      <publishTime>08/04/2021 11:32:31</publishTime>
+    </File>
+    <File Include="media/ModelImages/Cham Drill Insert/ChamDrillInsert.gif">
+      <publishTime>10/06/2021 11:49:45</publishTime>
+    </File>
+    <File Include="media/ModelImages/Cham Drill Insert/StartL.png">
+      <publishTime>10/06/2021 11:49:45</publishTime>
+    </File>
+    <File Include="media/ModelImages/GUNDRILL/4414_T.gif">
+      <publishTime>08/04/2021 11:32:25</publishTime>
+    </File>
+    <File Include="media/ModelImages/GUNDRILL/GUNDRILL.gif">
+      <publishTime>08/04/2021 11:32:25</publishTime>
+    </File>
+    <File Include="media/ModelImages/GUNDRILL/GUNDRILL.png">
+      <publishTime>08/04/2021 11:32:25</publishTime>
+    </File>
+    <File Include="media/ModelImages/GUNDRILL/GUNDRILLX.gif">
+      <publishTime>08/04/2021 11:32:25</publishTime>
+    </File>
+    <File Include="media/ModelImages/GUNDRILL/StartL.png">
+      <publishTime>08/04/2021 11:32:25</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/1007.gif">
+      <publishTime>10/06/2021 11:49:42</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/1108.gif">
+      <publishTime>10/06/2021 11:49:42</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/1109.gif">
+      <publishTime>10/06/2021 11:49:42</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/1111.gif">
+      <publishTime>10/06/2021 11:49:42</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/1113.gif">
+      <publishTime>10/06/2021 11:49:42</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/1128.gif">
+      <publishTime>10/06/2021 11:49:42</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/1129.gif">
+      <publishTime>10/06/2021 11:49:42</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/1130.gif">
+      <publishTime>10/06/2021 11:49:42</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/1131.gif">
+      <publishTime>10/06/2021 11:49:42</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/1133.gif">
+      <publishTime>10/06/2021 11:49:42</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/1134.gif">
+      <publishTime>10/06/2021 11:49:42</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/1135.gif">
+      <publishTime>10/06/2021 11:49:42</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/1137.gif">
+      <publishTime>10/06/2021 11:49:42</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/1138.gif">
+      <publishTime>10/06/2021 11:49:42</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/1139.gif">
+      <publishTime>10/06/2021 11:49:42</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/1140.gif">
+      <publishTime>10/06/2021 11:49:42</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/1142.gif">
+      <publishTime>10/06/2021 11:49:42</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/1143.gif">
+      <publishTime>10/06/2021 11:49:42</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/1151.gif">
+      <publishTime>10/06/2021 11:49:42</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/1207.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/1600.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/1780.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/1844.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/1845.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/1953.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/1956.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/2005.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/2020.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/2021.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/2024.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/2127.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/2158.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/2211.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/2326.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/2327.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/2517.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/2518.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/2519.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/2520.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/2647.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/2649.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/2934.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/2935.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/2966.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/3183.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/3212.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/3213.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/3265.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/3266.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/3267.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/3268.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/3316.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/3643.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/3647.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/3655.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/3670.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/3737.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/3738.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/3744.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/3818.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/3819.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/3823.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/3887.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/3892.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/3966.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/525.gif">
+      <publishTime>10/06/2021 11:49:43</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/528.gif">
+      <publishTime>10/06/2021 11:49:44</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/802.gif">
+      <publishTime>10/06/2021 11:49:44</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/803.gif">
+      <publishTime>10/06/2021 11:49:44</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/804.gif">
+      <publishTime>10/06/2021 11:49:44</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/924.gif">
+      <publishTime>10/06/2021 11:49:44</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/925.gif">
+      <publishTime>10/06/2021 11:49:44</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/940.gif">
+      <publishTime>10/06/2021 11:49:44</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/941.gif">
+      <publishTime>10/06/2021 11:49:44</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/942.gif">
+      <publishTime>10/06/2021 11:49:44</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/943.gif">
+      <publishTime>10/06/2021 11:49:44</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/944.gif">
+      <publishTime>10/06/2021 11:49:44</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/945.gif">
+      <publishTime>10/06/2021 11:49:44</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/946.gif">
+      <publishTime>10/06/2021 11:49:44</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/947.gif">
+      <publishTime>10/06/2021 11:49:44</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/948.gif">
+      <publishTime>10/06/2021 11:49:44</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/949.gif">
+      <publishTime>10/06/2021 11:49:44</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/950.gif">
+      <publishTime>10/06/2021 11:49:44</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/951.gif">
+      <publishTime>10/06/2021 11:49:44</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/952.gif">
+      <publishTime>10/06/2021 11:49:44</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/953.gif">
+      <publishTime>10/06/2021 11:49:44</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndmills/StartL.png">
+      <publishTime>10/06/2021 11:49:44</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndMillsBallNose/Finishing.png">
+      <publishTime>10/06/2021 11:49:44</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndMillsBallNose/Finishing_.jpg">
+      <publishTime>10/06/2021 11:49:44</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndMillsBallNose/Roughing.png">
+      <publishTime>10/06/2021 11:49:44</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndMillsBallNose/Roughing_.jpg">
+      <publishTime>10/06/2021 11:49:44</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndMillsBallNose/SolidEndMillsBallNose.jpg">
+      <publishTime>10/06/2021 11:49:44</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndMillsBallNose/SolidEndMillsBallNose.png">
+      <publishTime>10/06/2021 11:49:44</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndMillsBallNose/StartL.png">
+      <publishTime>10/06/2021 11:49:44</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndMillsSquare/Finishing.png">
+      <publishTime>10/06/2021 11:49:45</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndMillsSquare/Finishingfff.jpg">
+      <publishTime>10/06/2021 11:49:45</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndMillsSquare/FinishingXX.jpg">
+      <publishTime>10/06/2021 11:49:45</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndMillsSquare/Roughing.jpg">
+      <publishTime>10/06/2021 11:49:45</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndMillsSquare/Roughing.png">
+      <publishTime>10/06/2021 11:49:45</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndMillsSquare/Roughing_LU.jpg">
+      <publishTime>10/06/2021 11:49:45</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndMillsSquare/SolidEndMillsSquare.png">
+      <publishTime>10/06/2021 11:49:45</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndMillsSquare/SolidEndMillsSquare1.jpg">
+      <publishTime>10/06/2021 11:49:45</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndMillsSquare/SolidEndMillsSquare_1.jpg">
+      <publishTime>10/06/2021 11:49:45</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndMillsSquare/Start.png">
+      <publishTime>10/06/2021 11:49:45</publishTime>
+    </File>
+    <File Include="media/ModelImages/SolidEndMillsSquare/StartL.png">
+      <publishTime>10/06/2021 11:49:45</publishTime>
+    </File>
+    <File Include="media/ParamImages/LOGO.png">
+      <publishTime>10/06/2021 11:50:05</publishTime>
+    </File>
+    <File Include="media/ParamImages/OLD/F_APMX.png">
+      <publishTime>10/06/2021 11:50:05</publishTime>
+    </File>
+    <File Include="media/ParamImages/OLD/F_Corner Design.png">
+      <publishTime>10/06/2021 11:50:05</publishTime>
+    </File>
+    <File Include="media/ParamImages/OLD/F_DC.png">
+      <publishTime>10/06/2021 11:50:05</publishTime>
+    </File>
+    <File Include="media/ParamImages/OLD/F_FHA.png">
+      <publishTime>10/06/2021 11:50:05</publishTime>
+    </File>
+    <File Include="media/ParamImages/OLD/F_LU.png">
+      <publishTime>10/06/2021 11:50:05</publishTime>
+    </File>
+    <File Include="media/ParamImages/OLD/F_NOF.png">
+      <publishTime>10/06/2021 11:50:05</publishTime>
+    </File>
+    <File Include="media/ParamImages/OLD/F_OAL.png">
+      <publishTime>10/06/2021 11:50:05</publishTime>
+    </File>
+    <File Include="media/ParamImages/OLD/F_SHANK.png">
+      <publishTime>10/06/2021 11:50:05</publishTime>
+    </File>
+    <File Include="media/ParamImages/OLD/R_APMX.png">
+      <publishTime>10/06/2021 11:50:05</publishTime>
+    </File>
+    <File Include="media/ParamImages/OLD/R_Corner Type.png">
+      <publishTime>10/06/2021 11:50:05</publishTime>
+    </File>
+    <File Include="media/ParamImages/OLD/R_DC.png">
+      <publishTime>10/06/2021 11:50:05</publishTime>
+    </File>
+    <File Include="media/ParamImages/OLD/R_FHA.png">
+      <publishTime>10/06/2021 11:50:05</publishTime>
+    </File>
+    <File Include="media/ParamImages/OLD/R_LU.png">
+      <publishTime>10/06/2021 11:50:05</publishTime>
+    </File>
+    <File Include="media/ParamImages/OLD/R_NOF.png">
+      <publishTime>10/06/2021 11:50:05</publishTime>
+    </File>
+    <File Include="media/ParamImages/OLD/R_OAL.png">
+      <publishTime>10/06/2021 11:50:05</publishTime>
+    </File>
+    <File Include="media/ParamImages/OLD/R_SHANK.png">
+      <publishTime>10/06/2021 11:50:05</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndmills/Application Type - Copy.png">
+      <publishTime>10/06/2021 11:50:05</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndmills/Application Type.png">
+      <publishTime>10/06/2021 11:50:05</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndmills/Finishing_APMX.png">
+      <publishTime>10/06/2021 11:50:05</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndmills/Finishing_Corner_Design.png">
+      <publishTime>10/06/2021 11:50:05</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndmills/Finishing_DC.png">
+      <publishTime>10/06/2021 11:50:05</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndmills/Finishing_FHA.png">
+      <publishTime>10/06/2021 11:50:05</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndmills/Finishing_LU.png">
+      <publishTime>10/06/2021 11:50:05</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndmills/Finishing_NOF.png">
+      <publishTime>10/11/2021 16:40:43</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndmills/Finishing_OAL.png">
+      <publishTime>10/06/2021 11:50:05</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndmills/Finishing_SHANK.png">
+      <publishTime>10/06/2021 11:50:05</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndmills/Roughing_APMX.png">
+      <publishTime>10/06/2021 11:50:06</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndmills/Roughing_Corner_Design.png">
+      <publishTime>10/06/2021 11:50:06</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndmills/Roughing_DC.png">
+      <publishTime>10/06/2021 11:50:06</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndmills/Roughing_FHA.png">
+      <publishTime>10/06/2021 11:50:06</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndmills/Roughing_LU.png">
+      <publishTime>10/06/2021 11:50:06</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndmills/Roughing_NOF.png">
+      <publishTime>12/09/2021 07:00:38</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndmills/Roughing_OAL.png">
+      <publishTime>10/06/2021 11:50:06</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndmills/Roughing_SHANK.png">
+      <publishTime>10/06/2021 11:50:06</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndmills/StartR.png">
+      <publishTime>10/06/2021 11:50:06</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsBallNose/Application Type.png">
+      <publishTime>10/06/2021 11:50:06</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsBallNose/Finishing_Ae.png">
+      <publishTime>03/23/2022 06:15:49</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsBallNose/Finishing_APMX.png">
+      <publishTime>10/06/2021 11:50:06</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsBallNose/Finishing_Corner Type.png">
+      <publishTime>10/06/2021 11:50:06</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsBallNose/Finishing_DC.png">
+      <publishTime>10/06/2021 11:50:06</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsBallNose/Finishing_FHA.png">
+      <publishTime>10/06/2021 11:50:06</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsBallNose/Finishing_LU.png">
+      <publishTime>10/06/2021 11:50:06</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsBallNose/Finishing_NOF.png">
+      <publishTime>12/09/2021 07:05:09</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsBallNose/Finishing_OAL.png">
+      <publishTime>10/06/2021 11:50:06</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsBallNose/Finishing_Relieved Neck %28LU%29.png">
+      <publishTime>02/14/2022 10:03:27</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsBallNose/Finishing_SHANK.png">
+      <publishTime>02/02/2023 15:24:57</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsBallNose/Finishing_SHANKS.png">
+      <publishTime>10/06/2021 11:50:06</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsBallNose/Roughing_Ae.png">
+      <publishTime>03/23/2022 06:17:00</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsBallNose/Roughing_APMX.png">
+      <publishTime>10/06/2021 11:50:06</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsBallNose/Roughing_Corner Type.png">
+      <publishTime>10/06/2021 11:50:06</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsBallNose/Roughing_DC.png">
+      <publishTime>10/06/2021 11:50:06</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsBallNose/Roughing_FHA.png">
+      <publishTime>10/06/2021 11:50:06</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsBallNose/Roughing_LU.png">
+      <publishTime>10/06/2021 11:50:06</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsBallNose/Roughing_NOF.png">
+      <publishTime>12/09/2021 07:06:21</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsBallNose/Roughing_OAL.png">
+      <publishTime>10/06/2021 11:50:06</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsBallNose/Roughing_SHANK.png">
+      <publishTime>02/02/2023 15:24:57</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsBallNose/Roughing_SHANKS.png">
+      <publishTime>10/06/2021 11:50:07</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsBallNose/StartR.png">
+      <publishTime>10/06/2021 11:50:07</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/5622143 D_APMX.png">
+      <publishTime>02/14/2022 10:03:03</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/5623377 D_APMX.png">
+      <publishTime>02/14/2022 10:03:03</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Application Type - Copy.png">
+      <publishTime>10/06/2021 11:50:07</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Application Type.png">
+      <publishTime>10/06/2021 11:50:07</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/edit.png">
+      <publishTime>10/06/2021 11:50:07</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Finishing_Ae - Copy.png">
+      <publishTime>02/14/2022 10:03:03</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Finishing_Ae.png">
+      <publishTime>03/23/2022 05:30:41</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Finishing_Ae.png.old">
+      <publishTime>02/14/2022 08:44:27</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Finishing_AeX.png">
+      <publishTime>02/14/2022 10:03:03</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Finishing_APMX.png">
+      <publishTime>10/06/2021 11:50:07</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Finishing_Corner Design.png">
+      <publishTime>10/06/2021 11:50:07</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Finishing_Corner_Design.png">
+      <publishTime>10/06/2021 11:50:07</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Finishing_DC.png">
+      <publishTime>10/06/2021 11:50:07</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Finishing_FHA.png">
+      <publishTime>10/06/2021 11:50:07</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Finishing_LU - Copy.png">
+      <publishTime>02/14/2022 10:03:03</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Finishing_LU.png">
+      <publishTime>02/07/2022 16:45:16</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Finishing_LU_OLD.png">
+      <publishTime>10/06/2021 11:50:07</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Finishing_NOF.png">
+      <publishTime>12/09/2021 07:08:14</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Finishing_NOFX.png">
+      <publishTime>02/14/2022 10:03:03</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Finishing_NOFXCXCC.png">
+      <publishTime>02/14/2022 10:03:04</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Finishing_NOF_XX.png">
+      <publishTime>02/14/2022 10:03:04</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Finishing_OAL.png">
+      <publishTime>10/06/2021 11:50:07</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Finishing_SHANK.png">
+      <publishTime>02/02/2023 15:24:57</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Roughing_Ae - Copy.png">
+      <publishTime>02/14/2022 10:03:03</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Roughing_Ae.png">
+      <publishTime>03/23/2022 05:29:17</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Roughing_Ae.png.old">
+      <publishTime>02/14/2022 08:51:54</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Roughing_Aex.png">
+      <publishTime>02/14/2022 10:03:03</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Roughing_APMX.png">
+      <publishTime>10/06/2021 11:50:07</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Roughing_Corner Type.png">
+      <publishTime>10/06/2021 11:50:07</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Roughing_Corner_Design.png">
+      <publishTime>10/06/2021 11:50:07</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Roughing_DC.png">
+      <publishTime>10/06/2021 11:50:07</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Roughing_FHA.png">
+      <publishTime>10/06/2021 11:50:07</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Roughing_LU - Copy.png">
+      <publishTime>02/14/2022 10:03:03</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Roughing_LU.png">
+      <publishTime>02/07/2022 16:15:10</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Roughing_LU_OLD.png">
+      <publishTime>10/06/2021 11:50:07</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Roughing_NOF.png">
+      <publishTime>12/09/2021 07:00:38</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Roughing_OAL.png">
+      <publishTime>10/06/2021 11:50:07</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/Roughing_SHANK.png">
+      <publishTime>02/02/2023 15:24:57</publishTime>
+    </File>
+    <File Include="media/ParamImages/SolidEndMillsSquare/StartR.png">
+      <publishTime>10/06/2021 11:50:07</publishTime>
+    </File>
+    <File Include="media/TabImage/icon_Material_active.svg">
+      <publishTime>05/30/2021 16:05:49</publishTime>
+    </File>
+    <File Include="media/TabImage/icon_Material_dis.svg">
+      <publishTime>05/30/2021 16:05:49</publishTime>
+    </File>
+    <File Include="media/TabImage/icon_parameters_active.svg">
+      <publishTime>05/30/2021 16:05:49</publishTime>
+    </File>
+    <File Include="media/TabImage/icon_parameters_dis.svg">
+      <publishTime>05/30/2021 16:05:49</publishTime>
+    </File>
+    <File Include="media/TabImage/icon_ProductType_active.svg">
+      <publishTime>05/30/2021 16:05:51</publishTime>
+    </File>
+    <File Include="media/TabImage/icon_ProductType_dis.svg">
+      <publishTime>05/30/2021 16:05:51</publishTime>
+    </File>
+    <File Include="media/TabImage/icon_Resaults_active.svg">
+      <publishTime>06/09/2021 10:38:24</publishTime>
+    </File>
+    <File Include="media/TabImage/icon_Resaults_dis.svg">
+      <publishTime>05/30/2021 16:05:49</publishTime>
+    </File>
+    <File Include="media/TabImage/img3DTab.png">
+      <publishTime>05/20/2021 11:52:31</publishTime>
+    </File>
+    <File Include="media/TabImage/img3DTabC.png">
+      <publishTime>05/20/2021 11:54:29</publishTime>
+    </File>
+    <File Include="My Project/DataSources/System.Data.DataTable.datasource">
+      <publishTime>06/02/2022 09:59:46</publishTime>
+    </File>
+    <File Include="Reports/MainQuotationDataReport.aspx">
+      <publishTime>07/09/2024 16:08:05</publishTime>
+    </File>
+    <File Include="Reports/MainQuotationDataReport.rdlc">
+      <publishTime>10/30/2023 08:31:47</publishTime>
+    </File>
+    <File Include="SqlServerTypes/Loader.cs">
+      <publishTime>10/11/2021 08:43:33</publishTime>
+    </File>
+    <File Include="SqlServerTypes/readme.htm">
+      <publishTime>10/11/2021 08:43:33</publishTime>
+    </File>
+    <File Include="SqlServerTypes/x64/msvcr120.dll">
+      <publishTime>10/11/2021 08:43:34</publishTime>
+    </File>
+    <File Include="SqlServerTypes/x64/SqlServerSpatial140.dll">
+      <publishTime>10/11/2021 08:43:34</publishTime>
+    </File>
+    <File Include="SqlServerTypes/x86/msvcr120.dll">
+      <publishTime>10/11/2021 08:43:34</publishTime>
+    </File>
+    <File Include="SqlServerTypes/x86/SqlServerSpatial140.dll">
+      <publishTime>10/11/2021 08:43:34</publishTime>
+    </File>
+    <File Include="StartFBLogIn.html">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="uc/wucTab.ascx">
+      <publishTime>04/01/2024 07:13:39</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/31/2024 15:53:53</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
