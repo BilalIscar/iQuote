@@ -143,6 +143,7 @@ Public Class Prices
 
     Private Sub GetAccountDetails()
         Try
+            Dim iiii As Int16 = 0
 
             lblCustomerNo.Text = StateManager.GetValue(StateManager.Keys.s_CustomerNumber, True)
             lblCustoName.Text = StateManager.GetValue(StateManager.Keys.s_CustomerName, True).ToString.Trim
