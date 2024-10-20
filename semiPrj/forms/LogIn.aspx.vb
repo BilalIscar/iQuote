@@ -19,6 +19,7 @@ Public Class LogIn
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Dim erIMCID As String = ""
         Dim _result As String = ""
+
         Dim _ssBil As String = ""
 
         'Try
