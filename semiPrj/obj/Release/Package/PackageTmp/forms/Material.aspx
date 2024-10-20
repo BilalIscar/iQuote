@@ -87,6 +87,18 @@
                 padding-bottom: 50px;
             }
         }
+
+        .clsSetMatc{
+            width: 74%;
+            display: table
+        }
+
+                @media screen and (max-width: 500px) {
+
+            .clsSetMatc {
+                display: contents;
+            }
+        }
     </style>
 
     <script>
@@ -155,7 +167,7 @@
                                     </asp:DataList>
                                 </div>
                             </div>
-                            <div style="width: 74%; display: table">
+                            <div class="clsSetMatc" >
                                 <div id="divgrid" class="col-sm-9M divgridCss">
                                     <div style="width: 50%; padding-bottom: 10px">
                                         <asp:Label ID="lblSetMat" runat="server" Text="Set Material" CssClass="MainSubTitleK FontFamily"></asp:Label>

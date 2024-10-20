@@ -283,7 +283,8 @@ Public Class LogIn
                     End Try
                     Dim uniqueID As String = HttpContext.Current.Request.QueryString("rErepTr")
                     'CookiesManager.SetValue(CookiesManager.Keys.RequestCount, "0", False)
-                    Response.Redirect("ConfiguratorBuilder.aspx?rErepTr=" & uniqueID & "&iqlang=" & utl.ReturnParamLanguage(Request.QueryString("iqlang"), True) & "&repLang=" & utl.ReturnReportLanguage(Request.QueryString("repLang"), True), False)
+                    '  Response.Redirect("ConfiguratorBuilder.aspx?rErepTr=" & uniqueID & "&iqlang=" & utl.ReturnParamLanguage(Request.QueryString("iqlang"), True) & "&repLang=" & utl.ReturnReportLanguage(Request.QueryString("repLang"), True), False)
+                    Server.Transfer("ConfiguratorBuilder.aspx?rErepTr=" & uniqueID & "&iqlang=" & utl.ReturnParamLanguage(Request.QueryString("iqlang"), True) & "&repLang=" & utl.ReturnReportLanguage(Request.QueryString("repLang"), True), True)
                 ElseIf sOpenType = clsQuatation.Enum_QuotationOpenType.MODIFICATION Then
                     Dim msgl As String = ""
                     Try
@@ -313,7 +314,7 @@ Public Class LogIn
             If Not ex.Message.ToString.ToUpper.Contains("THREAD WAS BEING ABORTED") Then
                 Dim uniqueID As String = HttpContext.Current.Request("rErepTr")
                 '  CookiesManager.SetValue(CookiesManager.Keys.RequestCount, "0", False)
-                Response.Redirect("ConfiguratorBuilder.aspx?rErepTr=" & uniqueID & "&", True)
+                Server.Transfer("ConfiguratorBuilder.aspx?rErepTr=" & uniqueID & "&", True)
             End If
 
         End Try

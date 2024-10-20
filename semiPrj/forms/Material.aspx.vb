@@ -124,7 +124,7 @@ Public Class Material
         Try
             Dim uniqueID As String = "?rErepTr=" & Request.QueryString("rErepTr") & "&"
 
-            Response.Redirect("QBuilder.aspx" & uniqueID & "iqlang=" & utl.ReturnParamLanguage(Request("iqlang")) & "&repLang=" & utl.ReturnReportLanguage(Request("repLang")), False)
+            Server.Transfer("QBuilder.aspx" & uniqueID & "iqlang=" & utl.ReturnParamLanguage(Request("iqlang")) & "&repLang=" & utl.ReturnReportLanguage(Request("repLang")), True)
         Catch ex As Exception
             Response.Redirect("QBuilder.aspx" & UniqueID, False)
         End Try
@@ -287,7 +287,7 @@ Public Class Material
 
                 Try
 
-                    Response.Redirect("QBuilder.aspx" & uniqueID & "iqlang=" & utl.ReturnParamLanguage(Request("iqlang")) & "&repLang=" & utl.ReturnReportLanguage(Request("repLang")), False)
+                    Server.Transfer("QBuilder.aspx" & uniqueID & "iqlang=" & utl.ReturnParamLanguage(Request("iqlang")) & "&repLang=" & utl.ReturnReportLanguage(Request("repLang")), True)
                 Catch ex As Exception
                     Response.Redirect("QBuilder.aspx" & uniqueID, False)
                 End Try

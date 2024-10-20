@@ -617,7 +617,7 @@
                                                 <asp:PlaceHolder runat="server" ID="groupPlaceHolder1"></asp:PlaceHolder>
                                                 <tr>
                                                     <td colspan="10">
-                                                        <asp:DataPager ID="DataPager1" runat="server" PagedControlID="lvQuotationListA" PageSize="5">
+                                                        <asp:DataPager ID="DataPager1" runat="server" PagedControlID="lvQuotationListA" PageSize="8">
                                                             <Fields>
                                                                 <asp:NextPreviousPagerField ButtonCssClass="prevnextcss FontSizeRoboto18 FontFamilyOswald" ButtonType="Link" ShowFirstPageButton="true" ShowPreviousPageButton="true" ShowNextPageButton="false" FirstPageText="<label id=lblFFirst>First</label>" PreviousPageText="<label id=lblFPrevious>Previous</label>" />
                                                                 <asp:NumericPagerField CurrentPageLabelCssClass="prevnextcssNumCurrent FontSizeRoboto18 FontFamilyOswald" NumericButtonCssClass="prevnextcssNButCurrent" ButtonType="Link" />

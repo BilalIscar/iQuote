@@ -223,17 +223,17 @@ Public Class SemiSTDMaster
                 hfselectedBC.Value = "ZZ"
 
             End If
-            If hfselectedBC.Value = "IG" Or heBC.Text = "IG" Then
-                pnlinfGud1.Visible = True
-                pnlinfGud2.Visible = True
-                pnlinfGud3.Visible = True
-                pnlinfGud4.Visible = True
-            Else
-                pnlinfGud1.Visible = False
-                pnlinfGud2.Visible = False
-                pnlinfGud3.Visible = False
-                pnlinfGud4.Visible = False
-            End If
+            'If hfselectedBC.Value = "IG" Or heBC.Text = "IG" Then
+            '    pnlinfGud1.Visible = True
+            '    pnlinfGud2.Visible = True
+            '    pnlinfGud3.Visible = True
+            '    pnlinfGud4.Visible = True
+            'Else
+            '    pnlinfGud1.Visible = False
+            '    pnlinfGud2.Visible = False
+            '    pnlinfGud3.Visible = False
+            '    pnlinfGud4.Visible = False
+            'End If
             reBCDcod.Text = Request("repLang")
 
             ttrErepTr.Text = Request("rErepTr")
@@ -1051,14 +1051,14 @@ Public Class SemiSTDMaster
                             '  Case clsLanguage.e_LanguageConstants.Tab3 : lblParameters.Text = IIf(dv.Item(i).Item("ControlCaptionTitleBranch").ToString <> "", dv.Item(i).Item("ControlCaptionTitleBranch").ToString, dv.Item(i).Item("ControlCaptionTitleEn").ToString)
                         Case clsLanguage.e_LanguageConstants.hfClose
                             hfCloseMaster.Value = IIf(dv.Item(i).Item("ControlCaptionTitleBranch").ToString <> "", dv.Item(i).Item("ControlCaptionTitleBranch").ToString, dv.Item(i).Item("ControlCaptionTitleEn").ToString)
-                        Case clsLanguage.e_LanguageConstants.LegalNotice
-                            btninfoGud1.Value = IIf(dv.Item(i).Item("ControlCaptionTitleBranch").ToString <> "", dv.Item(i).Item("ControlCaptionTitleBranch").ToString, dv.Item(i).Item("ControlCaptionTitleEn").ToString)
-                        Case clsLanguage.e_LanguageConstants.TermsOfUuse
-                            btninfoGud2.Value = IIf(dv.Item(i).Item("ControlCaptionTitleBranch").ToString <> "", dv.Item(i).Item("ControlCaptionTitleBranch").ToString, dv.Item(i).Item("ControlCaptionTitleEn").ToString)
-                        Case clsLanguage.e_LanguageConstants.TermsOfSale
-                            btninfoGud3.Value = IIf(dv.Item(i).Item("ControlCaptionTitleBranch").ToString <> "", dv.Item(i).Item("ControlCaptionTitleBranch").ToString, dv.Item(i).Item("ControlCaptionTitleEn").ToString)
-                        Case clsLanguage.e_LanguageConstants.PrivacyPolicy
-                            btninfoGud4.Value = IIf(dv.Item(i).Item("ControlCaptionTitleBranch").ToString <> "", dv.Item(i).Item("ControlCaptionTitleBranch").ToString, dv.Item(i).Item("ControlCaptionTitleEn").ToString)
+                            'Case clsLanguage.e_LanguageConstants.LegalNotice
+                            '    btninfoGud1.Value = IIf(dv.Item(i).Item("ControlCaptionTitleBranch").ToString <> "", dv.Item(i).Item("ControlCaptionTitleBranch").ToString, dv.Item(i).Item("ControlCaptionTitleEn").ToString)
+                            'Case clsLanguage.e_LanguageConstants.TermsOfUuse
+                            '    btninfoGud2.Value = IIf(dv.Item(i).Item("ControlCaptionTitleBranch").ToString <> "", dv.Item(i).Item("ControlCaptionTitleBranch").ToString, dv.Item(i).Item("ControlCaptionTitleEn").ToString)
+                            'Case clsLanguage.e_LanguageConstants.TermsOfSale
+                            '    btninfoGud3.Value = IIf(dv.Item(i).Item("ControlCaptionTitleBranch").ToString <> "", dv.Item(i).Item("ControlCaptionTitleBranch").ToString, dv.Item(i).Item("ControlCaptionTitleEn").ToString)
+                            'Case clsLanguage.e_LanguageConstants.PrivacyPolicy
+                            '    btninfoGud4.Value = IIf(dv.Item(i).Item("ControlCaptionTitleBranch").ToString <> "", dv.Item(i).Item("ControlCaptionTitleBranch").ToString, dv.Item(i).Item("ControlCaptionTitleEn").ToString)
                     End Select
                 Next
 
