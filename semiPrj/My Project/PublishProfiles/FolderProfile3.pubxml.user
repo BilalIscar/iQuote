@@ -394,13 +394,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>10/15/2024 12:16:16</publishTime>
     </File>
     <File Include="bin/semiPrj.dll">
-      <publishTime>10/15/2024 12:32:25</publishTime>
+      <publishTime>10/20/2024 12:04:30</publishTime>
     </File>
     <File Include="bin/semiPrj.pdb">
-      <publishTime>10/15/2024 12:32:25</publishTime>
+      <publishTime>10/20/2024 12:04:30</publishTime>
     </File>
     <File Include="bin/semiPrj.xml">
-      <publishTime>10/15/2024 12:32:25</publishTime>
+      <publishTime>10/20/2024 12:04:30</publishTime>
     </File>
     <File Include="bin/SqlServerTypes/x64/msvcr120.dll">
       <publishTime>10/11/2021 08:43:34</publishTime>
@@ -601,7 +601,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>05/16/2024 10:35:37</publishTime>
     </File>
     <File Include="forms/Prices.aspx">
-      <publishTime>10/14/2024 10:41:12</publishTime>
+      <publishTime>10/20/2024 07:48:47</publishTime>
     </File>
     <File Include="forms/QBuilder.aspx">
       <publishTime>10/08/2024 16:18:53</publishTime>
@@ -664,7 +664,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>07/15/2024 10:03:44</publishTime>
     </File>
     <File Include="masters/SemiSTDMaster.Master">
-      <publishTime>10/14/2024 12:26:30</publishTime>
+      <publishTime>10/20/2024 08:06:46</publishTime>
     </File>
     <File Include="media/Configuration/FirstMain/DR.png">
       <publishTime>09/10/2019 08:32:23</publishTime>

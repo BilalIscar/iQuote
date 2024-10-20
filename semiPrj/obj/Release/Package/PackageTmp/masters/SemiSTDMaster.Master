@@ -1280,7 +1280,7 @@
 
 
                                 </div>
-                                <div class="cssNotToDisplayInMenue" style="display: flex; margin-top: 18px">
+                                <div class="cssNotToDisplayInMenue" style="display: flex; margin-top: 8px">
                                     <div class="cssNotToDisplayInMenue">
                                         <img title="Help" alt="" src="../media/icons/Help_Icon.svg" class="imgTitlecs" onclick="ShowHelp()" />
                                         <div style="float: right; visibility: hidden; position: absolute" id="divHelp">
@@ -1302,9 +1302,9 @@
                                                 </asp:Panel>
                                                 <asp:Panel ID="pnlGuide" runat="server" CssClass="pnlGuide" Visible="false" ScrollBars="None">
                                                     <div style="text-align: left; padding-left: 10px; ">
-                                                        <input style="background-color: white;" type="button" id="btnUserG2" class="btn-Transperant FontFamilyRoboto FontSizeRoboto13" value="User Guide" onclick="OpenUserG('B')" />
+                                                        <input style="background-color: white; margin-bottom: 8px;" type="button" id="btnUserG2" class="btn-Transperant FontFamilyRoboto FontSizeRoboto13" value="User Guide" onclick="OpenUserG('B')" />
                                                     </div>
-                                                </asp:Panel><hr class="DifLineN" style="margin-top: 6px !important;" />
+<%--                                                </asp:Panel><hr class="DifLineN" style="margin-top: 6px !important;" />
                                                 <asp:Panel ID="pnlinfGud1" runat="server" CssClass="pnlGuide" Visible="false" ScrollBars="None">
                                                     <div style="text-align: left; padding-left: 10px; ">
                                                         <input style="background-color: white;" type="button" id="btninfoGud1" runat="server" class="btn-Transperant FontFamilyRoboto FontSizeRoboto13" value="Legal notice" onclick="window.open('../forms/LglInfo/IG/eleg1.html', '_blank')" />
@@ -1324,7 +1324,7 @@
                                                 <asp:Panel ID="pnlinfGud4" runat="server" CssClass="pnlGuide" Visible="false" ScrollBars="None">
                                                     <div style="text-align: left; padding-left: 10px; padding-bottom: 10px;">
                                                         <input style="background-color: white;" type="button" id="btninfoGud4" runat="server" class="btn-Transperant FontFamilyRoboto FontSizeRoboto13" value="Privacy policy" onclick="window.open('../forms/LglInfo/IG/eleg4.html', '_blank')" />
-                                                  </div>
+                                                  </div>--%>
                                                 </asp:Panel>
                                                 <asp:Label ID="lblBranchCode" runat="server" CssClass="display_non"></asp:Label>
                                             </div>
